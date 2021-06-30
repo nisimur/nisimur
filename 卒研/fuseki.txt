@@ -1,0 +1,12 @@
+http://localhost:3030/
+0108
+
+SELECT DISTINCT ?発生 ?ネコ ?毛足の長さ ?身体のタイプ ?毛色および模様
+Where {
+  ?発生 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.com/class/イエネコ>.
+  ?ネコ <http://example.com/property/毛足の長さ> ?毛足の長さ . 
+  ?ネコ <http://example.com/property/身体のタイプ> ?身体のタイプ .
+  ?ネコ <http://example.com/property/毛色および模様> ?毛色および模様 .
+}
+
+

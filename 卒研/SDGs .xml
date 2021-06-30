@@ -1,0 +1,6034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="SDGs.xml" ont_id="1591757272967ont" >
+<FILENAME_ONT>SDGs.xml</FILENAME_ONT>
+<W_CONCEPTS hasAny="false">
+<CANVAS_SIZE w="24084" h="25964" x="0" y="0" />
+<CONCEPT id="1591757272967_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="0"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1591757272967_n1" >
+<LABEL>SDGs</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="0"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1591757272967_n2" >
+<LABEL>持続可能な開発目標</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="184" y="0"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1608086193414_s3" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="目的"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1608086193414_s4" 
+ type="NW"  label="slot2"  kind="a/o"  num="1.."  role="対象"  class_constraint="対象"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="対象" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s5" 
+ type="NW"  label="slot3"  kind="a/o"  num="0.."  role="場所"  class_constraint="場所"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="場所" class_const="場所" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1591757272967_n3" >
+<LABEL>目標1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="368" y="0"/>
+<SUB_TREE>open</SUB_TREE>
+<DEF>目標 1. あらゆる場所のあらゆる形態の貧困を終わらせる【国地総：全般】</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s4" 
+ type="NW"  label="slot"  kind="a/o"  num="1.."  role="目的"  class_constraint="貧困解決"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="持続可能な開発目標$slot"/>
+<SUB_L label="slot" def="" role_name="目的" class_const="貧困解決" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1591849329491_s6" 
+ type="NW"  label="slot3"  kind="a/o"  num="1.."  role="対象"  class_constraint="各国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="持続可能な開発目標$slot2"/>
+<SUB_L label="slot3" def="" role_name="対象" class_const="各国" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n6" >
+<LABEL>目標2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2868" y="0"/>
+<SLOTS>
+<SLOT id="1591757272967_s7" 
+ type="NW"  label="slot"  kind="a/o"  num="2"  role="目的"  class_constraint="飢餓解決と農業促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1604291578165_s9" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="role"  class_constraint="飢餓解決"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1604291578165_s10" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="role"  class_constraint="農業促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s10" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="各国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n9" >
+<LABEL>目標3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5572" y="0"/>
+<DEF>あらゆる年齢のすべての人々の健康的な生活を確保し、福祉を促進する</DEF>
+<SLOTS>
+<SLOT id="1609912511850_s16" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="健康な生活の確保"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1609912511850_s17" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="全員"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n12" >
+<LABEL>目標4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4032" y="3568"/>
+<DEF>すべての人々への包摂的かつ公正な質の高い教育を提供し、生涯学習の機会を促進する</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s13" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="質の高い教育の提供"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s18" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="全員"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n15" >
+<LABEL>目標5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4548" y="3496"/>
+<DEF>ジェンダー平等を達成し、すべての女性及び女児のエンパワーメントを行う</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s16" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="ジェンダー平等を達成"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s22" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="女性"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n18" >
+<LABEL>目標6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5108" y="3496"/>
+<DEF>すべての人々の水と衛生の利用可能性と持続可能な管理を確保する</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s19" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="水と衛生利用、持続可能管理を確保"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s26" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="全員"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n21" >
+<LABEL>目標7</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5852" y="3472"/>
+<DEF>すべての人々の、安価かつ信頼できる持続可能な近代的エネルギーへのアクセスを確保する</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s22" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="近代的なエネルギーの確保"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s30" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="全員"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n24" >
+<LABEL>目標8</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4244" y="4428"/>
+<DEF>包摂的かつ持続可能な経済成長及びすべての人々の完全かつ生産的な雇用と働きがいのある人間らしい雇用(ディーセント・ワーク)を促進する</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s25" 
+ type="NW"  label="slot"  kind="a/o"  num="2"  role="目的"  class_constraint="経済成長と雇用促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1604291578165_s35" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="role"  class_constraint="経済成長"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1604291578165_s36" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="role"  class_constraint="雇用促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s34" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="全員"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="対象" class_const="すべての人々" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n27" >
+<LABEL>目標9</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="584" y="3548"/>
+<SUB_TREE>open</SUB_TREE>
+<DEF>強靱（レジリエント）なインフラ構築、包摂的かつ持続可能な産業化の促進及びイノベーションの推進を図る</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s28" 
+ type="NW"  label="slot"  kind="a/o"  num="2"  role="目的"  class_constraint="産業化とイノベーションの促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1604291578165_s41" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="産業化"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1604291578165_s42" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="イノベーションの促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s38" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="イノベーション"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s38" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="各国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n30" >
+<LABEL>目標10</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4196" y="5084"/>
+<DEF>各国内及び各国間の不平等を是正する</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s31" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="不平等是正"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s42" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="各国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n33" >
+<LABEL>目標11</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4664" y="5084"/>
+<DEF>包摂的で安全かつ強靱(レジリエント）で持続可能な都市及び人間居住を実現する</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s34" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="持続可能な都市及び人間居住実現"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1604291578165_s51" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="role"  class_constraint="持続可能な都市"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="持続可能な都市" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1604291578165_s52" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="role"  class_constraint="人間居住実現"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s46" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="都市"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n36" >
+<LABEL>目標12</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3636" y="8792"/>
+<DEF>持続可能な生産消費形態を確保する</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s37" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="持続可能な生産消費形態を確保"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s50" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="各国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n39" >
+<LABEL>目標13</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="400" y="8980"/>
+<SUB_TREE>open</SUB_TREE>
+<DEF>気候変動及びその影響を軽減するための緊急対策を講じる</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s40" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="気候変動とその影響の軽減対策を講じる"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s53" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="気候変動"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1611936268120_s54" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="軽減対策"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="気候変動とその影響の軽減対策を講じる" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s54" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="各国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n42" >
+<LABEL>目標14</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1816" y="8888"/>
+<DEF>持続可能な開発のために海洋・海洋資源を保全し、持続可能な形で利用する</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s43" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="海洋・海洋資源の保全・利用"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s58" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="海"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n45" >
+<LABEL>目標15</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2468" y="8864"/>
+<DEF>陸域生態系の保護、回復、持続可能な利用の推進、持続可能な森林の経営、砂漠化への対処、ならびに土地の劣化の阻止・回復及び生物多様性の損失を阻止する</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s46" 
+ type="NW"  label="slot"  kind="a/o"  num="6"  role="目的"  class_constraint="陸域生態系保護・回復、持続可能な利用の推進、森林の経営、砂漠化への対処、土地劣化の阻止・回復、生物多様性の損失阻止"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1604291578165_s69" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="role"  class_constraint="陸域生態系保護・回復"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1604291578165_s70" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="role"  class_constraint="持続可能な利用の推進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1604291578165_s71" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="role"  class_constraint="森林の経営"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1604291578165_s72" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="role"  class_constraint="砂漠化への対処"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1604291578165_s73" 
+ type="R2-1"  label="slot5"  kind="a/o"  num="1"  role="role"  class_constraint="土地劣化の阻止"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1604291578165_s74" 
+ type="R2-1"  label="slot6"  kind="a/o"  num="1"  role="role"  class_constraint="回復生物多様性の損失阻止"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s62" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="土地"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n48" >
+<LABEL>目標16</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2144" y="10520"/>
+<DEF>持続可能な開発のための平和で包摂的な社会を促進し、すべての人々に司法へのアクセスを提供し、あらゆるレベルにおいて効果的で説明責任のある包摂的な制度を構築する</DEF>
+<SLOTS>
+<SLOT id="1591757272967_s49" 
+ type="NW"  label="slot"  kind="a/o"  num="3"  role="目的"  class_constraint="平和で包摂的な社会促進し・司法へのアクセスを提供・効果的で説明責任のある包摂的な制度構築"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1604291578165_s79" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="role"  class_constraint="平和で包摂的な社会促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1604291578165_s80" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="role"  class_constraint="司法へのアクセスを提供"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1604292505532_s81" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="role"  class_constraint="効果的で説明責任のある包摂的な制度構築"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s66" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591757272967_n51" >
+<LABEL>目標17</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3356" y="10496"/>
+<SLOTS>
+<SLOT id="1591757272967_s52" 
+ type="NW"  label="slot"  kind="a/o"  num="2"  role="目的"  class_constraint="持続可能な開発のための実施手段強化＆グローバル・パートナーシップ活性化"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1604291578165_s85" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="role"  class_constraint="持続可能な開発のための実施手段強化"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1604291578165_s86" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="role"  class_constraint="グローバル・パートナーシップ活性化"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1603084036480_s70" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="各国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1591849329491_n55" >
+<LABEL>貧困解決</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3824" y="11592"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1594270048537_n56" >
+<LABEL>各国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2596" y="12900"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1603084036480_n73" >
+<LABEL>対象</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1608" y="12292"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1603084036480_n74" >
+<LABEL>目的</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3124" y="12340"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1603084036480_n75" >
+<LABEL>成人</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1908" y="12036"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1603084036480_n76" >
+<LABEL>都市</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2596" y="12992"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1603084036480_n77" >
+<LABEL>土地</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2620" y="12736"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1603084036480_n79" >
+<LABEL>海</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2596" y="12828"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n99" >
+<LABEL>生活改善</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3448" y="11896"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n100" >
+<LABEL>飢餓解決</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3824" y="11640"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n101" >
+<LABEL>農業促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3800" y="11944"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n102" >
+<LABEL>健康な生活の確保</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3824" y="11688"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n103" >
+<LABEL>水と衛生利用、持続可能管理を確保</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3824" y="11732"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n104" >
+<LABEL>格差改善</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3544" y="12968"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n105" >
+<LABEL>ジェンダー平等を達成</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3868" y="12900"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n106" >
+<LABEL>質の高い教育の提供</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3824" y="11780"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n107" >
+<LABEL>経済活性化</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4524" y="12484"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n108" >
+<LABEL>近代的なエネルギーの確保</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4780" y="12012"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n109" >
+<LABEL>経済成長</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4780" y="12060"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n110" >
+<LABEL>雇用促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4780" y="12108"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n111" >
+<LABEL>産業化</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4780" y="12152"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n112" >
+<LABEL>イノベーションの促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4780" y="12200"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n113" >
+<LABEL>不平等是正</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3868" y="12948"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n114" >
+<LABEL>人間居住実現</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3800" y="11828"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n115" >
+<LABEL>持続可能な都市</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4780" y="12248"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n116" >
+<LABEL>環境保護</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4428" y="11780"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n117" >
+<LABEL>陸域生態系保護・回復</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4616" y="11828"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n118" >
+<LABEL>森林の経営</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4616" y="11780"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n119" >
+<LABEL>砂漠化への対処</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4616" y="11872"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604290683270_n120" >
+<LABEL>土地劣化の阻止</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4616" y="11920"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604291528358_n121" >
+<LABEL>回復生物多様性の損失阻止</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4616" y="11968"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604291528358_n122" >
+<LABEL>海洋・海洋資源の保全・利用</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4616" y="11688"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604291528358_n123" >
+<LABEL>持続可能な生産消費形態を確保</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4780" y="12292"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604291585771_n124" >
+<LABEL>持続可能な利用の推進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4616" y="11732"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604291749850_n125" >
+<LABEL>平和で包摂的な社会促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3892" y="13064"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604291749850_n126" >
+<LABEL>司法へのアクセスを提供</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3800" y="11896"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604291749850_n127" >
+<LABEL>効果的で説明責任のある包摂的な制度構築</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3800" y="11988"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604291749850_n128" >
+<LABEL>持続可能な開発のための実施手段強化</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4804" y="12340"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604291749850_n129" >
+<LABEL>グローバル・パートナーシップ活性化</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3868" y="12992"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604291927943_n130" >
+<LABEL>人物</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1792" y="12200"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604291927943_n131" >
+<LABEL>地球</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2468" y="12784"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1604291927943_n132" >
+<LABEL>世界</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2480" y="12948"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1606196333557_n116" >
+<LABEL>目標1.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="696" y="0"/>
+<SUB_TREE>open</SUB_TREE>
+<DEF>1.1 2030 年までに、現在 1 日 1.25 ドル未満で生活する人々と定義されている極度の貧困
+をあらゆる場所で終わらせる。</DEF>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1606717216706_n119" >
+<LABEL>目標1.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="672" y="276"/>
+<SUB_TREE>open</SUB_TREE>
+<DEF>1.2 2030 年までに、各国定義によるあらゆる次元の貧困状態にある、すべての年齢の男性、女性、子どもの割合を半減させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="1.2 2030 年までに、各国定義によるあらゆる次元の貧困状態にある、すべての年齢の男性、 女性、子どもの割合を半減させる。 1.3 各国において最低限の基準を含む適切な社会保護制度及び対策を実施し、2030 年まで に貧困層及び脆弱層に対し十分な保護を達成する。 1.4 2030 年までに、貧困層及び脆弱層をはじめ、すべての男性及び女性が、基礎的サービ スへのアクセス、土地及びその他の形態の財産に対する所有権と管理権限、相続財産、 天然資源、適切な新技術、マイクロファイナンスを含む金融サービスに加え、経済的 資源についても平等な権利を持つことができるように確保する。 1.5 2030 年までに、貧困層や脆弱な状況にある人々の強靱性（レジリエンス）を構築し、 気候変動に関連する極端な気象現象やその他の経済、社会、環境的ショックや災害に 対する暴露や脆弱性を軽減する。 1.a あらゆる次元での貧困を終わらせるための計画や政策を実施するべく、後発開発途上 国をはじめとする開発途上国に対して適切かつ予測可能な手段を講じるため、開発協 力の強化などを通じて、さまざまな供給源からの相当量の資源の動員を確保する。 1.b 貧困撲滅のための行動への投資拡大を支援するため、国、地域及び国際レベルで、貧 困層やジェンダーに配慮した開発戦略に基づいた適正な政策的枠組みを構築する。" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1606717216706_n128" >
+<LABEL>目標1.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="672" y="1164"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1606717216706_n131" >
+<LABEL>目標1.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="672" y="1956"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1606717216706_n134" >
+<LABEL>目標1.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="580" y="2728"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1606717216706_n137" >
+<LABEL>目標1.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="604" y="3052"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607490729240_n184" >
+<LABEL>目的1.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="672" y="696"/>
+<SUB_TREE>open</SUB_TREE>
+<DEF>1.3 各国において最低限の基準を含む適切な社会保護制度及び対策を実施し、2030 年までに貧困層及び脆弱層に対し十分な保護を達成する。</DEF>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="1.3 各国において最低限の基準を含む適切な社会保護制度及び対策を実施し、2030 年までに貧困層及び脆弱層に対し十分な保護を達成する。" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607490729240_n188" >
+<LABEL>各国において最低限の基準を含む適切な社会保護制度及び対策を実施し、2030 年までに貧困層及び脆弱層に対し十分な保護を達成する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="788" y="696"/>
+<SLOTS>
+<SLOT id="1607918617056_s189" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="社会保護制度"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot"/>
+<SLOTS>
+<SLOT id="1607918617056_s190" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="制度"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="保護" class_const="制度" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="社会保護制度" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607918617056_s191" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="社会保護対策"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot"/>
+<SLOTS>
+<SLOT id="1607918617056_s192" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="対策"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="対象" class_const="対策" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="社会保護対策" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607918617056_s193" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="目的"  class_constraint="十分な保護"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot"/>
+<SLOTS>
+<SLOT id="1607918617056_s194" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="保護"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="保護" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="十分な保護" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1611904155704_s132" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="貧困層"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot3"/>
+<SLOTS>
+<SLOT id="1611936268120_s136" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="貧困"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="貧困層" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1611904155704_s133" 
+ type="NW"  label="slot5"  kind="a/o"  num="1"  role="対象"  class_constraint="脆弱層"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="目標1$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="脆弱層" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607919886029_n180" >
+<LABEL>2030 年までに、現在 1 日 1.25 ドル未満で生活する人々と定義されている極度の貧困 をあらゆる場所で終わらせる。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="744" y="0"/>
+<SLOTS>
+<SLOT id="1608086193414_s150" 
+ type="OR"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="1日1.25ドル未満で生活する人々"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot3"/>
+<SLOTS>
+<SLOT id="1611936268120_s140" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="1.25ドル未満"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot3" def="" role_name="対象" class_const="1日1.25ドル未満で生活する人々" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s149" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="極度の貧困をなくす"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot"/>
+<SLOTS>
+<SLOT id="1611904155704_s137" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="貧困"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s143" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="頻度"  class_constraint="極度"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="貧困" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="極度の貧困をなくす" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607919886029_n184" >
+<LABEL>2030 年までに、各国定義によるあらゆる次元の貧困状態にある、すべての年齢の男性、女性、子どもの割合を半減させる。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="788" y="276"/>
+<SLOTS>
+<SLOT id="1608086193414_s153" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="貧困の割合を半減"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot"/>
+<SLOTS>
+<SLOT id="1611904155704_s141" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="貧困"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s147" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="割合"  class_constraint="半減"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="貧困" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="貧困の割合を半減" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s154" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="貧困状態のすべての男性、 女性、子ども"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot3"/>
+<SLOTS>
+<SLOT id="1611904155704_s144" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="貧困"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="貧困" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1611904155704_s145" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="男性"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="男性" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1611904155704_s146" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="女性"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="女性" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1611904155704_s147" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="子ども"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot4" def="" role_name="対象" class_const="子ども" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot2" def="" role_name="目標" class_const="貧困状態のすべての男性、 女性、子ども" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607919886029_n188" >
+<LABEL>2030 年までに、貧困層及び脆弱層をはじめ、すべての男性及び女性が、基礎的サービスへのアクセス、土地及びその他の形態の財産に対する所有権と管理権限、相続財産、 天然資源、適切な新技術、マイクロファイナンスを含む金融サービスに加え、経済的資源についても平等な権利を持つことができるように確保する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="768" y="1140"/>
+<SLOTS>
+<SLOT id="1608086193414_s157" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="平等な権利の獲得"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot"/>
+<SLOTS>
+<SLOT id="1608086193414_s158" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="権利"  class_constraint="土地及びその他の形態の財産に対する所有権"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611904155704_s151" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="所有権"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="所有権" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="土地及びその他の形態の財産に対する所有権" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s159" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="権利"  class_constraint="管理権限"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="管理権限" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s160" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="権利"  class_constraint="相続財産"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="相続財産" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s161" 
+ type="R2-1"  label="slot5"  kind="a/o"  num="1"  role="権利"  class_constraint="天然資源"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="天然資源" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s162" 
+ type="R2-1"  label="slot6"  kind="a/o"  num="1"  role="権利"  class_constraint="適切な新技術"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611904155704_s156" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="新技術"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="新技術" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="適切な新技術" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s163" 
+ type="R2-1"  label="slot7"  kind="a/o"  num="1"  role="権利"  class_constraint="マイクロファイナンスを含む金融サービス"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611904155704_s158" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="マイクロファイナンス"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="マイクロファイナンス" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1611904155704_s159" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="金融サービス"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="金融サービス" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="マイクロファイナンスを含む金融サービス" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s164" 
+ type="R2-1"  label="slot8"  kind="a/o"  num="1"  role="権利"  class_constraint="経済的資源"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611904155704_s161" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="経済的"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="経済的" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1611904155704_s162" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="資源"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="資源" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="経済的資源" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="平等な権利の獲得" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s165" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="男性"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="男性" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s166" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="女性"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot3"/>
+<SUB_L label="slot3" def="" role_name="role" class_const="女性" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608085554219_n192" >
+<LABEL>場所</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2360" y="12900"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608085554219_n193" >
+<LABEL>子供</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1908" y="12128"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608085554219_n194" >
+<LABEL>男性</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1908" y="12224"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608085554219_n195" >
+<LABEL>女性</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1908" y="12268"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608086193414_n171" >
+<LABEL>2030 年までに、貧困層や脆弱な状況にある人々の強靱性（レジリエンス）を構築し、 気候変動に関連する極端な気象現象やその他の経済、社会、環境的ショックや災害に対する暴露や脆弱性を軽減する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="768" y="1932"/>
+<SLOTS>
+<SLOT id="1608086193414_s172" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="強靱性（レジリエンス）を構築"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot"/>
+<SLOTS>
+<SLOT id="1611904155704_s171" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="強靱性（レジリエンス）"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="強靱性（レジリエンス）" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="強靱性（レジリエンス）を構築" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s173" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="暴露や脆弱性を軽減"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot"/>
+<SLOTS>
+<SLOT id="1608086193414_s174" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="軽減する"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="軽減する" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s175" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="暴露"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="暴露" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1609912512082_s162" 
+ type="R2-1"  label="slot9"  kind="a/o"  num="1"  role="単語"  class_constraint="脆弱性"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="脆弱性" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s176" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="内容"  class_constraint="気候変動"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="気候変動" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s177" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="気象現象"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="気象現象" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s178" 
+ type="R2-1"  label="slot5"  kind="a/o"  num="1"  role="内容"  class_constraint="経済"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="経済" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s179" 
+ type="R2-1"  label="slot6"  kind="a/o"  num="1"  role="内容"  class_constraint="社会"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="社会" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s180" 
+ type="R2-1"  label="slot7"  kind="a/o"  num="1"  role="内容"  class_constraint="環境的ショック"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="環境的ショック" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s181" 
+ type="R2-1"  label="slot8"  kind="a/o"  num="1"  role="内容"  class_constraint="災害"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="災害" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="暴露や脆弱性を軽減" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s182" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="貧困層"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot3"/>
+<SLOTS>
+<SLOT id="1611904155704_s183" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="貧困"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="貧困" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="貧困層" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608086193414_s183" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="脆弱な状況にある人々"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot3"/>
+<SLOTS>
+<SLOT id="1611904155704_s185" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="脆弱"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="脆弱" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="脆弱な状況にある人々" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608096038645_n180" >
+<LABEL>貧困撲滅のための行動への投資拡大を支援するため、国、地域及び国際レベルで、貧困層やジェンダーに配慮した開発戦略に基づいた適正な政策的枠組みを構築する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="720" y="3052"/>
+<SLOTS>
+<SLOT id="1608096493353_s181" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="適正な政策的枠組みを構築"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標1$slot"/>
+<SLOTS>
+<SLOT id="1608096493353_s182" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="貧困撲滅"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="貧困撲滅" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608096493353_s183" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="投資拡大"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="投資拡大" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608096493353_s184" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="目的"  class_constraint="支援"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="支援" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608096493353_s185" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="内容"  class_constraint="国際レベル"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="国際レベル" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608096493353_s186" 
+ type="R2-1"  label="slot5"  kind="a/o"  num="1"  role="対象"  class_constraint="貧困層"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611904155704_s200" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="貧困"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="貧困" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="貧困層" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608096493353_s187" 
+ type="R2-1"  label="slot6"  kind="a/o"  num="1"  role="対象"  class_constraint="ジェンダー"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ジェンダー" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608096493353_s188" 
+ type="R2-1"  label="slot7"  kind="a/o"  num="1"  role="内容"  class_constraint="開発戦略"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="開発戦略" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608096493353_s189" 
+ type="R2-1"  label="slot8"  kind="a/o"  num="1"  role="内容"  class_constraint="政策的枠組み"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="政策的枠組み" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="適正な政策的枠組みを構築" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608279403499_n191" >
+<LABEL>目標2.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3192" y="0"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n192" >
+<LABEL>目標2.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3192" y="184"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n193" >
+<LABEL>目標2.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="324"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n194" >
+<LABEL>目標2.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3192" y="416"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n195" >
+<LABEL>目標2.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="508"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n196" >
+<LABEL>目標2.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="604"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n197" >
+<LABEL>目標2.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="696"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n198" >
+<LABEL>目標2.c</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3240" y="788"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n199" >
+<LABEL>2030年までに、飢餓を撲滅し、すべての人々、特に貧困層及び幼児を含む脆弱な立場にある人々が一年中安全かつ栄養のある食料を十分得られるようにする。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3308" y="0"/>
+<SLOTS>
+<SLOT id="1608279403499_s200" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標2$slot"/>
+</SLOT>
+<SLOT id="1608279403499_s201" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="role"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n202" >
+<LABEL>5歳未満の子どもの発育阻害や消耗性疾患について国際的に合意されたターゲットを2025年までに達成するなど、2030 年までにあらゆる形態の栄養不良を解消し、若年女子、妊婦・授乳婦及び高齢者の栄養ニーズへの対処を行う。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3332" y="184"/>
+<SLOTS>
+<SLOT id="1608279403499_s203" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n204" >
+<LABEL>2030年までに、土地、その他の生産資源や、投入財、知識、金融サービス、市場及び高付加価値化や非農業雇用の機会への確実かつ平等なアクセスの確保などを通じて、女性、先住民、家族農家、牧畜民及び漁業者をはじめとする小規模食料生産者の農業生産性及び所得を倍増させる。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3356" y="324"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n205" >
+<LABEL>2030年までに、生産性を向上させ、生産量を増やし、生態系を維持し、気候変動や極端な気象現象、干ばつ、洪水及びその他の災害に対する適応能力を向上させ、漸進的に土地と土壌の質を改善させるような、持続可能な食料生産システムを確保し、強靭（レジリエント）な農業を実践する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3356" y="416"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n206" >
+<LABEL>2020年までに、国、地域及び国際レベルで適正に管理及び多様化された種子・植物バンクなども通じて、種子、栽培植物、飼育・家畜化された動物及びこれらの近縁野生種の遺伝的多様性を維持し、国際的合意に基づき、遺伝資源及びこれに関連する伝的な知識へのアクセス及びその利用から生じる利益の公正かつ衡平な配分を促進する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3356" y="508"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n207" >
+<LABEL>開発途上国、特に後発開発途上国における農業生産能力向上のために、国際協力の強化などを通じて、農村インフラ、農業研究・普及サービス、技術開発及び植物・家畜のジーン・バンクへの投資の拡大を図る。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3380" y="604"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n208" >
+<LABEL>ドーハ開発ラウンドの決議に従い、すべての形態の農産物輸出補助金及び同等の効果を持つすべての輸出措置の並行的撤廃などを通じて、世界の農産物市場における貿易制限や歪みを是正及び防止する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3356" y="696"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1608279403499_n209" >
+<LABEL>食料価格の極端な変動に歯止めをかけるため、食料市場及びデリバティブ市場の適正な機能を確保するための措置を講じ、食料備蓄などの市場情報への適時のアクセスを容易にする</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3356" y="788"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n207" >
+<LABEL>目標3.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5852" y="20"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n208" >
+<LABEL>目標3.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5852" y="68"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1609864578864_n209" >
+<LABEL>目標3.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5852" y="136"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n210" >
+<LABEL>目標3.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5852" y="208"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n211" >
+<LABEL>目標3.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5852" y="252"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n212" >
+<LABEL>目標3.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5852" y="324"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n213" >
+<LABEL>目標3.7</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5876" y="368"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n214" >
+<LABEL>目標3.8</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5876" y="440"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n215" >
+<LABEL>目標3.9</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5876" y="488"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n216" >
+<LABEL>目標3.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5876" y="556"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n217" >
+<LABEL>目標3.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5876" y="604"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n218" >
+<LABEL>目標3.c</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5876" y="672"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n219" >
+<LABEL>目標3.d</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5876" y="744"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n220" >
+<LABEL>2030 年までに、世界の妊産婦の死亡率を出生 10 万人当たり 70 人未満に削減する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5992" y="20"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n221" >
+<LABEL>すべての国が新生児死亡率を少なくとも出生 1,000 件中 12 件以下まで減らし、5 歳以下死亡率を少なくとも出生 1,000 件中 25 件以下まで減らすことを目指し、2030 年までに、新生児及び 5 歳未満児の予防可能な死亡を根絶する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5968" y="68"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n222" >
+<LABEL>2030 年までに、エイズ、結核、マラリア及び顧みられない熱帯病といった伝染病を根絶するとともに肝炎、水系感染症及びその他の感染症に対処する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5968" y="136"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n223" >
+<LABEL>2030 年までに、非感染性疾患による若年死亡率を、予防や治療を通じて 3 分の 1 減少させ、精神保健及び福祉を促進する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5992" y="208"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n224" >
+<LABEL>薬物乱用やアルコールの有害な摂取を含む、物質乱用の防止・治療を強化する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5992" y="252"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n225" >
+<LABEL>2020 年までに、世界の道路交通事故による死傷者を半減させる。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5992" y="324"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n226" >
+<LABEL>2030 年までに、家族計画、情報・教育及び性と生殖に関する健康の国家戦略・計画への組み入れを含む、性と生殖に関する保健サービスをすべての人々が利用できるようにする。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5992" y="368"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n227" >
+<LABEL>すべての人々に対する財政リスクからの保護、質の高い基礎的な保健サービスへのアクセス及び安全で効果的かつ質が高く安価な必須医薬品とワクチンへのアクセスを含む、ユニバーサル・ヘルス・カバレッジ（UHC）を達成する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5992" y="440"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n228" >
+<LABEL>2030 年までに、有害化学物質、ならびに大気、水質及び土壌の汚染による死亡及び疾病の件数を大幅に減少させる。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5992" y="488"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n229" >
+<LABEL>すべての国々において、たばこの規制に関する世界保健機関枠組条約の実施を適宜強化する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5992" y="556"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n230" >
+<LABEL>主に開発途上国に影響を及ぼす感染性及び非感染性疾患のワクチン及び医薬品の研究開発を支援する。また、知的所有権の貿易関連の側面に関する協定（TRIPS 協定）及び公衆の健康に関するドーハ宣言に従い、安価な必須医薬品及びワクチンへのアクセスを提供する。同宣言は公衆衛生保護及び、特にすべての人々への医薬品のアクセス提供にかかわる「知的所有権の貿易関連の側面に関する協定（TRIPS 協定）」の柔軟性に関する規定を最大限に行使する開発途上国の権利を確約したものである。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5992" y="604"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n231" >
+<LABEL>開発途上国、特に後発開発途上国及び小島嶼開発途上国において保健財政及び保健人材の採用、能力開発・訓練及び定着を大幅に拡大させる。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="6016" y="672"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n232" >
+<LABEL>すべての国々、特に開発途上国の国家・世界規模な健康危険因子の早期警告、危険因子緩和及び危険因子管理のための能力を強化する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="6016" y="744"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n233" >
+<LABEL>全員</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1908" y="12176"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n234" >
+<LABEL>目標4.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4336" y="3544"/>
+<DEF>2030 年までに、すべての女児及び男児が、適切かつ効果的な学習成果をもたらす、無償かつ公正で質の高い初等教育及び中等教育を修了できるようにする。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n235" >
+<LABEL>目標4.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4384" y="3612"/>
+<DEF>2030 年までに、すべての女児及び男児が、質の高い乳幼児の発達支援、ケア及び就学前教育にアクセスすることにより、初等教育を受ける準備が整うようにする。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n236" >
+<LABEL>目標4.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4360" y="3660"/>
+<DEF>2030 年までに、すべての女性及び男性が、手頃な価格で質の高い技術教育、職業教育及び大学を含む高等教育への平等なアクセスを得られるようにする。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n237" >
+<LABEL>目標4.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4360" y="3708"/>
+<DEF>2030 年までに、技術的・職業的スキルなど、雇用、働きがいのある人間らしい仕事 及び起業に必要な技能を備えた若者と成人の割合を大幅に増加させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n238" >
+<LABEL>目標4.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4384" y="3776"/>
+<DEF>2030 年までに、教育におけるジェンダー格差を無くし、障害者、先住民及び脆弱な立場にある子どもなど、脆弱層があらゆるレベルの教育や職業訓練に平等にアクセスできるようにする。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n239" >
+<LABEL>目標4.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4360" y="3848"/>
+<DEF>2030 年までに、すべての若者及び大多数（男女ともに）の成人が、読み書き能力及び基本的計算能力を身に付けられるようにする。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n240" >
+<LABEL>目標4.7</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4360" y="3892"/>
+<DEF>2030 年までに、持続可能な開発のための教育及び持続可能なライフスタイル、人権、男女の平等、平和及び非暴力的文化の推進、グローバル・シチズンシップ、文化多様性と文化の持続可能な開発への貢献の理解の教育を通して、全ての学習者が、持続可能な開発を促進するために必要な知識及び技能を習得できるようにする。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n241" >
+<LABEL>目標4.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4360" y="3964"/>
+<DEF>子ども、障害及びジェンダーに配慮した教育施設を構築・改良し、すべての人々に安全で非暴力的、包摂的、効果的な学習環境を提供できるようにする。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n242" >
+<LABEL>目標4.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4360" y="4008"/>
+<DEF>2020 年までに、開発途上国、特に後発開発途上国及び小島嶼開発途上国、ならびにアフリカ諸国を対象とした、職業訓練、情報通信技術（ICT）、技術・工学・科学プログラムなど、先進国及びその他の開発途上国における高等教育の奨学金の件数を全世界で大幅に増加させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n243" >
+<LABEL>目標4.c</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4360" y="4080"/>
+<DEF>2030 年までに、開発途上国、特に後発開発途上国及び小島嶼開発途上国における教員養成のための国際協力などを通じて、資格を持つ教員の数を大幅に増加させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n244" >
+<LABEL>目標5.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4920" y="3496"/>
+<DEF>あらゆる場所におけるすべての女性及び女児に対するあらゆる形態の差別を撤廃する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n245" >
+<LABEL>目標5.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4920" y="3544"/>
+<DEF>人身売買や性的、その他の種類の搾取など、すべての女性及び女児に対する、公共・私的空間におけるあらゆる形態の暴力を排除する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n246" >
+<LABEL>目標5.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4920" y="3612"/>
+<DEF>未成年者の結婚、早期結婚、強制結婚及び女性器切除など、あらゆる有害な慣行を撤廃する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n247" >
+<LABEL>目標5.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4920" y="3708"/>
+<DEF>公共のサービス、インフラ及び社会保障政策の提供、ならびに各国の状況に応じた世帯・家族内における責任分担を通じて、無報酬の育児・介護や家事労働を認識・評価する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n248" >
+<LABEL>目標5.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4920" y="3776"/>
+<DEF>政治、経済、公共分野でのあらゆるレベルの意思決定において、完全かつ効果的な女性の参画及び平等なリーダーシップの機会を確保する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n249" >
+<LABEL>目標5.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4920" y="3848"/>
+<DEF>国際人口・開発会議（ICPD）の行動計画及び北京行動綱領、ならびにこれらの検証会議の成果文書に従い、性と生殖に関する健康及び権利への普遍的アクセスを確保する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n250" >
+<LABEL>目標5.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4920" y="3940"/>
+<DEF>女性に対し、経済的資源に対する同等の権利、ならびに各国法に従い、オーナーシップ及び土地その他の財産、金融サービス、相続財産、天然資源に対するアクセスを与えるための改革に着手する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n251" >
+<LABEL>目標5.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4944" y="4032"/>
+<PART_TREE>close</PART_TREE>
+<DEF>女性のエンパワーメント促進のため、ICT をはじめとする実現技術の活用を強化する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609864578864_n252" >
+<LABEL>目標5.c</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4944" y="4128"/>
+<DEF>ジェンダー平等の促進、ならびにすべての女性及び女子のあらゆるレベルでのエンパワーメントのための適正な政策及び拘束力のある法規を導入・強化する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n253" >
+<LABEL>目標6.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5572" y="3472"/>
+<DEF>2030 年までに、すべての人々の、安全で安価な飲料水の普遍的かつ平等なアクセスを達成する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n254" >
+<LABEL>目標6.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5572" y="3544"/>
+<DEF>2030 年までに、すべての人々の、適切かつ平等な下水施設・衛生施設へのアクセスを達成し、野外での排泄をなくす。女性及び女子、ならびに脆弱な立場にある人々のニーズに特に注意を向ける。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n255" >
+<LABEL>目標6.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5572" y="3588"/>
+<DEF>2030 年までに、汚染の減少、投棄廃絶と有害な化学物質や物質の放出の最小化、未処理の排水の割合半減及び再生利用と安全な再利用の世界的規模での大幅な増加させることにより、水質を改善する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n256" >
+<LABEL>目標6.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5572" y="3660"/>
+<DEF>2030 年までに、全セクターにおいて水の利用効率を大幅に改善し、淡水の持続可能な採取及び供給を確保し水不足に対処するとともに、水不足に悩む人々の数を大幅に減少させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n257" >
+<LABEL>目標6.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5572" y="3728"/>
+<DEF>2030 年までに、国境を越えた適切な協力を含む、あらゆるレベルでの統合水資源管理を実施する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n258" >
+<LABEL>目標6.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5572" y="3776"/>
+<PART_TREE>close</PART_TREE>
+<DEF>2020 年までに、山地、森林、湿地、河川、帯水層、湖沼などの水に関連する生態系の保護・回復を行う。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n259" >
+<LABEL>目標6.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5572" y="3848"/>
+<DEF>2030 年までに、集水、海水淡水化、水の効率的利用、排水処理、リサイクル・再利用技術など、開発途上国における水と衛生分野での活動や計画を対象とした国際協力と能力構築支援を拡大する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n260" >
+<LABEL>目標6.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5572" y="3892"/>
+<DEF>水と衛生に関わる分野の管理向上への地域コミュニティの参加を支援・強化する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n261" >
+<LABEL>目標7.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="6180" y="3472"/>
+<DEF>2030 年までに、安価かつ信頼できる現代的エネルギーサービスへの普遍的アクセスを確保する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n262" >
+<LABEL>目標7.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="6180" y="3520"/>
+<DEF>2030 年までに、世界のエネルギーミックスにおける再生可能エネルギーの割合を大幅に拡大させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n263" >
+<LABEL>目標7.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="6180" y="3588"/>
+<DEF>2030 年までに、世界全体のエネルギー効率の改善率を倍増させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n264" >
+<LABEL>目標7.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="6180" y="3660"/>
+<DEF>2030 年までに、再生可能エネルギー、エネルギー効率及び先進的かつ環境負荷の低い化石燃料技術などのクリーンエネルギーの研究及び技術へのアクセスを促進するための国際協力を強化し、エネルギー関連インフラとクリーンエネルギー技術への投資を促進する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909391700_n265" >
+<LABEL>目標7.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="6180" y="3708"/>
+<DEF>2030 年までに、各々の支援プログラムに沿って開発途上国、特に後発開発途上国及び小島嶼開発途上国、内陸開発途上国のすべての人々に現代的で持続可能なエネルギーサービスを供給できるよう、インフラ拡大と技術向上を行う。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n266" >
+<LABEL>目標8.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4592" y="4408"/>
+<DEF>各国の状況に応じて、一人当たり経済成長率を持続させる。特に後発開発途上国は少なくとも年率 7%の成長率を保つ。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n267" >
+<LABEL>目標8.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4592" y="4452"/>
+<DEF>高付加価値セクターや労働集約型セクターに重点を置くことなどにより、多様化、技術向上及びイノベーションを通じた高いレベルの経済生産性を達成する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n268" >
+<LABEL>目標8.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4592" y="4524"/>
+<DEF>生産活動や適切な雇用創出、起業、創造性及びイノベーションを支援する開発重視型の政策を促進するとともに、金融サービスへのアクセス改善などを通じて中小零細企業の設立や成長を奨励する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n269" >
+<LABEL>目標8.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4592" y="4568"/>
+<DEF>2030 年までに、世界の消費と生産における資源効率を漸進的に改善させ、先進国主導の下、持続可能な消費と生産に関する 10 カ年計画枠組みに従い、経済成長と環境悪化の分断を図る。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n270" >
+<LABEL>目標8.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4592" y="4616"/>
+<DEF>2030 年までに、若者や障害者を含むすべての男性及び女性の、完全かつ生産的な雇用及び働きがいのある人間らしい仕事、ならびに同一労働同一賃金を達成する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n271" >
+<LABEL>目標8.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4592" y="4664"/>
+<DEF>2020 年までに、就労、就学及び職業訓練のいずれも行っていない若者の割合を大幅に減らす。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n272" >
+<LABEL>目標8.7</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4592" y="4732"/>
+<DEF>強制労働を根絶し、現代の奴隷制、人身売買を終らせるための緊急かつ効果的な措置の実施、最悪な形態の児童労働の禁止及び撲滅を確保する。2025 年までに児童兵士の募集と使用を含むあらゆる形態の児童労働を撲滅する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n273" >
+<LABEL>目標8.8</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4592" y="4780"/>
+<DEF>移住労働者、特に女性の移住労働者や不安定な雇用状態にある労働者など、すべての労働者の権利を保護し、安全・安心な労働環境を促進する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n274" >
+<LABEL>目標8.9</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4592" y="4848"/>
+<DEF>2030 年までに、雇用創出、地方の文化振興・産品販促につながる持続可能な観光業を促進するための政策を立案し実施する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n275" >
+<LABEL>目標8.10</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4616" y="4896"/>
+<DEF>国内の金融機関の能力を強化し、すべての人々の銀行取引、保険及び金融サービスへのアクセスを促進・拡大する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n276" >
+<LABEL>目標8.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4616" y="4968"/>
+<DEF>後発開発途上国への貿易関連技術支援のための拡大統合フレームワーク（EIF）などを通じた支援を含む、開発途上国、特に後発開発途上国に対する貿易のための援助を拡大する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n277" >
+<LABEL>目標8.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4616" y="5012"/>
+<DEF>2020 年までに、若年雇用のための世界的戦略及び国際労働機関（ILO）の仕事に関する世界協定の実施を展開・運用化する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n278" >
+<LABEL>目標9.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="970" y="3544"/>
+<DEF>すべての人々に安価で公平なアクセスに重点を置いた経済発展と人間の福祉を支援するために、地域・越境インフラを含む質の高い、信頼でき、持続可能かつ強靱（レジリエント）なインフラを開発する。</DEF>
+<SLOTS>
+<SLOT id="1610988183050_s280" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="目的"  class_constraint="経済発展"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標9$slot"/>
+<SLOTS>
+<SLOT id="1610988183050_s281" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="公平なアクセス"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611904155704_s297" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="アクセス"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="アクセス" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="公平なアクセス" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1611904155704_s298" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="経済"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="経済" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1611904155704_s299" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="発展"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="発展" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="経済発展" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610988183050_s282" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="目的"  class_constraint="福祉支援"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標9$slot"/>
+<SLOTS>
+<SLOT id="1611904155704_s301" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="福祉"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="福祉" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="福祉支援" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610988183050_s283" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="インフラ開発"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="持続可能な開発目標$slot"/>
+<SLOTS>
+<SLOT id="1610988183050_s284" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="地域インフラ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="地域インフラ" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610988183050_s285" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="越境インフラ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610988183050_s286" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="持続可能"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611904155704_s306" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="持続"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="持続可能" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610988183050_s287" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="単語"  class_constraint="強靱（レジリエント）"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1611904155704_s308" 
+ type="R2-1"  label="slot5"  kind="a/o"  num="1"  role="単語"  class_constraint="インフラ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="インフラ" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="インフラ開発" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610988183050_s288" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="すべての人々"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1609909706658_n279" >
+<LABEL>目標9.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="982" y="4216"/>
+<DEF>包摂的かつ持続可能な産業化を促進し、2030 年までに各国の状況に応じて雇用及びGDP に占める産業セクターの割合を大幅に増加させる。後発開発途上国については同割合を倍増させる。</DEF>
+<SLOTS>
+<SLOT id="1610988183050_s291" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="産業化促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610988183050_s292" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="包摂的"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610988183050_s293" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="持続可能"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1611904155704_s315" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="産業化"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="単語" class_const="産業化" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s294" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="雇用増加"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611904155704_s317" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="雇用"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s295" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="目的"  class_constraint="割合増加"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610988183050_s296" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="GDP"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610988183050_s297" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="産業セクター割合"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611904155704_s321" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="産業セクター"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s298" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="後発開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610988183050_s299" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="倍増"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="単語" class_const="倍増" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="対象" class_const="後発開発途上国" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n280" >
+<LABEL>目標9.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="968" y="4766"/>
+<DEF>特に開発途上国における小規模の製造業その他の企業の、安価な資金貸付などの金融サービスやバリューチェーン及び市場への統合へのアクセスを拡大する。</DEF>
+<SLOTS>
+<SLOT id="1610988183050_s302" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="アクセス拡大"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610988183050_s303" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="金融サービス"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610988183050_s304" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="安価"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610988183050_s305" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="資金貸付"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1611936268120_s333" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="金融"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s306" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="バリューチェーン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610988183050_s307" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="市場への統合"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s336" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="市場"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1611936268120_s337" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="単語"  class_constraint="アクセス"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s308" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610988183050_s309" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="小規模の製造業"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s340" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="製造業"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s310" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="その他の企業"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n281" >
+<LABEL>目標9.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="958" y="5380"/>
+<DEF>2030 年までに、資源利用効率の向上とクリーン技術及び環境に配慮した技術・産業プロセスの導入拡大を通じたインフラ改良や産業改善により、持続可能性を向上させる。すべての国々は各国の能力に応じた取組を行う。</DEF>
+<SLOTS>
+<SLOT id="1610988183050_s312" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="目的"  class_constraint="資源利用効率の向上"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610988183050_s313" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="持続可能性の向上"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610988183050_s314" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="クリーン技術"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s346" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="クリーン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="role" class_const="クリーン技術" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610988183050_s315" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="環境に配慮した技術"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s348" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="技術"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot2" def="" role_name="role" class_const="環境に配慮した技術" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610988183050_s316" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="インフラ改良"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610988183050_s317" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="インフラ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="role" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1611936268120_s351" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="改良"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot3" def="" role_name="role" class_const="インフラ改良" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="" class_const="持続可能性の向上" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n282" >
+<LABEL>目標9.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="952" y="5780"/>
+<DEF>2030 年までにイノベーションを促進させることや 100 万人当たりの研究開発従事者数を大幅に増加させ、また官民研究開発の支出を拡大させるなど、開発途上国をはじめとするすべての国々の産業セクターにおける科学研究を促進し、技術能力を向上させる。</DEF>
+<SLOTS>
+<SLOT id="1610989171251_s320" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目標"  class_constraint="科学研究を促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s321" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="目標"  class_constraint="イノベーションを促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s322" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="イノベーション"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s356" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="単語" class_const="イノベーション" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目標" class_const="イノベーションを促進" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610989171251_s323" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="目標"  class_constraint="100 万人当たりの研究開発従事者数を大幅に増加"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s324" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="研究開発従事者数"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s359" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="従事者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="単語" class_const="研究開発従事者数" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot2" def="" role_name="目標" class_const="100 万人当たりの研究開発従事者数を大幅に増加" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610989171251_s325" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="目標"  class_constraint="官民研究開発の支出を拡大"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s326" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="官民研究開発"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s362" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="官民"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="単語" class_const="官民研究開発" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot3" def="" role_name="目標" class_const="官民研究開発の支出を拡大" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610989171251_s327" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="単語"  class_constraint="産業セクター"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot4" def="" role_name="単語" class_const="産業セクター" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1611936268120_s364" 
+ type="R2-1"  label="slot5"  kind="a/o"  num="1"  role="単語"  class_constraint="科学"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1611936268120_s365" 
+ type="R2-1"  label="slot6"  kind="a/o"  num="1"  role="単語"  class_constraint="研究"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目標" class_const="科学研究を促進" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610988183050_s320" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="技術能力を向上"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s367" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="技術"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s368" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="向上"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s322" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n283" >
+<LABEL>目標9.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="968" y="6552"/>
+<DEF>アフリカ諸国、後発開発途上国、内陸開発途上国及び小島嶼開発途上国への金融・テクノロジー・技術の支援強化を通じて、開発途上国における持続可能かつ強靱（レジリエント）なインフラ開発を促進する。</DEF>
+<SLOTS>
+<SLOT id="1610988183050_s324" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="持続可能かつ強靱（レジリエント）なインフラ開発を促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s372" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="持続可能"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1611936268120_s373" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="強靱（レジリエント）"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1611936268120_s374" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="インフラ開発"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s375" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="単語" class_const="促進" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610989171251_s333" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="目標"  class_constraint="金融・テクノロジー・技術の支援強化"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s334" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="金融"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s335" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="テクノロジー"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s336" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="技術"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s337" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="単語"  class_constraint="支援強化"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s326" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s339" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="内訳"  class_constraint="アフリカ諸国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s340" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="内訳"  class_constraint="後発開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="role" class_const="後発開発途上国" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610989171251_s341" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="内訳"  class_constraint="陸開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s342" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="内訳"  class_constraint="小島嶼開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n284" >
+<LABEL>目標9.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="990" y="7214"/>
+<DEF>産業の多様化や商品への付加価値創造などに資する政策環境の確保などを通じて、開発途上国の国内における技術開発、研究及びイノベーションを支援する。</DEF>
+<SLOTS>
+<SLOT id="1610988183050_s328" 
+ type="NW"  label="slot5"  kind="a/o"  num="1"  role="目標"  class_constraint="産業の多様化"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s388" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="産業"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s389" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="多様化"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s329" 
+ type="NW"  label="slot6"  kind="a/o"  num="1"  role="目標"  class_constraint="商品への付加価値創造などに資する政策環境の確保"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610988183050_s330" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="付加価値創造"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s392" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="付加価値"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s393" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="創造"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s331" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="政策環境"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s332" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="技術開発を支援"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s396" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="技術開発"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s333" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="研究を支援"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s398" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="研究"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s334" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="目的"  class_constraint="イノベーションを支援"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s400" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="イノベーション"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s335" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n285" >
+<LABEL>目標9.c</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="966" y="7894"/>
+<DEF>後発開発途上国において情報通信技術へのアクセスを大幅に向上させ、2020 年までに普遍的かつ安価なインターネット・アクセスを提供できるよう図る。</DEF>
+<SLOTS>
+<SLOT id="1610988183050_s339" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="目標"  class_constraint="情報通信技術へのアクセスを大幅に向上"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610988183050_s340" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="情報通信技術"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s405" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="情報通信"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1611936268120_s406" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="アクセス"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s407" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="頻度"  class_constraint="大幅"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s341" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="インターネット・アクセスを提供"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610988183050_s342" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="普遍的"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610988183050_s343" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="安価"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1611936268120_s411" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="インターネット・アクセス"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s412" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="インターネット"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610988183050_s344" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="後発開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n286" >
+<LABEL>目標10.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4428" y="5084"/>
+<DEF>2030 年までに、各国の所得下位 40%の所得成長率について、国内平均を上回る数値を漸進的に達成し、持続させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n287" >
+<LABEL>目標10.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4452" y="5152"/>
+<DEF>2030 年までに、年齢、性別、障害、人種、民族、出自、宗教、あるいは経済的地位その他の状況に関わりなく、すべての人々のエンパワーメント及び社会的、経済的及び政治的な包含を促進する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n288" >
+<LABEL>目標10.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4452" y="5200"/>
+<DEF>差別的な法律、政策及び慣行の撤廃、ならびに適切な関連法規、政策、行動の促進などを通じて、機会均等を確保し、成果の不平等を是正する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n289" >
+<LABEL>目標10.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4428" y="5248"/>
+<DEF>税制、賃金、社会保障政策をはじめとする政策を導入し、平等の拡大を漸進的に達成する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n290" >
+<LABEL>目標10.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4428" y="5316"/>
+<DEF>世界金融市場と金融機関に対する規制とモニタリングを改善し、こうした規制の実施を強化する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n291" >
+<LABEL>目標10.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4428" y="5388"/>
+<DEF>地球規模の国際経済・金融制度の意思決定における開発途上国の参加や発言力を拡大させることにより、より効果的で用力があり、説明責任のある正当な制度を実現する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n292" >
+<LABEL>目標10.7</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4452" y="5456"/>
+<DEF>計画に基づき良く管理された移住政策の実施などを通じて、秩序のとれた、安全で規則的かつ責任ある移住や流動性を促進する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n293" >
+<LABEL>目標10.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4452" y="5528"/>
+<DEF>世界貿易機関（WTO）協定に従い、開発途上国、特に後発開発途上国に対する特別かつ異なる待遇の原則を実施する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n294" >
+<LABEL>目標10.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4452" y="5572"/>
+<DEF>各国の国家計画やプログラムに従って、後発開発途上国、アフリカ諸国、小島嶼開発途上国及び内陸開発途上国を始めとする、ニーズが最も大きい国々への、政府開発援助（ODA）及び海外直接投資を含む資金の流入を促進する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609909706658_n295" >
+<LABEL>目標10.c</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4452" y="5644"/>
+<DEF>2030 年までに、移住労働者による送金コストを 3%未満に引き下げ、コストが 5%を越える送金経路を撤廃する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910484010_n296" >
+<LABEL>目標11.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5060" y="5084"/>
+<DEF>2030 年までに、すべての人々の、適切、安全かつ安価な住宅及び基本的サービスへのアクセスを確保し、スラムを改善する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910484010_n297" >
+<LABEL>目標11.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5060" y="5152"/>
+<DEF>2030 年までに、脆弱な立場にある人々、女性、子ども、障害者及び高齢者のニーズに特に配慮し、公共交通機関の拡大などを通じた交通の安全性改善により、すべての人々に、安全かつ安価で容易に利用できる、持続可能な輸送システムへのアクセスを提供する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910484010_n298" >
+<LABEL>目標11.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5060" y="5200"/>
+<DEF>2030 年までに、包摂的かつ持続可能な都市化を促進し、すべての国々の参加型、包摂的かつ持続可能な人間居住計画・管理の能力を強化する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910484010_n299" >
+<LABEL>目標11.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5084" y="5268"/>
+<DEF>世界の文化遺産及び自然遺産の保護・保全の努力を強化する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910484010_n300" >
+<LABEL>目標11.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5060" y="5316"/>
+<DEF>2030 年までに、貧困層及び脆弱な立場にある人々の保護に焦点をあてながら、水関連災害などの災害による死者や被災者数を大幅に削減し、世界の国内総生産比で直接的経済損失を大幅に減らす。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910484010_n301" >
+<LABEL>目標11.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5060" y="5388"/>
+<DEF>2030 年までに、大気の質及び一般並びにその他の廃棄物の管理に特別な注意を払うことによるものを含め、都市の一人当たりの環境上の悪影響を軽減する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910484010_n302" >
+<LABEL>目標11.7</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5060" y="5456"/>
+<DEF>2030 年までに、女性、子ども、高齢者及び障害者を含め、人々に安全で包摂的かつ利用が容易な緑地や公共スペースへの普遍的アクセスを提供する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910484010_n303" >
+<LABEL>目標11.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5060" y="5504"/>
+<DEF>各国・地域規模の開発計画の強化を通じて、経済、社会、環境面における都市部、都市周辺部及び農村部間の良好なつながりを支援する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910484010_n304" >
+<LABEL>目標11.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5084" y="5572"/>
+<DEF>2020 年までに、包含、資源効率、気候変動の緩和と適応、災害に対する強靱さ（レジリエンス）を目指す総合的政策及び計画を導入・実施した都市及び人間居住地の件数を大幅に増加させ、仙台防災枠組 2015-2030 に沿って、あらゆるレベルでの総合的な災害リスク管理の策定と実施を行う。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910484010_n305" >
+<LABEL>目標11.c</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="5084" y="5644"/>
+<DEF>財政的及び技術的な支援などを通じて、後発開発途上国における現地の資材を用いた、持続可能かつ強靱（レジリエント）な建造物の整備を支援する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910831298_n306" >
+<LABEL>目標12.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4080" y="8768"/>
+<DEF>開発途上国の開発状況や能力を勘案しつつ、持続可能な消費と生産に関する 10 年計画枠組み（10YFP）を実施し、先進国主導の下、すべての国々が対策を講じる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910831298_n307" >
+<LABEL>目標12.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4080" y="8816"/>
+<DEF>2030 年までに天然資源の持続可能な管理及び効率的な利用を達成する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910831298_n308" >
+<LABEL>目標12.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4080" y="8864"/>
+<DEF>2030 年までに小売・消費レベルにおける世界全体の一人当たりの食料の廃棄を半減させ、収穫後損失などの生産・サプライチェーンにおける食料の損失を減少させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910831298_n309" >
+<LABEL>目標12.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4080" y="8908"/>
+<DEF>2020 年までに、合意された国際的な枠組みに従い、製品ライフサイクルを通じ、環境上適正な化学物資やすべての廃棄物の管理を実現し、人の健康や環境への悪影響を最小化するため、化学物質や廃棄物の大気、水、土壌への放出を大幅に削減する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910831298_n310" >
+<LABEL>目標12.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4080" y="8980"/>
+<DEF>2030 年までに、廃棄物の発生防止、削減、再生利用及び再利用により、廃棄物の発生を大幅に削減する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910831298_n311" >
+<LABEL>目標12.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4080" y="9028"/>
+<DEF>特に大企業や多国籍企業などの企業に対し、持続可能な取り組みを導入し、持続可能性に関する情報を定期報告に盛り込むよう奨励する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910831298_n312" >
+<LABEL>目標12.7</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4080" y="9096"/>
+<DEF>国内の政策や優先事項に従って持続可能な公共調達の慣行を促進する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910831298_n313" >
+<LABEL>目標12.8</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4080" y="9144"/>
+<DEF>2030 年までに、人々があらゆる場所において、持続可能な開発及び自然と調和したライフスタイルに関する情報と意識を持つようにする。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910831298_n314" >
+<LABEL>目標12.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4080" y="9212"/>
+<DEF>開発途上国に対し、より持続可能な消費・生産形態の促進のための科学的・技術的能力の強化を支援する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910831298_n315" >
+<LABEL>目標12.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4080" y="9260"/>
+<DEF>雇用創出、地方の文化振興・産品販促につながる持続可能な観光業に対して持続可能な開発がもたらす影響を測定する手法を開発・導入する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609910831298_n316" >
+<LABEL>目標12.c</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4080" y="9308"/>
+<DEF>開発途上国の特別なニーズや状況を十分考慮し、貧困層やコミュニティを保護する形で開発に関する悪影響を最小限に留めつつ、税制改正や、有害な補助金が存在する場合はその環境への影響を考慮してその段階的廃止などを通じ、各国の状況に応じて、市場のひずみを除去することで、浪費的な消費を奨励する、化石燃料に対する非効率な補助金を合理化する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n317" >
+<LABEL>目標13.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="820" y="9004"/>
+<DEF>すべての国々において、気候関連災害や自然災害に対する強靱性（レジリエンス）及び適応力を強化する。</DEF>
+<SLOTS>
+<SLOT id="1610989171251_s393" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="気候関連災害や自然災害に対する強靱性（レジリエンス）及び適応力を強化"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s394" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="強靱性（レジリエンス）"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s395" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="適応力"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s396" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="気候関連災害"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s397" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="単語"  class_constraint="自然災害"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n318" >
+<LABEL>目標13.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="820" y="9260"/>
+<DEF>気候変動対策を国別の政策、戦略及び計画に盛り込む。</DEF>
+<SLOTS>
+<SLOT id="1610989171251_s400" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="気候変動対策を国別の政策、戦略及び計画に盛り込む"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s401" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="気候変動対策"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s454" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="気候変動"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610989171251_s402" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="政策"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s403" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="戦略"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s404" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="単語"  class_constraint="計画"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1611936268120_s458" 
+ type="R2-1"  label="slot5"  kind="a/o"  num="1"  role="単語"  class_constraint="国別"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n319" >
+<LABEL>目標13.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="812" y="9632"/>
+<DEF>気候変動の緩和、適応、影響軽減及び早期警戒に関する教育、啓発、人的能力及び制度機能を改善する。</DEF>
+<SLOTS>
+<SLOT id="1610989171251_s407" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="気候変動の緩和、適応、影響軽減及び早期警戒に関する教育、啓発、人的能力及び制度機能を改善"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s408" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="文章"  class_constraint="気候変動の緩和、適応、影響軽減"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s409" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="気候変動"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="role" class_const="気候変動" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610989171251_s410" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="緩和"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="role" class_const="緩和" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610989171251_s411" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="適応"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="role" class_const="適応" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610989171251_s412" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="単語"  class_constraint="影響軽減"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot4" def="" role_name="role" class_const="影響軽減" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="role" class_const="気候変動の緩和、適応、影響軽減" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610989171251_s413" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="文章"  class_constraint="早期警戒に関する教育、啓発、人的能力及び制度機能"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s414" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="早期警戒"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s415" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="教育"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s416" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="啓発"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s417" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="単語"  class_constraint="人的能力"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s418" 
+ type="R2-1"  label="slot5"  kind="a/o"  num="1"  role="単語"  class_constraint="制度機能"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot2" def="" role_name="role" class_const="早期警戒に関する教育、啓発、人的能力及び制度機能" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="気候変動の緩和、適応、影響軽減及び早期警戒に関する教育、啓発、人的能力及び制度機能を改善" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n320" >
+<LABEL>目標13.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="860" y="10216"/>
+<DEF>重要な緩和行動の実施とその実施における透明性確保に関する開発途上国のニーズに対応するため、2020 年までにあらゆる供給源から年間 1,000 億ドルを共同で動員するという、UNFCCC の先進締約国によるコミットメントを実施し、可能な限り速やかに資本を投入して緑の気候基金を本格始動させる。</DEF>
+<SLOTS>
+<SLOT id="1610989171251_s420" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="目標"  class_constraint="重要な緩和行動の実施とその実施における透明性確保に関する開発途上国のニーズに対応"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s474" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="緩和行動"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s475" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="重要な"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1611936268120_s476" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="透明性確保"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s477" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="透明性"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1611936268120_s478" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="開発途上国のニーズ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s479" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s480" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="ニーズ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610989171251_s421" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="可能な限り速やかに資本を投入して緑の気候基金を本格始動"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s422" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="行動"  class_constraint="UNFCCC の先進締約国によるコミットメントを実施"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s423" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="UNFCCC"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s424" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="先進締約国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s425" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="コミットメント"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610989171251_s426" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="緑の気候基金"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1611936268120_s487" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="資本"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n321" >
+<LABEL>目標13.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="860" y="10964"/>
+<DEF>後発開発途上国及び小島嶼開発途上国において、女性や青年、地方及び社会的に疎外されたコミュニティに焦点を当てることを含め、気候変動関連の効果的な計画策定と管理のための能力を向上するメカニズムを推進する</DEF>
+<SLOTS>
+<SLOT id="1610989171251_s428" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="目的"  class_constraint="気候変動関連の効果的な計画策定と管理のための能力を向上するメカニズムを推進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s429" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="内包"  class_constraint="女性や青年、地方及び社会的に疎外されたコミュニティに焦点を当てる"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1610989171251_s430" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="女性"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s431" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="青年"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s432" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="地方"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s433" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="社会的に疎外されたコミュニティ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s495" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="社会的"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1611936268120_s496" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="コミュニティ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="内包" class_const="性や青年、地方及び社会的に疎外されたコミュニティに焦点を当てる" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1610989171251_s434" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="気候変動関連"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s435" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="計画策定"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1611936268120_s499" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="効果的"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610989171251_s436" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="単語"  class_constraint="管理"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s437" 
+ type="R2-1"  label="slot5"  kind="a/o"  num="1"  role="単語"  class_constraint="能力を向上"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s438" 
+ type="R2-1"  label="slot6"  kind="a/o"  num="1"  role="単語"  class_constraint="メカニズム"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</SLOT>
+<SLOT id="1610989171251_s439" 
+ type="NW"  label="slot5"  kind="a/o"  num="1"  role="対象"  class_constraint="後発開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610989171251_s440" 
+ type="NW"  label="slot6"  kind="a/o"  num="1"  role="対象"  class_constraint="小島嶼開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n322" >
+<LABEL>目標14.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2168" y="8888"/>
+<DEF>2025 年までに、海洋堆積物や富栄養化を含む、特に陸上活動による汚染など、あらゆる種類の海洋汚染を防止し、大幅に削減する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n323" >
+<LABEL>目標14.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2168" y="8932"/>
+<DEF>2020 年までに、海洋及び沿岸の生態系に関する重大な悪影響を回避するため、強靱性（レジリエンス）の強化などによる持続的な管理と保護を行い、健全で生産的な海洋を実現するため、海洋及び沿岸の生態系の回復のための取組を行う。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n324" >
+<LABEL>目標14.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2168" y="8980"/>
+<PART_TREE>close</PART_TREE>
+<DEF>あらゆるレベルでの科学的協力の促進などを通じて、海洋酸性化の影響を最小限化し、対処する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n325" >
+<LABEL>目標14.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2168" y="9028"/>
+<DEF>水産資源を、実現可能な最短期間で少なくとも各資源の生物学的特性によって定められる最大持続生産量のレベルまで回復させるため、2020 年までに、漁獲を効果的に規制し、過剰漁業や違法・無報告・無規制（IUU）漁業及び破壊的な漁業慣行を終了し、科学的な管理計画を実施する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n326" >
+<LABEL>目標14.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2168" y="9072"/>
+<DEF>2020 年までに、国内法及び国際法に則り、最大限入手可能な科学情報に基づいて、少なくとも沿岸域及び海域の 10 パーセントを保全する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n327" >
+<LABEL>目標14.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2168" y="9120"/>
+<DEF>開発途上国及び後発開発途上国に対する適切かつ効果的な、特別かつ異なる待遇が、世界貿易機関（WTO）漁業補助金交渉の不可分の要素であるべきことを認識した上で、2020 年までに、過剰漁獲能力や過剰漁獲につながる漁業補助金を禁止し、違法・無報告・無規制（IUU）漁業につながる補助金を撤廃し、同様の新たな補助金の導入を抑制する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n328" >
+<LABEL>目標14.7</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2168" y="9168"/>
+<DEF>2030 年までに、漁業、水産養殖及び観光の持続可能な管理などを通じ、小島嶼開発途上国及び後発開発途上国の海洋資源の持続的な利用による経済的便益を増大させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n329" >
+<LABEL>目標14.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2168" y="9260"/>
+<DEF>海洋の健全性の改善と、開発途上国、特に小島嶼開発途上国および後発開発途上国の開発における海洋生物多様性の寄与向上のために、海洋技術の移転に関するユネスコ政府間海洋学委員会の基準・ガイドラインを勘案しつつ、科学的知識の増進、研究能力の向上、及び海洋技術の移転を行う。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n330" >
+<LABEL>目標14.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2168" y="9308"/>
+<DEF>小規模・沿岸零細漁業者に対し、海洋資源及び市場へのアクセスを提供する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911418781_n331" >
+<LABEL>目標14.c</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2168" y="9376"/>
+<DEF>「我々の求める未来」のパラ 158 において想起されるとおり、海洋及び海洋資源の保全及び持続可能な利用のための法的枠組みを規定する海洋法に関する国際連合条約（UNCLOS）に反映されている国際法を実施することにより、海洋及び海洋資源の保全及び持続可能な利用を強化する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911791239_n332" >
+<LABEL>目標15.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="8980"/>
+<DEF>2020 年までに、国際協定の下での義務に則って、森林、湿地、山地及び乾燥地をはじめとする陸域生態系と内陸淡水生態系及びそれらのサービスの保全、回復及び持続可能な利用を確保する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911791239_n333" >
+<LABEL>目標15.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="9028"/>
+<DEF>2020 年までに、あらゆる種類の森林の持続可能な経営の実施を促進し、森林減少を阻止し、劣化した森林を回復し、世界全体で新規植林及び再植林を大幅に増加させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911791239_n334" >
+<LABEL>目標15.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="9072"/>
+<DEF>2030 年までに、砂漠化に対処し、砂漠化、干ばつ及び洪水の影響を受けた土地などの劣化した土地と土壌を回復し、土地劣化に荷担しない世界の達成に尽力する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911791239_n335" >
+<LABEL>目標15.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="9120"/>
+<DEF>2030 年までに持続可能な開発に不可欠な便益をもたらす山地生態系の能力を強化するため、生物多様性を含む山地生態系の保全を確実に行う。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911791239_n336" >
+<LABEL>目標15.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="9168"/>
+<DEF>自然生息地の劣化を抑制し、生物多様性の損失を阻止し、2020 年までに絶滅危惧種を保護し、また絶滅防止するための緊急かつ意味のある対策を講じる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911791239_n337" >
+<LABEL>目標15.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="9212"/>
+<DEF>国際合意に基づき、遺伝資源の利用から生ずる利益の公正かつ衡平な配分を推進するとともに、遺伝資源への適切なアクセスを推進する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911791239_n338" >
+<LABEL>目標15.7</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="9260"/>
+<DEF>保護の対象となっている動植物種の密猟及び違法取引を撲滅するための緊急対策を講じるとともに、違法な野生生物製品の需要と供給の両面に対処する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911791239_n339" >
+<LABEL>目標15.8</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="9284"/>
+<DEF>2020 年までに、外来種の侵入を防止するとともに、これらの種による陸域・海洋生態系への影響を大幅に減少させるための対策を導入し、さらに優先種の駆除または根絶を行う。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911791239_n340" >
+<LABEL>目標15.9</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="9328"/>
+<DEF>2020 年までに、生態系と生物多様性の価値を、国や地方の計画策定、開発プロセス及び貧困削減のための戦略及び会計に組み込む。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911791239_n341" >
+<LABEL>目標15.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3216" y="9376"/>
+<DEF>生物多様性と生態系の保全と持続的な利用のために、あらゆる資金源からの資金の動員及び大幅な増額を行う。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911791239_n342" >
+<LABEL>目標15.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3240" y="9424"/>
+<DEF>保全や再植林を含む持続可能な森林経営を推進するため、あらゆるレベルのあらゆる供給源から、持続可能な森林経営のための資金の調達と開発途上国への十分なインセンティブ付与のための相当量の資源を動員する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609911791239_n343" >
+<LABEL>目標15.c</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3240" y="9468"/>
+<DEF>持続的な生計機会を追求するために地域コミュニティの能力向上を図る等、保護種の密猟及び違法な取引に対処するための努力に対する世界的な支援を強化する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912077051_n344" >
+<LABEL>目標16.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2984" y="10544"/>
+<DEF>あらゆる場所において、すべての形態の暴力及び暴力に関連する死亡率を大幅に減少させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912077051_n345" >
+<LABEL>目標16.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3008" y="10588"/>
+<DEF>子どもに対する虐待、搾取、取引及びあらゆる形態の暴力及び拷問を撲滅する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912077051_n346" >
+<LABEL>目標16.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2984" y="10636"/>
+<DEF>国家及び国際的なレベルでの法の支配を促進し、すべての人々に司法への平等なアクセスを提供する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912077051_n347" >
+<LABEL>目標16.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2984" y="10684"/>
+<DEF>2030 年までに、違法な資金及び武器の取引を大幅に減少させ、奪われた財産の回復及び返還を強化し、あらゆる形態の組織犯罪を根絶する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912077051_n348" >
+<LABEL>目標16.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2984" y="10728"/>
+<DEF>あらゆる形態の汚職や贈賄を大幅に減少させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912077051_n349" >
+<LABEL>目標16.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2984" y="10776"/>
+<DEF>あらゆるレベルにおいて、有効で説明責任のある透明性の高い公共機関を発展させる。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912077051_n350" >
+<LABEL>目標16.7</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2984" y="10824"/>
+<DEF>あらゆるレベルにおいて、対応的、包摂的、参加型及び代表的な意思決定を確保する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912077051_n351" >
+<LABEL>目標16.8</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2984" y="10868"/>
+<DEF>グローバル・ガバナンス機関への開発途上国の参加を拡大・強化する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912077051_n352" >
+<LABEL>目標16.9</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2984" y="10916"/>
+<DEF>2030 年までに、すべての人々に出生登録を含む法的な身分証明を提供する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912077051_n353" >
+<LABEL>目標16.10</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2984" y="10964"/>
+<DEF>国内法規及び国際協定に従い、情報への公共アクセスを確保し、基本的自由を保障する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912077051_n354" >
+<LABEL>目標16.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2984" y="11008"/>
+<DEF>特に開発途上国において、暴力の防止とテロリズム・犯罪の撲滅に関するあらゆるレベルでの能力構築のため、国際協力などを通じて関連国家機関を強化する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912077051_n355" >
+<LABEL>目標16.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2984" y="11056"/>
+<DEF>持続可能な開発のための非差別的な法規及び政策を推進し、実施する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n356" >
+<LABEL>目標17.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3988" y="10496"/>
+<DEF>資金
+17.1 課税及び徴税能力の向上のため、開発途上国への国際的な支援なども通じて、国内資源の動員を強化する。
+17.2 先進国は、開発途上国に対する ODA を GNI 比 0.7%に、後発開発途上国に対する ODAを GNI 比 0.15～0.20%にするという目標を達成するとの多くの国によるコミットメントを含む ODA に係るコミットメントを完全に実施する。ODA 供与国が、少なくとも GNI 比 0.20%の ODA を後発開発途上国に供与するという目標の設定を検討することを奨励する。
+17.3 複数の財源から、開発途上国のための追加的資金源を動員する。
+17.4 必要に応じた負債による資金調達、債務救済及び債務再編の促進を目的とした協調的な政策により、開発途上国の長期的な債務の持続可能性の実現を支援し、重債務貧困国（HIPC）の対外債務への対応により債務リスクを軽減する。
+17.5 後発開発途上国のための投資促進枠組みを導入及び実施する。技術【軍科協、国地環境、国地総：全般】
+17.6 科学技術イノベーション（STI）及びこれらへのアクセスに関する南北協力、南南協力及び地域的・国際的な三角協力を向上させる。また、国連レベルをはじめとする既存のメカニズム間の調整改善や、全世界的な技術促進メカニズムなどを通じて、相互に合意した条件において知識共有を進める。
+17.7 開発途上国に対し、譲許的・特恵的条件などの相互に合意した有利な条件の下で、環境に配慮した技術の開発、移転、普及及び拡散を促進する。
+17.8 2017 年までに、後発開発途上国のための技術バンク及び科学技術イノベーション能力構築メカニズムを完全運用させ、情報通信技術（ICT）をはじめとする実現技術の利用を強化する。
+
+能力構築【国協企、国協総】
+17.9 すべての持続可能な開発目標を実施するための国家計画を支援するべく、南北協力、南南協力及び三角協力などを通じて、開発途上国における効果的かつ的をしぼった能力構築の実施に対する国際的な支援を強化する。
+
+貿易【経国貿】
+17.10 ドーハ・ラウンド（DDA）交渉の結果を含めた WTO の下での普遍的でルールに基づいた、差別的でない、公平な多角的貿易体制を促進する。
+17.11 開発途上国による輸出を大幅に増加させ、特に 2020 年までに世界の輸出に占める後発開発途上国のシェアを倍増させる。
+17.12 後発開発途上国からの輸入に対する特恵的な原産地規則が透明で簡略的かつ市場アクセスの円滑化に寄与するものとなるようにすることを含む世界貿易機関（WTO）の決定に矛盾しない形で、すべての後発開発途上国に対し、永続的な無税・無枠の市場アクセスを適時実施する。
+
+体制面【国地総】
+政策・制度的整合性
+17.13 政策協調や政策の首尾一貫性などを通じて、世界的なマクロ経済の安定を促進する。
+17.14 持続可能な開発のための政策の一貫性を強化する。
+17.15 貧困撲滅と持続可能な開発のための政策の確立・実施にあたっては、各国の政策空間及びリーダーシップを尊重する。
+
+マルチステークホルダー・パートナーシップ
+17.16 すべての国々、特に開発途上国での持続可能な開発目標の達成を支援すべく、知識、専門的知見、技術及び資金源を動員、共有するマルチステークホルダー・パートナーシップによって補完しつつ、持続可能な開発のためのグローバル・パートナーシップを強化する。
+17.17 さまざまなパートナーシップの経験や資源戦略を基にした、効果的な公的、官民、市民社会のパートナーシップを奨励・推進する。データ、モニタリング、説明責任
+17.18 2020 年までに、後発開発途上国及び小島嶼開発途上国を含む開発途上国に対する能力構築支援を強化し、所得、性別、年齢、人種、民族、居住資格、障害、地理的位置及びその他各国事情に関連する特性別の質が高く、タイムリーかつ信頼性のある非集計型データの入手可能性を向上させる。
+17.19 2030 年までに、持続可能な開発の進捗状況を測る GDP 以外の尺度を開発する既存の取組を更に前進させ、開発途上国における統計に関する能力構築を支援する。</DEF>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n357" >
+<LABEL>目標17.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4008" y="10588"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n358" >
+<LABEL>目標17.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4008" y="10636"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n359" >
+<LABEL>目標17.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4008" y="10684"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n360" >
+<LABEL>目標17.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4008" y="10752"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n361" >
+<LABEL>目標17.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4008" y="10848"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n362" >
+<LABEL>目標17.7</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4008" y="10892"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n363" >
+<LABEL>目標17.8</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4008" y="10940"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n364" >
+<LABEL>目標17.9</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4008" y="11008"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n365" >
+<LABEL>目標17.10</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4032" y="11056"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n366" >
+<LABEL>目標17.11</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4032" y="11104"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n367" >
+<LABEL>目標17.12</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4032" y="11148"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n368" >
+<LABEL>目標17.13</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4032" y="11220"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n369" >
+<LABEL>目標17.14</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4056" y="11268"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n370" >
+<LABEL>目標17.15</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4056" y="11312"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n371" >
+<LABEL>目標17.16</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4056" y="11384"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n372" >
+<LABEL>目標17.17</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4056" y="11428"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n373" >
+<LABEL>目標17.18</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4056" y="11500"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1609912283778_n374" >
+<LABEL>目標17.19</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4056" y="11548"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1612153755833_n551" >
+<LABEL>単語</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1502" y="13972"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1612153755833_n563" >
+<LABEL>あらゆる次元での貧困を終わらせるための計画や政策を実施するべく、後発開発途上 国をはじめとする開発途上国に対して適切かつ予測可能な手段を講じるため、開発協力の強化などを通じて、さまざまな供給源からの相当量の資源の動員を確保する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="744" y="2728"/>
+<SLOTS>
+<SLOT id="1614231368070_s553" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="さまざまな供給源からの相当量の資源の動員を確保"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1614231368070_s554" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="後発開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="対象" class_const="後発開発途上国" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1614231368070_s555" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="内容"  class_constraint="予測可能な手段"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="内容" class_const="予測可能な手段" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1614231368070_s556" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="内容"  class_constraint="開発協力"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="内容" class_const="開発協力" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1614231368070_s557" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="内容"  class_constraint="相当量の資源の動員"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot4" def="" role_name="内容" class_const="相当量の資源の動員" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="さまざまな供給源からの相当量の資源の動員を確保" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1614231368070_s558" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="対象" class_const="開発途上国" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n559" >
+<LABEL>マイクロファイナンス</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1688" y="13652"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n560" >
+<LABEL>金融サービス</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1688" y="13698"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n561" >
+<LABEL>対策</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1672" y="13986"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n562" >
+<LABEL>所有権</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1682" y="13890"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n563" >
+<LABEL>脆弱</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1686" y="13598"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n564" >
+<LABEL>新技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1688" y="13840"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n565" >
+<LABEL>経済的</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1688" y="13746"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n566" >
+<LABEL>資源</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1690" y="13794"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n567" >
+<LABEL>保護</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1676" y="13938"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n568" >
+<LABEL>制度</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1686" y="13550"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n569" >
+<LABEL>1.25ドル未満</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1686" y="13502"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n570" >
+<LABEL>1日1.25ドル未満で生活する人々</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1888" y="12408"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n571" >
+<LABEL>子ども</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1908" y="12084"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n572" >
+<LABEL>暴露</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1672" y="14034"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n573" >
+<LABEL>脆弱性</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1672" y="14078"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n574" >
+<LABEL>開発途上国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1956" y="12580"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n575" >
+<LABEL>貧困</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1768" y="12456"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n576" >
+<LABEL>ジェンダー</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1908" y="12316"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n577" >
+<LABEL>貧困層</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1768" y="12388"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n578" >
+<LABEL>脆弱層</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2596" y="12808"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n579" >
+<LABEL>脆弱な状況にある人々</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1888" y="12456"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n580" >
+<LABEL>貧困状態のすべての男性、 女性、子ども</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1888" y="12364"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614230880455_n581" >
+<LABEL>後発開発途上国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1956" y="12644"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n582" >
+<LABEL>極度の貧困をなくす</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1048" y="112"/>
+</CONCEPT>
+<CONCEPT id="1614231370048_n583" >
+<LABEL>強靱性（レジリエンス）を構築</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3868" y="12504"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n584" >
+<LABEL>社会保護制度</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3800" y="12128"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n585" >
+<LABEL>社会保護対策</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3800" y="12084"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n586" >
+<LABEL>十分な保護</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3800" y="12036"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n587" >
+<LABEL>貧困の割合を半減</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3892" y="12784"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n588" >
+<LABEL>平等な権利の獲得</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3892" y="12712"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n589" >
+<LABEL>暴露や脆弱性を軽減</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3848" y="12364"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n590" >
+<LABEL>軽減する</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3848" y="12456"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n591" >
+<LABEL>適正な政策的枠組みを構築</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3824" y="12176"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n592" >
+<LABEL>さまざまな供給源からの相当量の資源の動員を確保</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3824" y="12224"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n593" >
+<LABEL>投資拡大</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4804" y="12388"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n594" >
+<LABEL>支援</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3848" y="12408"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n595" >
+<LABEL>貧困撲滅</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3868" y="12828"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n596" >
+<LABEL>気象現象</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1748" y="12316"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n597" >
+<LABEL>国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1800" y="12688"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1614231370048_n598" >
+<LABEL>権限</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2072" y="11756"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1614231370048_n599" >
+<LABEL>天然資源</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2188" y="11708"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n600" >
+<LABEL>相続財産</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2188" y="11664"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n601" >
+<LABEL>マイクロファイナンスを含む金融サービス</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2188" y="11848"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n602" >
+<LABEL>適切な新技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2188" y="11780"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n603" >
+<LABEL>管理権限</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2188" y="11616"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n604" >
+<LABEL>土地及びその他の形態の財産に対する所有権</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2212" y="11568"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n605" >
+<LABEL>経済的資源</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2188" y="11896"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n606" >
+<LABEL>強靱性（レジリエンス）</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1674" y="14142"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n607" >
+<LABEL>内容</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1608" y="11756"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n608" >
+<LABEL>気候変動</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1700" y="11592"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n609" >
+<LABEL>経済</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1700" y="11640"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n610" >
+<LABEL>社会</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1676" y="11664"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n611" >
+<LABEL>環境的ショック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1676" y="11688"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n612" >
+<LABEL>災害</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1700" y="11732"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n613" >
+<LABEL>相当量の資源の動員</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1700" y="11780"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n614" >
+<LABEL>開発協力</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1700" y="11828"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n615" >
+<LABEL>予測可能な手段</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1700" y="11848"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n616" >
+<LABEL>国際レベル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1700" y="11896"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n617" >
+<LABEL>開発戦略</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1700" y="11920"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n618" >
+<LABEL>政策的枠組み</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1700" y="11968"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n619" >
+<LABEL>割合</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2704" y="11732"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n620" >
+<LABEL>頻度</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2704" y="11616"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n621" >
+<LABEL>極度</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2776" y="11590"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614231370048_n622" >
+<LABEL>半減</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2772" y="11732"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n623" >
+<LABEL>福祉支援</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4804" y="12508"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n624" >
+<LABEL>インフラ開発</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4812" y="12548"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n625" >
+<LABEL>産業化とイノベーションの促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4788" y="12432"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n626" >
+<LABEL>産業化促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4812" y="12588"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n627" >
+<LABEL>雇用増加</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4808" y="12624"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n628" >
+<LABEL>割合増加</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4808" y="12668"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n629" >
+<LABEL>アクセス拡大</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4804" y="12696"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n630" >
+<LABEL>資源利用効率の向上</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4820" y="12728"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n631" >
+<LABEL>持続可能性の向上</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4804" y="12776"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n632" >
+<LABEL>技術能力を向上</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4804" y="12812"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n634" >
+<LABEL>持続可能かつ強靱（レジリエント）なインフラ開発を促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4796" y="12840"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n635" >
+<LABEL>経済発展</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4804" y="12480"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n636" >
+<LABEL>技術開発を支援</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4804" y="12924"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n637" >
+<LABEL>研究を支援</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4804" y="12968"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n638" >
+<LABEL>イノベーションを支援</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4808" y="13000"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n639" >
+<LABEL>インターネット・アクセスを提供</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="4804" y="13044"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n640" >
+<LABEL>アフリカ諸国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1956" y="12688"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n641" >
+<LABEL>陸開発途上国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1956" y="12740"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n642" >
+<LABEL>小島嶼開発途上国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1960" y="12792"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n643" >
+<LABEL>従事者</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1908" y="12536"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n644" >
+<LABEL>すべての人々</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1908" y="11980"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232444106_n645" >
+<LABEL>官民</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1896" y="12488"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232920500_n645" >
+<LABEL>目標</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2308" y="12240"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1614232920500_n647" >
+<LABEL>100 万人当たりの研究開発従事者数を大幅に増加</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2464" y="12152"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232920500_n648" >
+<LABEL>官民研究開発の支出を拡大</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2464" y="12200"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232920500_n649" >
+<LABEL>イノベーションを促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2480" y="12112"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232920500_n650" >
+<LABEL>科学研究を促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2476" y="12076"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232920500_n651" >
+<LABEL>金融・テクノロジー・技術の支援強化</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2460" y="12260"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232920500_n652" >
+<LABEL>情報通信技術へのアクセスを大幅に向上</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2440" y="12356"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614232920500_n653" >
+<LABEL>商品への付加価値創造などに資する政策環境の確保</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2432" y="12308"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n653" >
+<LABEL>産業の多様化</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2488" y="12396"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n654" >
+<LABEL>イノベーション</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1970" y="12910"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n655" >
+<LABEL>発展</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1966" y="12938"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n656" >
+<LABEL>福祉</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1960" y="12972"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n657" >
+<LABEL>地域インフラ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1958" y="13010"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n658" >
+<LABEL>越境インフラ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1958" y="13060"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n659" >
+<LABEL>持続</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1956" y="13130"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n660" >
+<LABEL>インフラ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1962" y="13210"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n661" >
+<LABEL>強靱（レジリエント）</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1960" y="13164"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n662" >
+<LABEL>アクセス</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1968" y="12874"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n663" >
+<LABEL>持続可能</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1954" y="13094"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n664" >
+<LABEL>公平なアクセス</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1976" y="12838"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n665" >
+<LABEL>包摂的</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1968" y="13254"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n666" >
+<LABEL>雇用</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1966" y="13292"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n667" >
+<LABEL>GDP</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1962" y="13322"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n668" >
+<LABEL>産業セクター割合</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1964" y="13352"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n669" >
+<LABEL>産業セクター</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1968" y="13386"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n670" >
+<LABEL>倍増</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1968" y="13418"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n671" >
+<LABEL>安価</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1968" y="13468"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n672" >
+<LABEL>金融</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1964" y="13546"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n673" >
+<LABEL>バリューチェーン</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1964" y="13584"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n674" >
+<LABEL>市場への統合</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1960" y="13624"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n675" >
+<LABEL>市場</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1964" y="13664"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n676" >
+<LABEL>小規模の製造業</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1958" y="13704"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n677" >
+<LABEL>製造業</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1956" y="13748"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n678" >
+<LABEL>資金貸付</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1968" y="13504"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n679" >
+<LABEL>その他の企業</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1954" y="13792"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n680" >
+<LABEL>環境に配慮した技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1964" y="13906"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n681" >
+<LABEL>改良</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1968" y="14028"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n682" >
+<LABEL>インフラ改良</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1972" y="13986"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n683" >
+<LABEL>技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1966" y="13950"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n684" >
+<LABEL>クリーン</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1962" y="13870"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n685" >
+<LABEL>クリーン技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1958" y="13832"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n686" >
+<LABEL>研究開発従事者数</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1972" y="14110"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n687" >
+<LABEL>促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1974" y="14076"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n688" >
+<LABEL>科学</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1972" y="14182"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n689" >
+<LABEL>向上</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1972" y="14258"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n690" >
+<LABEL>研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1974" y="14220"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n691" >
+<LABEL>官民研究開発</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1972" y="14146"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n692" >
+<LABEL>テクノロジー</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1974" y="14300"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n693" >
+<LABEL>支援強化</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1978" y="14336"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n694" >
+<LABEL>多様化</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1976" y="14376"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n695" >
+<LABEL>付加価値創造</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1976" y="14458"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n696" >
+<LABEL>付加価値</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1980" y="14498"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n697" >
+<LABEL>創造</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1982" y="14538"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n698" >
+<LABEL>産業</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1980" y="14416"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n699" >
+<LABEL>インターネット・アクセス</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1984" y="14686"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n700" >
+<LABEL>普遍的</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1986" y="14654"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n701" >
+<LABEL>情報通信</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1990" y="14614"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n702" >
+<LABEL>情報通信技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1990" y="14578"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n703" >
+<LABEL>インターネット</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1988" y="14728"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n704" >
+<LABEL>政策環境</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1986" y="14764"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n705" >
+<LABEL>技術開発</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1990" y="14800"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1614240066904_n706" >
+<LABEL>大幅</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2776" y="11650"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1591757272967_isa54" parent="Any" child="SDGs" />
+<ISA id="1591757272967_isa55" parent="SDGs" child="持続可能な開発目標" />
+<ISA id="1591757272967_isa56" parent="持続可能な開発目標" child="目標1" />
+<ISA id="1591757272967_isa57" parent="持続可能な開発目標" child="目標2" />
+<ISA id="1591757272967_isa58" parent="持続可能な開発目標" child="目標3" />
+<ISA id="1591757272967_isa59" parent="持続可能な開発目標" child="目標4" />
+<ISA id="1591757272967_isa60" parent="持続可能な開発目標" child="目標5" />
+<ISA id="1591757272967_isa61" parent="持続可能な開発目標" child="目標6" />
+<ISA id="1591757272967_isa62" parent="持続可能な開発目標" child="目標7" />
+<ISA id="1591757272967_isa63" parent="持続可能な開発目標" child="目標8" />
+<ISA id="1591757272967_isa64" parent="持続可能な開発目標" child="目標9" />
+<ISA id="1591757272967_isa65" parent="持続可能な開発目標" child="目標10" />
+<ISA id="1591757272967_isa66" parent="持続可能な開発目標" child="目標11" />
+<ISA id="1591757272967_isa67" parent="持続可能な開発目標" child="目標12" />
+<ISA id="1591757272967_isa68" parent="持続可能な開発目標" child="目標13" />
+<ISA id="1591757272967_isa69" parent="持続可能な開発目標" child="目標14" />
+<ISA id="1591757272967_isa70" parent="持続可能な開発目標" child="目標15" />
+<ISA id="1591757272967_isa71" parent="持続可能な開発目標" child="目標16" />
+<ISA id="1591757272967_isa72" parent="持続可能な開発目標" child="目標17" />
+<ISA id="1603084036480_isa99" parent="Any" child="対象" />
+<ISA id="1603084036480_isa102" parent="Any" child="目的" />
+<ISA id="1604290683270_isa149" parent="目的" child="生活改善" />
+<ISA id="1604290683270_isa150" parent="生活改善" child="貧困解決" />
+<ISA id="1604290683270_isa151" parent="生活改善" child="飢餓解決" />
+<ISA id="1604290683270_isa153" parent="生活改善" child="健康な生活の確保" />
+<ISA id="1604290683270_isa154" parent="生活改善" child="水と衛生利用、持続可能管理を確保" />
+<ISA id="1604290683270_isa155" parent="目的" child="格差改善" />
+<ISA id="1604290683270_isa156" parent="格差改善" child="ジェンダー平等を達成" />
+<ISA id="1604290683270_isa157" parent="生活改善" child="質の高い教育の提供" />
+<ISA id="1604290683270_isa158" parent="目的" child="経済活性化" />
+<ISA id="1604290683270_isa159" parent="経済活性化" child="近代的なエネルギーの確保" />
+<ISA id="1604290683270_isa160" parent="経済活性化" child="経済成長" />
+<ISA id="1604290683270_isa161" parent="経済活性化" child="雇用促進" />
+<ISA id="1604290683270_isa162" parent="経済活性化" child="産業化" />
+<ISA id="1604290683270_isa163" parent="経済活性化" child="イノベーションの促進" />
+<ISA id="1604290683270_isa164" parent="格差改善" child="不平等是正" />
+<ISA id="1604290683270_isa165" parent="生活改善" child="人間居住実現" />
+<ISA id="1604290683270_isa166" parent="経済活性化" child="持続可能な都市" />
+<ISA id="1604290683270_isa167" parent="目的" child="環境保護" />
+<ISA id="1604290683270_isa168" parent="環境保護" child="陸域生態系保護・回復" />
+<ISA id="1604290683270_isa169" parent="環境保護" child="森林の経営" />
+<ISA id="1604290683270_isa170" parent="環境保護" child="砂漠化への対処" />
+<ISA id="1604290683270_isa171" parent="環境保護" child="土地劣化の阻止" />
+<ISA id="1604291528358_isa175" parent="環境保護" child="回復生物多様性の損失阻止" />
+<ISA id="1604291528358_isa176" parent="環境保護" child="海洋・海洋資源の保全・利用" />
+<ISA id="1604291585771_isa177" parent="経済活性化" child="持続可能な生産消費形態を確保" />
+<ISA id="1604291585771_isa178" parent="環境保護" child="持続可能な利用の推進" />
+<ISA id="1604291749850_isa183" parent="格差改善" child="平和で包摂的な社会促進" />
+<ISA id="1604291749850_isa184" parent="生活改善" child="司法へのアクセスを提供" />
+<ISA id="1604291749850_isa185" parent="生活改善" child="農業促進" />
+<ISA id="1604291749850_isa186" parent="生活改善" child="効果的で説明責任のある包摂的な制度構築" />
+<ISA id="1604291749850_isa187" parent="経済活性化" child="持続可能な開発のための実施手段強化" />
+<ISA id="1604291749850_isa188" parent="格差改善" child="グローバル・パートナーシップ活性化" />
+<ISA id="1604291927943_isa186" parent="対象" child="人物" />
+<ISA id="1604291927943_isa187" parent="人物" child="成人" />
+<ISA id="1604291927943_isa190" parent="地球" child="土地" />
+<ISA id="1604291927943_isa191" parent="地球" child="海" />
+<ISA id="1604291927943_isa193" parent="世界" child="各国" />
+<ISA id="1604291927943_isa194" parent="世界" child="都市" />
+<ISA id="1606196333557_isa179" parent="目標1" child="目標1.1" />
+<ISA id="1606717216706_isa203" parent="目標1" child="目標1.2" />
+<ISA id="1606717216706_isa205" parent="目標1" child="目標1.4" />
+<ISA id="1606717216706_isa206" parent="目標1" child="目標1.5" />
+<ISA id="1606717216706_isa207" parent="目標1" child="目標1.a" />
+<ISA id="1606717216706_isa208" parent="目標1" child="目標1.b" />
+<ISA id="1607490729240_isa266" parent="目的1.3" child="各国において最低限の基準を含む適切な社会保護制度及び対策を実施し、2030 年までに貧困層及び脆弱層に対し十分な保護を達成する。" />
+<ISA id="1607919886029_isa262" parent="目標1.1" child="2030 年までに、現在 1 日 1.25 ドル未満で生活する人々と定義されている極度の貧困 をあらゆる場所で終わらせる。" />
+<ISA id="1607919886029_isa263" parent="目標1.2" child="2030 年までに、各国定義によるあらゆる次元の貧困状態にある、すべての年齢の男性、女性、子どもの割合を半減させる。" />
+<ISA id="1607919886029_isa264" parent="目標1" child="目的1.3" />
+<ISA id="1607919886029_isa265" parent="目標1.4" child="2030 年までに、貧困層及び脆弱層をはじめ、すべての男性及び女性が、基礎的サービスへのアクセス、土地及びその他の形態の財産に対する所有権と管理権限、相続財産、 天然資源、適切な新技術、マイクロファイナンスを含む金融サービスに加え、経済的資源についても平等な権利を持つことができるように確保する。" />
+<ISA id="1608085554219_isa270" parent="場所" child="世界" />
+<ISA id="1608085554219_isa271" parent="人物" child="子供" />
+<ISA id="1608085554219_isa272" parent="人物" child="男性" />
+<ISA id="1608085554219_isa273" parent="人物" child="女性" />
+<ISA id="1608085554219_isa274" parent="場所" child="地球" />
+<ISA id="1608085554219_isa275" parent="Any" child="場所" />
+<ISA id="1608086193414_isa268" parent="目標1.5" child="2030 年までに、貧困層や脆弱な状況にある人々の強靱性（レジリエンス）を構築し、 気候変動に関連する極端な気象現象やその他の経済、社会、環境的ショックや災害に対する暴露や脆弱性を軽減する。" />
+<ISA id="1608096038645_isa270" parent="目標1.b" child="貧困撲滅のための行動への投資拡大を支援するため、国、地域及び国際レベルで、貧困層やジェンダーに配慮した開発戦略に基づいた適正な政策的枠組みを構築する。" />
+<ISA id="1608279403499_isa290" parent="目標2" child="目標2.1" />
+<ISA id="1608279403499_isa291" parent="目標2" child="目標2.2" />
+<ISA id="1608279403499_isa292" parent="目標2" child="目標2.3" />
+<ISA id="1608279403499_isa293" parent="目標2" child="目標2.4" />
+<ISA id="1608279403499_isa294" parent="目標2" child="目標2.5" />
+<ISA id="1608279403499_isa295" parent="目標2" child="目標2.a" />
+<ISA id="1608279403499_isa296" parent="目標2" child="目標2.b" />
+<ISA id="1608279403499_isa297" parent="目標2" child="目標2.c" />
+<ISA id="1608279403499_isa298" parent="目標2.1" child="2030年までに、飢餓を撲滅し、すべての人々、特に貧困層及び幼児を含む脆弱な立場にある人々が一年中安全かつ栄養のある食料を十分得られるようにする。" />
+<ISA id="1608279403499_isa299" parent="目標2.2" child="5歳未満の子どもの発育阻害や消耗性疾患について国際的に合意されたターゲットを2025年までに達成するなど、2030 年までにあらゆる形態の栄養不良を解消し、若年女子、妊婦・授乳婦及び高齢者の栄養ニーズへの対処を行う。" />
+<ISA id="1608279403499_isa300" parent="目標2.3" child="2030年までに、土地、その他の生産資源や、投入財、知識、金融サービス、市場及び高付加価値化や非農業雇用の機会への確実かつ平等なアクセスの確保などを通じて、女性、先住民、家族農家、牧畜民及び漁業者をはじめとする小規模食料生産者の農業生産性及び所得を倍増させる。" />
+<ISA id="1608279403499_isa301" parent="目標2.4" child="2030年までに、生産性を向上させ、生産量を増やし、生態系を維持し、気候変動や極端な気象現象、干ばつ、洪水及びその他の災害に対する適応能力を向上させ、漸進的に土地と土壌の質を改善させるような、持続可能な食料生産システムを確保し、強靭（レジリエント）な農業を実践する。" />
+<ISA id="1608279403499_isa302" parent="目標2.5" child="2020年までに、国、地域及び国際レベルで適正に管理及び多様化された種子・植物バンクなども通じて、種子、栽培植物、飼育・家畜化された動物及びこれらの近縁野生種の遺伝的多様性を維持し、国際的合意に基づき、遺伝資源及びこれに関連する伝的な知識へのアクセス及びその利用から生じる利益の公正かつ衡平な配分を促進する。" />
+<ISA id="1608279403499_isa303" parent="目標2.a" child="開発途上国、特に後発開発途上国における農業生産能力向上のために、国際協力の強化などを通じて、農村インフラ、農業研究・普及サービス、技術開発及び植物・家畜のジーン・バンクへの投資の拡大を図る。" />
+<ISA id="1608279403499_isa304" parent="目標2.b" child="ドーハ開発ラウンドの決議に従い、すべての形態の農産物輸出補助金及び同等の効果を持つすべての輸出措置の並行的撤廃などを通じて、世界の農産物市場における貿易制限や歪みを是正及び防止する。" />
+<ISA id="1608279403499_isa305" parent="目標2.c" child="食料価格の極端な変動に歯止めをかけるため、食料市場及びデリバティブ市場の適正な機能を確保するための措置を講じ、食料備蓄などの市場情報への適時のアクセスを容易にする" />
+<ISA id="1609864578864_isa348" parent="目標3.1" child="2030 年までに、世界の妊産婦の死亡率を出生 10 万人当たり 70 人未満に削減する。" />
+<ISA id="1609864578864_isa349" parent="目標3.2" child="すべての国が新生児死亡率を少なくとも出生 1,000 件中 12 件以下まで減らし、5 歳以下死亡率を少なくとも出生 1,000 件中 25 件以下まで減らすことを目指し、2030 年までに、新生児及び 5 歳未満児の予防可能な死亡を根絶する。" />
+<ISA id="1609864578864_isa350" parent="目標3.3" child="2030 年までに、エイズ、結核、マラリア及び顧みられない熱帯病といった伝染病を根絶するとともに肝炎、水系感染症及びその他の感染症に対処する。" />
+<ISA id="1609864578864_isa351" parent="目標3.4" child="2030 年までに、非感染性疾患による若年死亡率を、予防や治療を通じて 3 分の 1 減少させ、精神保健及び福祉を促進する。" />
+<ISA id="1609864578864_isa352" parent="目標3.5" child="薬物乱用やアルコールの有害な摂取を含む、物質乱用の防止・治療を強化する。" />
+<ISA id="1609864578864_isa353" parent="目標3.6" child="2020 年までに、世界の道路交通事故による死傷者を半減させる。" />
+<ISA id="1609864578864_isa354" parent="目標3.7" child="2030 年までに、家族計画、情報・教育及び性と生殖に関する健康の国家戦略・計画への組み入れを含む、性と生殖に関する保健サービスをすべての人々が利用できるようにする。" />
+<ISA id="1609864578864_isa355" parent="目標3.8" child="すべての人々に対する財政リスクからの保護、質の高い基礎的な保健サービスへのアクセス及び安全で効果的かつ質が高く安価な必須医薬品とワクチンへのアクセスを含む、ユニバーサル・ヘルス・カバレッジ（UHC）を達成する。" />
+<ISA id="1609864578864_isa356" parent="目標3.9" child="2030 年までに、有害化学物質、ならびに大気、水質及び土壌の汚染による死亡及び疾病の件数を大幅に減少させる。" />
+<ISA id="1609864578864_isa357" parent="目標3.a" child="すべての国々において、たばこの規制に関する世界保健機関枠組条約の実施を適宜強化する。" />
+<ISA id="1609864578864_isa358" parent="目標3.b" child="主に開発途上国に影響を及ぼす感染性及び非感染性疾患のワクチン及び医薬品の研究開発を支援する。また、知的所有権の貿易関連の側面に関する協定（TRIPS 協定）及び公衆の健康に関するドーハ宣言に従い、安価な必須医薬品及びワクチンへのアクセスを提供する。同宣言は公衆衛生保護及び、特にすべての人々への医薬品のアクセス提供にかかわる「知的所有権の貿易関連の側面に関する協定（TRIPS 協定）」の柔軟性に関する規定を最大限に行使する開発途上国の権利を確約したものである。" />
+<ISA id="1609864578864_isa359" parent="目標3.c" child="開発途上国、特に後発開発途上国及び小島嶼開発途上国において保健財政及び保健人材の採用、能力開発・訓練及び定着を大幅に拡大させる。" />
+<ISA id="1609864578864_isa360" parent="目標3.d" child="すべての国々、特に開発途上国の国家・世界規模な健康危険因子の早期警告、危険因子緩和及び危険因子管理のための能力を強化する。" />
+<ISA id="1609864578864_isa361" parent="目標3" child="目標3.1" />
+<ISA id="1609864578864_isa362" parent="目標3" child="目標3.2" />
+<ISA id="1609864578864_isa363" parent="目標3" child="目標3.3" />
+<ISA id="1609864578864_isa364" parent="目標3" child="目標3.4" />
+<ISA id="1609864578864_isa365" parent="目標3" child="目標3.5" />
+<ISA id="1609864578864_isa366" parent="目標3" child="目標3.6" />
+<ISA id="1609864578864_isa367" parent="目標3" child="目標3.7" />
+<ISA id="1609864578864_isa368" parent="目標3" child="目標3.8" />
+<ISA id="1609864578864_isa369" parent="目標3" child="目標3.9" />
+<ISA id="1609864578864_isa370" parent="目標3" child="目標3.a" />
+<ISA id="1609864578864_isa371" parent="目標3" child="目標3.b" />
+<ISA id="1609864578864_isa372" parent="目標3" child="目標3.c" />
+<ISA id="1609864578864_isa373" parent="目標3" child="目標3.d" />
+<ISA id="1609864578864_isa374" parent="人物" child="全員" />
+<ISA id="1609864578864_isa375" parent="目標4" child="目標4.1" />
+<ISA id="1609864578864_isa376" parent="目標5" child="目標5.1" />
+<ISA id="1609864578864_isa385" parent="目標4" child="目標4.2" />
+<ISA id="1609864578864_isa386" parent="目標4" child="目標4.3" />
+<ISA id="1609864578864_isa387" parent="目標4" child="目標4.4" />
+<ISA id="1609864578864_isa388" parent="目標4" child="目標4.5" />
+<ISA id="1609864578864_isa389" parent="目標4" child="目標4.6" />
+<ISA id="1609864578864_isa390" parent="目標4" child="目標4.7" />
+<ISA id="1609864578864_isa391" parent="目標4" child="目標4.a" />
+<ISA id="1609864578864_isa392" parent="目標4" child="目標4.b" />
+<ISA id="1609864578864_isa393" parent="目標4" child="目標4.c" />
+<ISA id="1609908925332_isa386" parent="目標5" child="目標5.2" />
+<ISA id="1609908925332_isa387" parent="目標5" child="目標5.3" />
+<ISA id="1609908925332_isa388" parent="目標5" child="目標5.4" />
+<ISA id="1609908925332_isa389" parent="目標5" child="目標5.5" />
+<ISA id="1609908925332_isa390" parent="目標5" child="目標5.6" />
+<ISA id="1609908925332_isa391" parent="目標5" child="目標5.a" />
+<ISA id="1609908925332_isa392" parent="目標5" child="目標5.b" />
+<ISA id="1609908925332_isa393" parent="目標5.b" child="目標5.c" />
+<ISA id="1609909391700_isa407" parent="目標6" child="目標6.1" />
+<ISA id="1609909391700_isa408" parent="目標7" child="目標7.1" />
+<ISA id="1609909391700_isa409" parent="目標6" child="目標6.2" />
+<ISA id="1609909391700_isa410" parent="目標6" child="目標6.3" />
+<ISA id="1609909391700_isa411" parent="目標6" child="目標6.4" />
+<ISA id="1609909391700_isa412" parent="目標6" child="目標6.5" />
+<ISA id="1609909391700_isa413" parent="目標6" child="目標6.6" />
+<ISA id="1609909391700_isa414" parent="目標6" child="目標6.a" />
+<ISA id="1609909391700_isa415" parent="目標6" child="目標6.b" />
+<ISA id="1609909391700_isa416" parent="目標7" child="目標7.2" />
+<ISA id="1609909391700_isa417" parent="目標7" child="目標7.3" />
+<ISA id="1609909391700_isa418" parent="目標7" child="目標7.a" />
+<ISA id="1609909391700_isa419" parent="目標7" child="目標7.b" />
+<ISA id="1609909706658_isa450" parent="目標8" child="目標8.1" />
+<ISA id="1609909706658_isa451" parent="目標8" child="目標8.2" />
+<ISA id="1609909706658_isa452" parent="目標8" child="目標8.3" />
+<ISA id="1609909706658_isa453" parent="目標8" child="目標8.4" />
+<ISA id="1609909706658_isa454" parent="目標8" child="目標8.5" />
+<ISA id="1609909706658_isa455" parent="目標8" child="目標8.6" />
+<ISA id="1609909706658_isa456" parent="目標8" child="目標8.7" />
+<ISA id="1609909706658_isa457" parent="目標8" child="目標8.8" />
+<ISA id="1609909706658_isa458" parent="目標8" child="目標8.9" />
+<ISA id="1609909706658_isa459" parent="目標8" child="目標8.10" />
+<ISA id="1609909706658_isa460" parent="目標8" child="目標8.a" />
+<ISA id="1609909706658_isa461" parent="目標8" child="目標8.b" />
+<ISA id="1609909706658_isa462" parent="目標9" child="目標9.1" />
+<ISA id="1609909706658_isa463" parent="目標9" child="目標9.2" />
+<ISA id="1609909706658_isa464" parent="目標9" child="目標9.3" />
+<ISA id="1609909706658_isa465" parent="目標9" child="目標9.4" />
+<ISA id="1609909706658_isa466" parent="目標9" child="目標9.5" />
+<ISA id="1609909706658_isa467" parent="目標9" child="目標9.a" />
+<ISA id="1609909706658_isa468" parent="目標9" child="目標9.b" />
+<ISA id="1609909706658_isa469" parent="目標9" child="目標9.c" />
+<ISA id="1609910484010_isa480" parent="目標10" child="目標10.1" />
+<ISA id="1609910484010_isa481" parent="目標10" child="目標10.2" />
+<ISA id="1609910484010_isa482" parent="目標10" child="目標10.3" />
+<ISA id="1609910484010_isa483" parent="目標10" child="目標10.4" />
+<ISA id="1609910484010_isa484" parent="目標10" child="目標10.5" />
+<ISA id="1609910484010_isa485" parent="目標10" child="目標10.6" />
+<ISA id="1609910484010_isa486" parent="目標10" child="目標10.7" />
+<ISA id="1609910484010_isa487" parent="目標10" child="目標10.a" />
+<ISA id="1609910484010_isa488" parent="目標10" child="目標10.b" />
+<ISA id="1609910484010_isa489" parent="目標10" child="目標10.c" />
+<ISA id="1609910484010_isa490" parent="目標11" child="目標11.1" />
+<ISA id="1609910484010_isa491" parent="目標11" child="目標11.2" />
+<ISA id="1609910484010_isa492" parent="目標11" child="目標11.3" />
+<ISA id="1609910484010_isa493" parent="目標11" child="目標11.4" />
+<ISA id="1609910484010_isa494" parent="目標11" child="目標11.5" />
+<ISA id="1609910484010_isa495" parent="目標11" child="目標11.6" />
+<ISA id="1609910484010_isa496" parent="目標11" child="目標11.7" />
+<ISA id="1609910484010_isa497" parent="目標11" child="目標11.a" />
+<ISA id="1609910484010_isa498" parent="目標11" child="目標11.b" />
+<ISA id="1609910484010_isa499" parent="目標11" child="目標11.c" />
+<ISA id="1609910831298_isa511" parent="目標12" child="目標12.1" />
+<ISA id="1609910831298_isa512" parent="目標12" child="目標12.2" />
+<ISA id="1609910831298_isa513" parent="目標12" child="目標12.3" />
+<ISA id="1609910831298_isa514" parent="目標12" child="目標12.4" />
+<ISA id="1609910831298_isa515" parent="目標12" child="目標12.5" />
+<ISA id="1609910831298_isa516" parent="目標12" child="目標12.6" />
+<ISA id="1609910831298_isa517" parent="目標12" child="目標12.7" />
+<ISA id="1609910831298_isa518" parent="目標12" child="目標12.8" />
+<ISA id="1609910831298_isa519" parent="目標12" child="目標12.a" />
+<ISA id="1609910831298_isa520" parent="目標12" child="目標12.b" />
+<ISA id="1609910831298_isa521" parent="目標12" child="目標12.c" />
+<ISA id="1609911418781_isa537" parent="目標13" child="目標13.1" />
+<ISA id="1609911418781_isa538" parent="目標13" child="目標13.2" />
+<ISA id="1609911418781_isa539" parent="目標13" child="目標13.3" />
+<ISA id="1609911418781_isa540" parent="目標13" child="目標13.a" />
+<ISA id="1609911418781_isa541" parent="目標13" child="目標13.b" />
+<ISA id="1609911418781_isa542" parent="目標14" child="目標14.1" />
+<ISA id="1609911418781_isa543" parent="目標14" child="目標14.2" />
+<ISA id="1609911418781_isa544" parent="目標14" child="目標14.3" />
+<ISA id="1609911418781_isa545" parent="目標14" child="目標14.4" />
+<ISA id="1609911418781_isa546" parent="目標14" child="目標14.5" />
+<ISA id="1609911418781_isa547" parent="目標14" child="目標14.6" />
+<ISA id="1609911418781_isa548" parent="目標14" child="目標14.7" />
+<ISA id="1609911418781_isa549" parent="目標14" child="目標14.a" />
+<ISA id="1609911418781_isa550" parent="目標14" child="目標14.b" />
+<ISA id="1609911418781_isa551" parent="目標14" child="目標14.c" />
+<ISA id="1609911791239_isa564" parent="目標15" child="目標15.1" />
+<ISA id="1609911791239_isa565" parent="目標15" child="目標15.2" />
+<ISA id="1609911791239_isa566" parent="目標15" child="目標15.3" />
+<ISA id="1609911791239_isa567" parent="目標15" child="目標15.4" />
+<ISA id="1609911791239_isa568" parent="目標15" child="目標15.5" />
+<ISA id="1609911791239_isa569" parent="目標15" child="目標15.6" />
+<ISA id="1609911791239_isa570" parent="目標15" child="目標15.7" />
+<ISA id="1609911791239_isa571" parent="目標15" child="目標15.8" />
+<ISA id="1609911791239_isa572" parent="目標15" child="目標15.9" />
+<ISA id="1609911791239_isa573" parent="目標15" child="目標15.a" />
+<ISA id="1609911791239_isa574" parent="目標15" child="目標15.b" />
+<ISA id="1609911791239_isa575" parent="目標15" child="目標15.c" />
+<ISA id="1609912077051_isa588" parent="目標16" child="目標16.1" />
+<ISA id="1609912077051_isa589" parent="目標16" child="目標16.2" />
+<ISA id="1609912077051_isa590" parent="目標16" child="目標16.3" />
+<ISA id="1609912077051_isa591" parent="目標16" child="目標16.4" />
+<ISA id="1609912077051_isa592" parent="目標16" child="目標16.5" />
+<ISA id="1609912077051_isa593" parent="目標16" child="目標16.6" />
+<ISA id="1609912077051_isa594" parent="目標16" child="目標16.7" />
+<ISA id="1609912077051_isa595" parent="目標16" child="目標16.8" />
+<ISA id="1609912077051_isa596" parent="目標16" child="目標16.9" />
+<ISA id="1609912077051_isa597" parent="目標16" child="目標16.10" />
+<ISA id="1609912077051_isa598" parent="目標16" child="目標16.a" />
+<ISA id="1609912077051_isa599" parent="目標16" child="目標16.b" />
+<ISA id="1609912283778_isa619" parent="目標17" child="目標17.1" />
+<ISA id="1609912283778_isa620" parent="目標17" child="目標17.2" />
+<ISA id="1609912283778_isa621" parent="目標17" child="目標17.3" />
+<ISA id="1609912283778_isa622" parent="目標17" child="目標17.4" />
+<ISA id="1609912283778_isa623" parent="目標17" child="目標17.5" />
+<ISA id="1609912283778_isa624" parent="目標17" child="目標17.6" />
+<ISA id="1609912283778_isa625" parent="目標17" child="目標17.7" />
+<ISA id="1609912283778_isa626" parent="目標17" child="目標17.8" />
+<ISA id="1609912283778_isa627" parent="目標17" child="目標17.9" />
+<ISA id="1609912283778_isa628" parent="目標17" child="目標17.10" />
+<ISA id="1609912283778_isa629" parent="目標17" child="目標17.11" />
+<ISA id="1609912283778_isa630" parent="目標17" child="目標17.12" />
+<ISA id="1609912283778_isa631" parent="目標17" child="目標17.13" />
+<ISA id="1609912283778_isa632" parent="目標17" child="目標17.14" />
+<ISA id="1609912283778_isa633" parent="目標17" child="目標17.15" />
+<ISA id="1609912283778_isa634" parent="目標17" child="目標17.16" />
+<ISA id="1609912283778_isa635" parent="目標17" child="目標17.17" />
+<ISA id="1609912283778_isa636" parent="目標17" child="目標17.18" />
+<ISA id="1609912283778_isa637" parent="目標17" child="目標17.19" />
+<ISA id="1612153755833_isa833" parent="目標1.a" child="あらゆる次元での貧困を終わらせるための計画や政策を実施するべく、後発開発途上 国をはじめとする開発途上国に対して適切かつ予測可能な手段を講じるため、開発協力の強化などを通じて、さまざまな供給源からの相当量の資源の動員を確保する。" />
+<ISA id="1614230880455_isa845" parent="Any" child="単語" />
+<ISA id="1614230880455_isa846" parent="単語" child="制度" />
+<ISA id="1614230880455_isa847" parent="単語" child="脆弱" />
+<ISA id="1614230880455_isa848" parent="単語" child="マイクロファイナンス" />
+<ISA id="1614230880455_isa849" parent="単語" child="金融サービス" />
+<ISA id="1614230880455_isa850" parent="単語" child="経済的" />
+<ISA id="1614230880455_isa851" parent="単語" child="資源" />
+<ISA id="1614230880455_isa852" parent="単語" child="新技術" />
+<ISA id="1614230880455_isa853" parent="単語" child="所有権" />
+<ISA id="1614230880455_isa854" parent="単語" child="保護" />
+<ISA id="1614230880455_isa855" parent="単語" child="対策" />
+<ISA id="1614230880455_isa856" parent="単語" child="1.25ドル未満" />
+<ISA id="1614230880455_isa857" parent="単語" child="暴露" />
+<ISA id="1614230880455_isa858" parent="単語" child="脆弱性" />
+<ISA id="1614230880455_isa859" parent="人物" child="子ども" />
+<ISA id="1614230880455_isa860" parent="人物" child="ジェンダー" />
+<ISA id="1614230880455_isa861" parent="対象" child="貧困層" />
+<ISA id="1614230880455_isa862" parent="対象" child="貧困" />
+<ISA id="1614230880455_isa864" parent="人物" child="貧困状態のすべての男性、 女性、子ども" />
+<ISA id="1614230880455_isa865" parent="人物" child="1日1.25ドル未満で生活する人々" />
+<ISA id="1614230880455_isa866" parent="人物" child="脆弱な状況にある人々" />
+<ISA id="1614231370048_isa907" parent="Any" child="脆弱層" />
+<ISA id="1614231370048_isa908" parent="目的" child="強靱性（レジリエンス）を構築" />
+<ISA id="1614231370048_isa909" parent="目的" child="暴露や脆弱性を軽減" />
+<ISA id="1614231370048_isa910" parent="目的" child="支援" />
+<ISA id="1614231370048_isa911" parent="目的" child="軽減する" />
+<ISA id="1614231370048_isa912" parent="格差改善" child="貧困撲滅" />
+<ISA id="1614231370048_isa913" parent="格差改善" child="貧困の割合を半減" />
+<ISA id="1614231370048_isa914" parent="格差改善" child="平等な権利の獲得" />
+<ISA id="1614231370048_isa915" parent="生活改善" child="十分な保護" />
+<ISA id="1614231370048_isa916" parent="生活改善" child="社会保護対策" />
+<ISA id="1614231370048_isa917" parent="生活改善" child="社会保護制度" />
+<ISA id="1614231370048_isa918" parent="生活改善" child="適正な政策的枠組みを構築" />
+<ISA id="1614231370048_isa919" parent="生活改善" child="さまざまな供給源からの相当量の資源の動員を確保" />
+<ISA id="1614231370048_isa920" parent="経済活性化" child="投資拡大" />
+<ISA id="1614231370048_isa921" parent="対象" child="気象現象" />
+<ISA id="1614231370048_isa922" parent="対象" child="国" />
+<ISA id="1614231370048_isa923" parent="国" child="開発途上国" />
+<ISA id="1614231370048_isa924" parent="国" child="後発開発途上国" />
+<ISA id="1614231370048_isa925" parent="権限" child="土地及びその他の形態の財産に対する所有権" />
+<ISA id="1614231370048_isa926" parent="権限" child="管理権限" />
+<ISA id="1614231370048_isa927" parent="権限" child="相続財産" />
+<ISA id="1614231370048_isa928" parent="権限" child="天然資源" />
+<ISA id="1614231370048_isa929" parent="権限" child="適切な新技術" />
+<ISA id="1614231370048_isa930" parent="権限" child="マイクロファイナンスを含む金融サービス" />
+<ISA id="1614231370048_isa931" parent="権限" child="経済的資源" />
+<ISA id="1614231370048_isa932" parent="Any" child="権限" />
+<ISA id="1614231370048_isa933" parent="単語" child="強靱性（レジリエンス）" />
+<ISA id="1614231370048_isa934" parent="内容" child="気候変動" />
+<ISA id="1614231370048_isa935" parent="内容" child="経済" />
+<ISA id="1614231370048_isa936" parent="内容" child="社会" />
+<ISA id="1614231370048_isa937" parent="内容" child="環境的ショック" />
+<ISA id="1614231370048_isa938" parent="内容" child="災害" />
+<ISA id="1614231370048_isa939" parent="内容" child="相当量の資源の動員" />
+<ISA id="1614231370048_isa940" parent="内容" child="開発協力" />
+<ISA id="1614231370048_isa941" parent="内容" child="予測可能な手段" />
+<ISA id="1614231370048_isa942" parent="内容" child="国際レベル" />
+<ISA id="1614231370048_isa943" parent="内容" child="開発戦略" />
+<ISA id="1614231370048_isa944" parent="内容" child="政策的枠組み" />
+<ISA id="1614231370048_isa945" parent="Any" child="内容" />
+<ISA id="1614231370048_isa946" parent="頻度" child="極度" />
+<ISA id="1614231370048_isa947" parent="割合" child="半減" />
+<ISA id="1614231370048_isa948" parent="Any" child="割合" />
+<ISA id="1614231370048_isa949" parent="Any" child="頻度" />
+<ISA id="1614232444106_isa973" parent="経済活性化" child="産業化とイノベーションの促進" />
+<ISA id="1614232444106_isa974" parent="経済活性化" child="経済発展" />
+<ISA id="1614232444106_isa975" parent="経済活性化" child="福祉支援" />
+<ISA id="1614232444106_isa976" parent="経済活性化" child="インフラ開発" />
+<ISA id="1614232444106_isa977" parent="経済活性化" child="産業化促進" />
+<ISA id="1614232444106_isa978" parent="経済活性化" child="雇用増加" />
+<ISA id="1614232444106_isa979" parent="経済活性化" child="割合増加" />
+<ISA id="1614232444106_isa980" parent="経済活性化" child="アクセス拡大" />
+<ISA id="1614232444106_isa981" parent="経済活性化" child="資源利用効率の向上" />
+<ISA id="1614232444106_isa982" parent="経済活性化" child="持続可能性の向上" />
+<ISA id="1614232444106_isa983" parent="経済活性化" child="技術能力を向上" />
+<ISA id="1614232444106_isa984" parent="経済活性化" child="持続可能かつ強靱（レジリエント）なインフラ開発を促進" />
+<ISA id="1614232444106_isa986" parent="経済活性化" child="技術開発を支援" />
+<ISA id="1614232444106_isa987" parent="経済活性化" child="研究を支援" />
+<ISA id="1614232444106_isa988" parent="経済活性化" child="イノベーションを支援" />
+<ISA id="1614232444106_isa989" parent="経済活性化" child="インターネット・アクセスを提供" />
+<ISA id="1614232444106_isa990" parent="国" child="アフリカ諸国" />
+<ISA id="1614232444106_isa991" parent="国" child="陸開発途上国" />
+<ISA id="1614232444106_isa992" parent="国" child="小島嶼開発途上国" />
+<ISA id="1614232444106_isa993" parent="人物" child="すべての人々" />
+<ISA id="1614232444106_isa994" parent="人物" child="官民" />
+<ISA id="1614232444106_isa995" parent="人物" child="従事者" />
+<ISA id="1614232920500_isa1003" parent="Any" child="目標" />
+<ISA id="1614232920500_isa1004" parent="目標" child="科学研究を促進" />
+<ISA id="1614232920500_isa1005" parent="目標" child="イノベーションを促進" />
+<ISA id="1614232920500_isa1006" parent="目標" child="100 万人当たりの研究開発従事者数を大幅に増加" />
+<ISA id="1614232920500_isa1007" parent="目標" child="官民研究開発の支出を拡大" />
+<ISA id="1614232920500_isa1008" parent="目標" child="金融・テクノロジー・技術の支援強化" />
+<ISA id="1614232920500_isa1009" parent="目標" child="商品への付加価値創造などに資する政策環境の確保" />
+<ISA id="1614232920500_isa1010" parent="目標" child="情報通信技術へのアクセスを大幅に向上" />
+<ISA id="1614240066904_isa1064" parent="目標" child="産業の多様化" />
+<ISA id="1614240066904_isa1065" parent="単語" child="公平なアクセス" />
+<ISA id="1614240066904_isa1066" parent="単語" child="アクセス" />
+<ISA id="1614240066904_isa1067" parent="単語" child="イノベーション" />
+<ISA id="1614240066904_isa1068" parent="単語" child="発展" />
+<ISA id="1614240066904_isa1069" parent="単語" child="福祉" />
+<ISA id="1614240066904_isa1070" parent="単語" child="地域インフラ" />
+<ISA id="1614240066904_isa1071" parent="単語" child="越境インフラ" />
+<ISA id="1614240066904_isa1072" parent="単語" child="持続可能" />
+<ISA id="1614240066904_isa1073" parent="単語" child="持続" />
+<ISA id="1614240066904_isa1074" parent="単語" child="強靱（レジリエント）" />
+<ISA id="1614240066904_isa1075" parent="単語" child="インフラ" />
+<ISA id="1614240066904_isa1076" parent="単語" child="包摂的" />
+<ISA id="1614240066904_isa1077" parent="単語" child="雇用" />
+<ISA id="1614240066904_isa1078" parent="単語" child="GDP" />
+<ISA id="1614240066904_isa1079" parent="単語" child="産業セクター割合" />
+<ISA id="1614240066904_isa1080" parent="単語" child="産業セクター" />
+<ISA id="1614240066904_isa1081" parent="単語" child="倍増" />
+<ISA id="1614240066904_isa1082" parent="単語" child="安価" />
+<ISA id="1614240066904_isa1083" parent="単語" child="資金貸付" />
+<ISA id="1614240066904_isa1084" parent="単語" child="金融" />
+<ISA id="1614240066904_isa1085" parent="単語" child="バリューチェーン" />
+<ISA id="1614240066904_isa1086" parent="単語" child="市場への統合" />
+<ISA id="1614240066904_isa1087" parent="単語" child="市場" />
+<ISA id="1614240066904_isa1088" parent="単語" child="小規模の製造業" />
+<ISA id="1614240066904_isa1089" parent="単語" child="製造業" />
+<ISA id="1614240066904_isa1090" parent="単語" child="その他の企業" />
+<ISA id="1614240066904_isa1091" parent="単語" child="クリーン技術" />
+<ISA id="1614240066904_isa1092" parent="単語" child="クリーン" />
+<ISA id="1614240066904_isa1093" parent="単語" child="環境に配慮した技術" />
+<ISA id="1614240066904_isa1094" parent="単語" child="技術" />
+<ISA id="1614240066904_isa1095" parent="単語" child="インフラ改良" />
+<ISA id="1614240066904_isa1096" parent="単語" child="改良" />
+<ISA id="1614240066904_isa1097" parent="単語" child="促進" />
+<ISA id="1614240066904_isa1098" parent="単語" child="研究開発従事者数" />
+<ISA id="1614240066904_isa1099" parent="単語" child="官民研究開発" />
+<ISA id="1614240066904_isa1100" parent="単語" child="科学" />
+<ISA id="1614240066904_isa1101" parent="単語" child="研究" />
+<ISA id="1614240066904_isa1102" parent="単語" child="向上" />
+<ISA id="1614240066904_isa1103" parent="単語" child="テクノロジー" />
+<ISA id="1614240066904_isa1104" parent="単語" child="支援強化" />
+<ISA id="1614240066904_isa1105" parent="単語" child="多様化" />
+<ISA id="1614240066904_isa1106" parent="単語" child="産業" />
+<ISA id="1614240066904_isa1107" parent="単語" child="付加価値創造" />
+<ISA id="1614240066904_isa1108" parent="単語" child="付加価値" />
+<ISA id="1614240066904_isa1109" parent="単語" child="創造" />
+<ISA id="1614240066904_isa1110" parent="単語" child="情報通信技術" />
+<ISA id="1614240066904_isa1111" parent="単語" child="情報通信" />
+<ISA id="1614240066904_isa1112" parent="単語" child="普遍的" />
+<ISA id="1614240066904_isa1113" parent="単語" child="インターネット・アクセス" />
+<ISA id="1614240066904_isa1114" parent="単語" child="インターネット" />
+<ISA id="1614240066904_isa1115" parent="単語" child="政策環境" />
+<ISA id="1614240066904_isa1116" parent="単語" child="技術開発" />
+<ISA id="1614240066904_isa1117" parent="頻度" child="大幅" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="4256" h="4182" />
+<CONCEPT id="1607490729240_n267" >
+<LABEL>関連</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="260" y="20"/>
+<SLOTS>
+<SLOT id="1607490729240_s268" 
+ type="NW"  label="slot"  kind="p/i"  num="1"  role="role"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1607490729240_s269" 
+ type="NW"  label="slot2"  kind="p/i"  num="1"  role="role"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+<SLOT id="1610988183050_s700" 
+ type="NW"  label="slot3"  kind="p/o"  num="0..1"  role="role"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+</SLOT>
+</SLOTS>
+</CONCEPT>
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="75" />
+<PAGE_FORMAT w="841.8897637795276" h="595.275590551181" iw="697.8897637795276" ih="451.2755905511811" ix="72.0" iy="72.0" />
+<PRINTER_SETTINGS orientation="1" printername="EPSON EP-882A Series" />
+</PRINTER>
+</OE_FILE>

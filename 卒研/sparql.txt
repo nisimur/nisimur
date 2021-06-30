@@ -1,0 +1,130 @@
+1-a
+select ?o ?oLabel ?o2 ?o3Label ?o4
+where {
+wd:Q7105556 wdt:P131 ?o .
+wd:Q7105556 wdt:P571 ?o2 .
+wd:Q7105556 wdt:P31 ?o3 .  
+wd:Q7105556 wdt:P625 ?o4 .
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}
+
+
+1-b
+select ?o ?oLabel ?o2 ?o3Label ?o4
+where {
+wd:Q11375264 wdt:P131 ?o .
+wd:Q11375264 wdt:P571 ?o2 .
+wd:Q11375264 wdt:P31 ?o3 .  
+wd:Q11375264 wdt:P625 ?o4 .
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}
+
+
+2-a
+select ?s ?sLabel
+
+where {
+?s wdt:P31 wd:Q56351315 .
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}
+LIMIT 100
+
+
+2-b
+select ?s ?sLabel ?o ?o1
+where {
+?s wdt:P31 wd:Q56351315 .
+?s wdt:P17 wd:Q17 .
+?s wdt:P131 wd:Q34600 .
+?s wdt:P571 ?o.
+?s wdt:P625 ?o1.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}ORDER BY (?o)
+
+
+3-a
+select ?s ?sLabel ?country ?countryLabel
+where {
+?s wdt:P31 wd:Q56351315 .
+?s wdt:P17 ?country .
+?s wdt:P17 wd:Q17 .
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}
+LIMIT 100
+
+
+3-b
+select ?s ?sLabel ?o ?o1
+where {
+?s wdt:P31 wd:Q56351315 .
+?s wdt:P17 wd:Q17 .
+?s wdt:P131 wd:Q34600 .
+?s wdt:P571 ?o.
+?s wdt:P625 ?o1.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}ORDER BY (?o)
+
+
+補足１
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+select ?s ?sLabel 
+where {
+?s wdt:P31 wd:Q56351315 ;
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}
+LIMIT 100
+
+
+補足2
+select ?s ?sLabel ?country ?countryLabel
+where {
+?s wdt:P31 wd:Q56351315 ;
+ wdt:P17 ?country .
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}
+LIMIT 100
+
+
+補足３
+select ?o (lang(?o) AS ?ln)
+where {
+wd:Q11375264 rdfs:label ?o .
+FILTER (lang(?o) = "ja") .
+}
+
+
+補足４
+select (count (?s) AS ?c) where {
+?s wdt:P31 wd:Q56351315.
+}
+
+
+補足５
+select ?country ?countryLabel (count(?s) As ?c)
+where {
+?s wdt:P1435 wd:Q9259 .
+?s wdt:P17 ?country .
+SERVICE wikibase:label { bd:serviceParam wikibase:language "ja". }
+} GROUP BY ?country ?countryLabel
+
+
+補足６
+select ?s ?sLabel 
+where {
+?s wdt:P31/wdt:P279* wd:Q56351315.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "ja". }
+}
+
+補足７
+select ?s ?sLabel ?o
+where {
+?s wdt:P31/wdt:P279* wd:Q56351315.
+OPTIONAL{
+?s wdt:P1329 ?o . 
+}
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "ja". }
+}
+
+
+

@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="西村ー猫.xml" ont_id="1607668581764ont" >
+<FILENAME_ONT>西村ー猫.xml</FILENAME_ONT>
+<W_CONCEPTS>
+<CANVAS_SIZE w="3350" h="4294" x="1254" y="1852" />
+<CONCEPT id="1607668581764_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="50" y="22"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n1" >
+<LABEL>ネコ科</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="274" y="22"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n2" >
+<LABEL>ヒョウ亜科</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="446" y="26"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n3" >
+<LABEL>猫亜科</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="466" y="246"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n4" >
+<LABEL>ヒョウ系統</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="666" y="18"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n5" >
+<LABEL>ピューマ系統</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="670" y="242"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n6" >
+<LABEL>カラカル系統</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="690" y="466"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n7" >
+<LABEL>ボルネオヤマネコ系統</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="690" y="638"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n8" >
+<LABEL>オセロット系統</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="704" y="820"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n9" >
+<LABEL>リンクス系統</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="704" y="998"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n10" >
+<LABEL>ベンガルヤマネコ系統</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="666" y="1202"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n11" >
+<LABEL>イエネコ系統</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="704" y="1390"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n12" >
+<LABEL>ライオン</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1034" y="8"/>
+<SLOTS>
+<SLOT id="1607671892155_s13" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="特徴・能力"  class_constraint="たてがみ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="たてがみ" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s14" 
+ type="NW"  label="slot2"  kind="a/o"  num="3"  role="生息地"  class_constraint="サバンナ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="サバンナ" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s15" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="生息地"  class_constraint="草原"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="草原" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s16" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="いろ"  class_constraint="1色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="1色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n13" >
+<LABEL>ヒョウ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1478" y="198"/>
+<SLOTS>
+<SLOT id="1607671892155_s18" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="尻尾"  class_constraint="長い"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="長い" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s19" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="もよう"  class_constraint="斑点"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="斑点" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s20" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="2色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="2色" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s21" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="生息地"  class_constraint="熱帯雨林"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="熱帯雨林" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n14" >
+<LABEL>トラ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1474" y="12"/>
+<SLOTS>
+<SLOT id="1607671892155_s23" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="生息地"  class_constraint="熱帯雨林"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="熱帯雨林" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s24" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="もよう"  class_constraint="縞"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="縞" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s25" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="3色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="3色" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s26" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="尻尾"  class_constraint="長い"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="長い" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n16" >
+<LABEL>ジャガー</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1286" y="12"/>
+<SLOTS>
+<SLOT id="1607671892155_s28" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="尻尾"  class_constraint="短い"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="短い" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s29" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="もよう"  class_constraint="斑点"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="斑点" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s30" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="3色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="3色" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s31" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="生息地"  class_constraint="湿地"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="湿地" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n17" >
+<LABEL>チーター</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1030" y="236"/>
+<SLOTS>
+<SLOT id="1607671892155_s33" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="生息地"  class_constraint="サバンナ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="サバンナ" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s34" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="もよう"  class_constraint="斑点"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="斑点" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s35" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="3色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="3色" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s36" 
+ type="NW"  label="slot4"  kind="p/o"  num="1"  role="尻尾"  class_constraint="長い"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="長い" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n18" >
+<LABEL>クーガー</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1286" y="236"/>
+<SLOTS>
+<SLOT id="1607671892155_s38" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="いろ"  class_constraint="1色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="1色" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s39" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="生息地"  class_constraint="草原"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="草原" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s40" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="もよう"  class_constraint="なし"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="なし" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n19" >
+<LABEL>カラカル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1026" y="466"/>
+<SLOTS>
+<SLOT id="1607671892155_s42" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="もよう"  class_constraint="なし"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="なし" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s43" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="生息地"  class_constraint="サバンナ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="サバンナ" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s44" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="1色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="1色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n20" >
+<LABEL>サーバル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1296" y="466"/>
+<SLOTS>
+<SLOT id="1607671892155_s46" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="もよう"  class_constraint="斑点"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="斑点" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s47" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="生息地"  class_constraint="サバンナ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="サバンナ" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s48" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="2色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="2色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n21" >
+<LABEL>生息地</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="36" y="102"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n22" >
+<LABEL>サバンナ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="144" y="134"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n23" >
+<LABEL>砂漠</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="236" y="102"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581764_n24" >
+<LABEL>熱帯雨林</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="144" y="102"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n25" >
+<LABEL>もよう</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="36" y="60"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n26" >
+<LABEL>縞</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="214" y="68"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n27" >
+<LABEL>斑点</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="144" y="64"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n28" >
+<LABEL>いろ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="46" y="200"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n31" >
+<LABEL>なし</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="278" y="68"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n32" >
+<LABEL>1色</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="148" y="208"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n33" >
+<LABEL>からだ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="40" y="242"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n34" >
+<LABEL>尻尾</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="158" y="246"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n35" >
+<LABEL>耳</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="166" y="312"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n36" >
+<LABEL>長い</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="306" y="246"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n37" >
+<LABEL>短い</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="306" y="284"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n38" >
+<LABEL>大きい</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="306" y="320"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n39" >
+<LABEL>小さい</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="302" y="354"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n40" >
+<LABEL>能力・特徴</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="32" y="508"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607668581771_n41" >
+<LABEL>ジャンプ力</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="218" y="508"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607670423097_n42" >
+<LABEL>手足</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="162" y="390"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607670423097_n43" >
+<LABEL>短め</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="306" y="390"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607670423097_n44" >
+<LABEL>体長</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="162" y="432"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607670423097_n45" >
+<LABEL>大</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="306" y="428"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607670423097_n46" >
+<LABEL>小</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="306" y="470"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607670423097_n47" >
+<LABEL>2色</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="214" y="214"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607670423097_n48" >
+<LABEL>3色</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="278" y="214"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607670423097_n49" >
+<LABEL>たてがみ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="222" y="544"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n83" >
+<LABEL>ボルネオヤマネコ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1306" y="638"/>
+<SLOTS>
+<SLOT id="1607671892155_s84" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="もよう"  class_constraint="なし"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="なし" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s85" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="生息地"  class_constraint="森林"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="森林" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s86" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="1色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="1色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n87" >
+<LABEL>マーブルキャット</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1030" y="642"/>
+<SLOTS>
+<SLOT id="1607671892155_s88" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="もよう"  class_constraint="斑点"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="斑点" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s89" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="生息地"  class_constraint="森林"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="森林" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s90" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="2色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="2色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n91" >
+<LABEL>コロコロ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1300" y="820"/>
+<SLOTS>
+<SLOT id="1607671892155_s92" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="もよう"  class_constraint="斑点"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="斑点" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s93" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="生息地"  class_constraint="草原"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="草原" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s94" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="2色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="2色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n95" >
+<LABEL>オセロット</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1030" y="820"/>
+<SLOTS>
+<SLOT id="1607671892155_s96" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="もよう"  class_constraint="斑点"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="斑点" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s97" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="生息地"  class_constraint="熱帯雨林"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="熱帯雨林" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s98" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="3色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="3色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n99" >
+<LABEL>オオヤマネコ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1040" y="998"/>
+<SLOTS>
+<SLOT id="1607671892155_s100" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="もよう"  class_constraint="斑点"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="斑点" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s101" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="生息地"  class_constraint="森林"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="森林" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s102" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="2色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="2色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n103" >
+<LABEL>ボブキャット</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1320" y="998"/>
+<SLOTS>
+<SLOT id="1607671892155_s104" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="もよう"  class_constraint="斑点"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="斑点" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s105" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="生息地"  class_constraint="森林"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="森林" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s106" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="生息地"  class_constraint="砂漠"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="砂漠" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s107" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="いろ"  class_constraint="2色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="2色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n108" >
+<LABEL>ベンガルヤマネコ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1334" y="1222"/>
+<SLOTS>
+<SLOT id="1607671892155_s109" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="もよう"  class_constraint="斑点"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="斑点" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s110" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="生息地"  class_constraint="森林"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="森林" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s111" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="3色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="3色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n112" >
+<LABEL>ジャワヤマネコ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1040" y="1212"/>
+<SLOTS>
+<SLOT id="1607671892155_s113" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="もよう"  class_constraint="斑点"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="斑点" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s114" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="生息地"  class_constraint="森林"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="森林" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s115" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="2色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="2色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n116" >
+<LABEL>イエネコ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1044" y="1566"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1607671892155_s117" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="生息地"  class_constraint="街中・家"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="街中・家" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n118" >
+<LABEL>ジャングルキャット</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1040" y="1394"/>
+<SLOTS>
+<SLOT id="1607671892155_s119" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="もよう"  class_constraint="なし"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="なし" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s120" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="生息地"  class_constraint="草原"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="草原" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s121" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="いろ"  class_constraint="1色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="1色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n122" >
+<LABEL>草原</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="292" y="106"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n123" >
+<LABEL>湿地</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="236" y="134"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n124" >
+<LABEL>森林</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="298" y="138"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n125" >
+<LABEL>街中・家</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="144" y="172"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n130" >
+<LABEL>毛色および模様</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="50" y="792"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n131" >
+<LABEL>毛足の長さ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="40" y="708"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n132" >
+<LABEL>身体のタイプ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="36" y="596"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n133" >
+<LABEL>フォーリン</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="204" y="596"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n134" >
+<LABEL>セミフォーリン</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="316" y="592"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n135" >
+<LABEL>セミコビー</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="204" y="634"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n136" >
+<LABEL>ロング＆サブスタンシャル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="320" y="634"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n137" >
+<LABEL>コビー</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="214" y="666"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n138" >
+<LABEL>オリエンタル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="288" y="666"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n139" >
+<LABEL>短毛</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="208" y="708"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n140" >
+<LABEL>短毛もしくは長毛</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="284" y="708"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n141" >
+<LABEL>Rex</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="452" y="708"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n142" >
+<LABEL>長毛</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="214" y="746"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n143" >
+<LABEL>単色</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="214" y="792"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n144" >
+<LABEL>複色</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="284" y="792"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n145" >
+<LABEL>ALL</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="354" y="792"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n146" >
+<LABEL>colorpoint</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="298" y="830"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n147" >
+<LABEL>Ticked</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="214" y="830"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n148" >
+<LABEL>spotted</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="424" y="796"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n149" >
+<LABEL>mackerel</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="396" y="830"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n150" >
+<LABEL>自然発生</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1306" y="1592"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1608219869968_s140" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="発生"  class_constraint="自然発生"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="自然発生" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n151" >
+<LABEL>突然変異</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1324" y="1940"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1608219869968_s142" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="発生"  class_constraint="突然変異"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="突然変異" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n153" >
+<LABEL>ぶち</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="214" y="866"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n154" >
+<LABEL>交配種</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1324" y="2314"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1608219869968_s145" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="発生"  class_constraint="交配種"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="交配種" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n155" >
+<LABEL>アビシニアン</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1510" y="1418"/>
+<SLOTS>
+<SLOT id="1607671892155_s156" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="フォーリン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="フォーリン" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s157" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="短毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s158" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="複色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="複色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n159" >
+<LABEL>アメリカンカール</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1524" y="1950"/>
+<SLOTS>
+<SLOT id="1607671892155_s160" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="セミフォーリン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s161" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛もしくは長毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s162" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="単色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="単色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n163" >
+<LABEL>アメリカンショートヘア</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1776" y="1590"/>
+<SLOTS>
+<SLOT id="1607671892155_s164" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="セミコビー"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="セミコビー" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s165" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s166" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1607671892155_n167" >
+<LABEL>アメリカンボブテイル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2066" y="1422"/>
+<SLOTS>
+<SLOT id="1607671892155_s168" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="ロング＆サブスタンシャル"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="ロング＆サブスタンシャル" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s169" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛もしくは長毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="短毛もしくは長毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1607671892155_s170" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n159" >
+<LABEL>アメリカンワイアヘア</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1818" y="2126"/>
+<SLOTS>
+<SLOT id="1608219869968_s163" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="セミコビー"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="セミコビー" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s164" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="Rex"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="Rex" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s165" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n163" >
+<LABEL>エキゾチックショートヘア</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1810" y="2496"/>
+<SLOTS>
+<SLOT id="1608219869968_s167" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="コビー"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="コビー" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s168" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s169" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n167" >
+<LABEL>エジプシャンマウ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1506" y="1758"/>
+<SLOTS>
+<SLOT id="1608219869968_s171" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="コビー"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="コビー" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s172" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="短毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s173" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色および模様" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n171" >
+<LABEL>オシキャット</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2328" y="2328"/>
+<SLOTS>
+<SLOT id="1608219869968_s175" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="セミフォーリン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="セミフォーリン" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s176" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="短毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s177" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="spotted"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="spotted" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n175" >
+<LABEL>オホースアズーレス</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2402" y="1950"/>
+<SLOTS>
+<SLOT id="1608219869968_s179" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="フォーリン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="フォーリン" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s180" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="短毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s181" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n179" >
+<LABEL>オリエンタルショートヘア</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1806" y="2322"/>
+<SLOTS>
+<SLOT id="1608219869968_s183" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="フォーリン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="フォーリン" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s184" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s185" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n183" >
+<LABEL>オリエンタルロングヘア</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2112" y="2132"/>
+<SLOTS>
+<SLOT id="1608219869968_s187" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="オリエンタル"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="オリエンタル" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s188" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="長毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="長毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s189" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n187" >
+<LABEL>カオマニー</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1772" y="1758"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1608219869968_s191" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="セミフォーリン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="セミフォーリン" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s192" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="短毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s193" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="単色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="単色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n191" >
+<LABEL>キムリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1524" y="2122"/>
+<SLOTS>
+<SLOT id="1608219869968_s195" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="コビー"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="コビー" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s196" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="長毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="長毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s197" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色および模様" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n195" >
+<LABEL>クリリアンボブテイル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2070" y="1590"/>
+<SLOTS>
+<SLOT id="1608219869968_s199" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="セミコビー"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="セミコビー" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s200" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛もしくは長毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="短毛もしくは長毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s201" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n199" >
+<LABEL>コーニッシュレックス</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2398" y="2126"/>
+<SLOTS>
+<SLOT id="1608219869968_s203" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="オリエンタル"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="オリエンタル" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s204" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="Rex"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="Rex" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s205" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n203" >
+<LABEL>シャム</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2076" y="1758"/>
+<SLOTS>
+<SLOT id="1608219869968_s207" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="オリエンタル"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="オリエンタル" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s208" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="短毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s209" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="colorpoint"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="colorpoint" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n207" >
+<LABEL>ジャパニーズボブテイル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1776" y="1418"/>
+<SLOTS>
+<SLOT id="1608219869968_s211" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="フォーリン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="フォーリン" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s212" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛もしくは長毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="短毛もしくは長毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s213" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="単色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="単色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n211" >
+<LABEL>スコティッシュフォールド</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1524" y="2488"/>
+<SLOTS>
+<SLOT id="1608219869968_s215" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="セミコビー"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="セミコビー" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s216" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛もしくは長毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="短毛もしくは長毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s217" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n215" >
+<LABEL>無毛</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="288" y="740"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n216" >
+<LABEL>スフィンクス</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2112" y="1944"/>
+<SLOTS>
+<SLOT id="1608219869968_s220" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="セミフォーリン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="セミフォーリン" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s221" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="無毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="無毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s222" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n220" >
+<LABEL>タイ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2062" y="2322"/>
+<SLOTS>
+<SLOT id="1608219869968_s224" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="フォーリン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="フォーリン" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s225" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="短毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s226" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="colorpoint"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="colorpoint" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608217243817_n224" >
+<LABEL>ブリティッシュショートヘア</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1506" y="1590"/>
+<SLOTS>
+<SLOT id="1608219869968_s228" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="セミコビー"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="セミコビー" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s229" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s230" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608219139892_n231" >
+<LABEL>ペルシャ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2440" y="1586"/>
+<SLOTS>
+<SLOT id="1608219869968_s232" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="コビー"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="コビー" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s233" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="長毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="長毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s234" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608219139892_n235" >
+<LABEL>マンチカン</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1814" y="1944"/>
+<SLOTS>
+<SLOT id="1608219869968_s236" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="セミフォーリン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s237" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛もしくは長毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s238" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608219139892_n239" >
+<LABEL>ロシアンブルー</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1526" y="2320"/>
+<SLOTS>
+<SLOT id="1608219869968_s240" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="フォーリン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="フォーリン" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s241" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="短毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="短毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s242" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="単色"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="単色" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1608219139892_n243" >
+<LABEL>メインクーン</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2440" y="1422"/>
+<SLOTS>
+<SLOT id="1608219869968_s244" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="身体のタイプ"  class_constraint="ロング＆サブスタンシャル"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="身体のタイプ" class_const="ロング＆サブスタンシャル" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s245" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="毛足の長さ"  class_constraint="長毛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="毛足の長さ" class_const="長毛" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1608219869968_s246" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="毛色および模様"  class_constraint="ALL"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="毛色" class_const="ALL" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1607668581764_isa25" parent="ネコ科" child="ヒョウ亜科" />
+<ISA id="1607668581764_isa26" parent="ネコ科" child="猫亜科" />
+<ISA id="1607668581764_isa27" parent="Any" child="ネコ科" />
+<ISA id="1607668581764_isa28" parent="ヒョウ亜科" child="ヒョウ系統" />
+<ISA id="1607668581764_isa29" parent="猫亜科" child="ピューマ系統" />
+<ISA id="1607668581764_isa30" parent="猫亜科" child="カラカル系統" />
+<ISA id="1607668581764_isa31" parent="猫亜科" child="ボルネオヤマネコ系統" />
+<ISA id="1607668581764_isa32" parent="猫亜科" child="オセロット系統" />
+<ISA id="1607668581764_isa33" parent="猫亜科" child="リンクス系統" />
+<ISA id="1607668581764_isa34" parent="猫亜科" child="ベンガルヤマネコ系統" />
+<ISA id="1607668581764_isa35" parent="猫亜科" child="イエネコ系統" />
+<ISA id="1607668581764_isa37" parent="ヒョウ系統" child="ヒョウ" />
+<ISA id="1607668581764_isa38" parent="ヒョウ系統" child="トラ" />
+<ISA id="1607668581764_isa40" parent="ヒョウ系統" child="ジャガー" />
+<ISA id="1607668581764_isa41" parent="ピューマ系統" child="チーター" />
+<ISA id="1607668581764_isa42" parent="ピューマ系統" child="クーガー" />
+<ISA id="1607668581764_isa43" parent="カラカル系統" child="カラカル" />
+<ISA id="1607668581764_isa44" parent="カラカル系統" child="サーバル" />
+<ISA id="1607668581764_isa45" parent="Any" child="生息地" />
+<ISA id="1607668581764_isa46" parent="生息地" child="サバンナ" />
+<ISA id="1607668581764_isa47" parent="生息地" child="砂漠" />
+<ISA id="1607668581764_isa48" parent="生息地" child="熱帯雨林" />
+<ISA id="1607668581771_isa66" parent="Any" child="もよう" />
+<ISA id="1607668581771_isa67" parent="もよう" child="縞" />
+<ISA id="1607668581771_isa68" parent="もよう" child="斑点" />
+<ISA id="1607668581771_isa69" parent="Any" child="いろ" />
+<ISA id="1607668581771_isa72" parent="もよう" child="なし" />
+<ISA id="1607668581771_isa73" parent="いろ" child="1色" />
+<ISA id="1607668581771_isa74" parent="Any" child="からだ" />
+<ISA id="1607668581771_isa75" parent="からだ" child="尻尾" />
+<ISA id="1607668581771_isa76" parent="からだ" child="耳" />
+<ISA id="1607668581771_isa77" parent="尻尾" child="長い" />
+<ISA id="1607668581771_isa78" parent="尻尾" child="短い" />
+<ISA id="1607668581771_isa79" parent="耳" child="大きい" />
+<ISA id="1607668581771_isa80" parent="耳" child="小さい" />
+<ISA id="1607668581771_isa81" parent="Any" child="能力・特徴" />
+<ISA id="1607668581771_isa82" parent="能力・特徴" child="ジャンプ力" />
+<ISA id="1607670423097_isa98" parent="からだ" child="手足" />
+<ISA id="1607670423097_isa99" parent="手足" child="短め" />
+<ISA id="1607670423097_isa100" parent="からだ" child="体長" />
+<ISA id="1607670423097_isa101" parent="体長" child="大" />
+<ISA id="1607670423097_isa102" parent="体長" child="小" />
+<ISA id="1607670423097_isa103" parent="いろ" child="2色" />
+<ISA id="1607670423097_isa104" parent="いろ" child="3色" />
+<ISA id="1607670423097_isa105" parent="能力・特徴" child="たてがみ" />
+<ISA id="1607671892155_isa223" parent="ボルネオヤマネコ系統" child="ボルネオヤマネコ" />
+<ISA id="1607671892155_isa224" parent="ボルネオヤマネコ系統" child="マーブルキャット" />
+<ISA id="1607671892155_isa225" parent="オセロット系統" child="コロコロ" />
+<ISA id="1607671892155_isa226" parent="オセロット系統" child="オセロット" />
+<ISA id="1607671892155_isa227" parent="リンクス系統" child="オオヤマネコ" />
+<ISA id="1607671892155_isa228" parent="リンクス系統" child="ボブキャット" />
+<ISA id="1607671892155_isa229" parent="ベンガルヤマネコ系統" child="ベンガルヤマネコ" />
+<ISA id="1607671892155_isa230" parent="ベンガルヤマネコ系統" child="ジャワヤマネコ" />
+<ISA id="1607671892155_isa231" parent="イエネコ系統" child="イエネコ" />
+<ISA id="1607671892155_isa232" parent="イエネコ系統" child="ジャングルキャット" />
+<ISA id="1607671892155_isa233" parent="ヒョウ系統" child="ライオン" />
+<ISA id="1607671892155_isa234" parent="生息地" child="草原" />
+<ISA id="1607671892155_isa235" parent="生息地" child="湿地" />
+<ISA id="1607671892155_isa236" parent="生息地" child="森林" />
+<ISA id="1607671892155_isa237" parent="生息地" child="街中・家" />
+<ISA id="1607671892155_isa238" parent="Any" child="毛色および模様" />
+<ISA id="1607671892155_isa239" parent="Any" child="毛足の長さ" />
+<ISA id="1607671892155_isa240" parent="Any" child="身体のタイプ" />
+<ISA id="1607671892155_isa241" parent="身体のタイプ" child="フォーリン" />
+<ISA id="1607671892155_isa242" parent="身体のタイプ" child="セミフォーリン" />
+<ISA id="1607671892155_isa243" parent="身体のタイプ" child="セミコビー" />
+<ISA id="1607671892155_isa244" parent="身体のタイプ" child="ロング＆サブスタンシャル" />
+<ISA id="1607671892155_isa245" parent="身体のタイプ" child="コビー" />
+<ISA id="1607671892155_isa246" parent="身体のタイプ" child="オリエンタル" />
+<ISA id="1607671892155_isa247" parent="毛足の長さ" child="短毛" />
+<ISA id="1607671892155_isa248" parent="毛足の長さ" child="短毛もしくは長毛" />
+<ISA id="1607671892155_isa249" parent="毛足の長さ" child="Rex" />
+<ISA id="1607671892155_isa250" parent="毛足の長さ" child="長毛" />
+<ISA id="1607671892155_isa251" parent="毛色および模様" child="単色" />
+<ISA id="1607671892155_isa252" parent="毛色および模様" child="複色" />
+<ISA id="1607671892155_isa253" parent="毛色および模様" child="ALL" />
+<ISA id="1607671892155_isa254" parent="毛色および模様" child="colorpoint" />
+<ISA id="1607671892155_isa255" parent="毛色および模様" child="Ticked" />
+<ISA id="1607671892155_isa256" parent="毛色および模様" child="spotted" />
+<ISA id="1607671892155_isa257" parent="毛色および模様" child="mackerel" />
+<ISA id="1607671892155_isa259" parent="イエネコ" child="突然変異" />
+<ISA id="1607671892155_isa261" parent="毛色および模様" child="ぶち" />
+<ISA id="1607671892155_isa262" parent="イエネコ" child="交配種" />
+<ISA id="1607671892155_isa263" parent="自然発生" child="アビシニアン" />
+<ISA id="1607671892155_isa264" parent="突然変異" child="アメリカンカール" />
+<ISA id="1607671892155_isa265" parent="自然発生" child="アメリカンショートヘア" />
+<ISA id="1607671892155_isa266" parent="自然発生" child="アメリカンボブテイル" />
+<ISA id="1608217243817_isa315" parent="突然変異" child="アメリカンワイアヘア" />
+<ISA id="1608217243817_isa316" parent="交配種" child="エキゾチックショートヘア" />
+<ISA id="1608217243817_isa317" parent="自然発生" child="エジプシャンマウ" />
+<ISA id="1608217243817_isa318" parent="交配種" child="オシキャット" />
+<ISA id="1608217243817_isa319" parent="突然変異" child="オホースアズーレス" />
+<ISA id="1608217243817_isa320" parent="交配種" child="オリエンタルショートヘア" />
+<ISA id="1608217243817_isa321" parent="突然変異" child="オリエンタルロングヘア" />
+<ISA id="1608217243817_isa322" parent="突然変異" child="キムリック" />
+<ISA id="1608217243817_isa323" parent="自然発生" child="クリリアンボブテイル" />
+<ISA id="1608217243817_isa324" parent="突然変異" child="コーニッシュレックス" />
+<ISA id="1608217243817_isa325" parent="自然発生" child="シャム" />
+<ISA id="1608217243817_isa326" parent="自然発生" child="ジャパニーズボブテイル" />
+<ISA id="1608217243817_isa327" parent="交配種" child="スコティッシュフォールド" />
+<ISA id="1608217243817_isa328" parent="毛足の長さ" child="無毛" />
+<ISA id="1608217243817_isa329" parent="突然変異" child="スフィンクス" />
+<ISA id="1608217243817_isa330" parent="交配種" child="タイ" />
+<ISA id="1608217243817_isa331" parent="イエネコ" child="自然発生" />
+<ISA id="1608217243817_isa332" parent="自然発生" child="カオマニー" />
+<ISA id="1608217243817_isa333" parent="自然発生" child="ブリティッシュショートヘア" />
+<ISA id="1608219139892_isa353" parent="自然発生" child="ペルシャ" />
+<ISA id="1608219139892_isa354" parent="突然変異" child="マンチカン" />
+<ISA id="1608219139892_isa355" parent="交配種" child="ロシアンブルー" />
+<ISA id="1608219965235_isa356" parent="自然発生" child="メインクーン" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="2524" h="3180" />
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.1905511811024" h="841.8047244094488" iw="451.19055118110236" ih="697.8047244094488" ix="72.0" iy="72.0" />
+<PRINTER_SETTINGS orientation="1" printername="Canon TS8000 series" />
+</PRINTER>
+</OE_FILE>

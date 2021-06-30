@@ -1,0 +1,59 @@
+１．テンプレートの作成
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+select DISTINCT ?s ?sLabel ?o ?oLabel
+{ 
+  ?s wdt:P31/wdt:P279* wd:Q43577 .
+  ?s rdfs:label "#INPUT#"@ja. 
+  ?s  #PROP#  ?o.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja,en". }
+}
+
+
+３．SPARQLクエリ
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+select DISTINCT ?s ?sLabel
+{ 
+  ?s wdt:P31/wdt:P279* wd:Q43577 .
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja,en". }
+}
+LIMIT 50000
+OFFSET 0
+
+結果：C:\Users\p-user\Desktop\SPARQL-JS-Sample-master\QAwithSuggest -西村\con_list.js
+リンク：https://w.wiki/3S2i
+
+
+４．SPARQLクエリ
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+select DISTINCT ?p ?prop ?propLabel
+{ 
+  ?s wdt:P31/wdt:P279* wd:Q43577 .
+  ?s rdfs:label "アメリカン・ショートヘア"@ja.
+  ?s ?p ?o.
+  ?prop wikibase:directClaim  ?p . 
+  ?prop rdfs:label ?propLabel.
+  FILTER(lang(?propLabel)="ja")
+#SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja,en". }
+}
+
+
+結果：
+<option value="wdt:P18">画像</option>
+<option value="wdt:P31">分類</option>
+<option value="wdt:P373">コモンズのカテゴリ</option>
+<option value="wdt:P279">上位クラス</option>
+<option value="wdt:P495">本国</option>
+<option value="wdt:P646">Freebase識別子</option>
+<option value="wdt:P3417">Quora主題識別子</option>
+リンク：https://w.wiki/3S2z

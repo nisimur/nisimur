@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="峯＿宇宙.xml" ont_id="1576562799214ont" >
+<FILENAME_ONT>峯＿宇宙.xml</FILENAME_ONT>
+<W_CONCEPTS>
+<CANVAS_SIZE w="3112" h="4012" x="89" y="0" />
+<CONCEPT id="1576562799214_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="11" y="5"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799214_n1" >
+<LABEL>宇宙</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="195" y="7"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1576562799214_s2" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="惑星"  class_constraint="惑星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="惑星" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1576562799225_s3" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="準惑星"  class_constraint="準惑星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="準惑星" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1576562799225_s4" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="小惑星"  class_constraint="小惑星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="小惑星" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1576562799225_s5" 
+ type="NW"  label="slot4"  kind="p/o"  num="1"  role="恒星"  class_constraint="恒星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="恒星" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1576562799225_s6" 
+ type="NW"  label="slot5"  kind="p/o"  num="1"  role="彗星"  class_constraint="彗星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="彗星" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1576562799225_s7" 
+ type="NW"  label="slot6"  kind="p/o"  num="1"  role="衛星"  class_constraint="衛星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="衛星" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1576565347316_s8" 
+ type="NW"  label="slot7"  kind="p/o"  num="1"  role="宇宙空間"  class_constraint="宇宙空間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="宇宙空間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799214_n3" >
+<LABEL>太陽系</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="302" y="117"/>
+<SLOTS>
+<SLOT id="1576652207365_s10" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="role"  class_constraint="太陽"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="太陽" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1576652207365_s11" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="role"  class_constraint="内太陽系"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1580276800989_s12" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1"  role="惑星"  class_constraint="水星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="水星" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580276800989_s13" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1"  role="惑星"  class_constraint="金星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="金星" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580276800989_s14" 
+ type="R2-1"  label="slot3"  kind="p/o"  num="1"  role="惑星"  class_constraint="地球"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="地球" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580276800989_s15" 
+ type="R2-1"  label="slot4"  kind="p/o"  num="1"  role="惑星"  class_constraint="火星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="火星" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="内太陽系" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1576652207365_s12" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="role"  class_constraint="外太陽系"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1580276800989_s17" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1"  role="惑星"  class_constraint="木星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="木星" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580276800989_s18" 
+ type="R2-1"  label="slot4"  kind="p/o"  num="1"  role="惑星"  class_constraint="土星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="土星" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580276800989_s19" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1"  role="惑星"  class_constraint="天王星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="天王星" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580276800989_s20" 
+ type="R2-1"  label="slot3"  kind="p/o"  num="1"  role="惑星"  class_constraint="海王星"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="海王星" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="外太陽系" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799214_n4" >
+<LABEL>太陽</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="454" y="616"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1580237546002_s14" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="水素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="水素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580237546002_s15" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="大気"  class_constraint="ヘリウム"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ヘリウム" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799214_n6" >
+<LABEL>水星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="692" y="337"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1578471473736_s15" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="水素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="水素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1578471473736_s16" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="大気"  class_constraint="ヘリウム"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ヘリウム" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1578471473736_s17" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="大気"  class_constraint="ナトリウム"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ナトリウム" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580276800989_s28" 
+ type="NW"  label="slot4"  kind="p/o"  num="1"  role="鉱物"  class_constraint="鉄"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="鉄" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580276800989_s29" 
+ type="NW"  label="slot5"  kind="p/o"  num="1"  role="鉱物"  class_constraint="ニッケル"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ニッケル" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799214_n8" >
+<LABEL>金星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="611" y="302"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1578471473736_s19" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="二酸化炭素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="二酸化炭素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1578471473736_s20" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="大気"  class_constraint="窒素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="窒素" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799214_n10" >
+<LABEL>地球</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="682" y="461"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1578471473736_s22" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="衛星"  class_constraint="月"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="衛星" class_const="月" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1578471473736_s23" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="窒素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="大気" class_const="窒素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1578471473736_s24" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="大気"  class_constraint="酸素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="大気" class_const="酸素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1578471473736_s25" 
+ type="NW"  label="slot4"  kind="p/o"  num="1"  role="大気"  class_constraint="二酸化炭素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot4" def="" role_name="大気" class_const="二酸化炭素" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799214_n13" >
+<LABEL>月</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="469" y="664"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799214_n15" >
+<LABEL>火星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="697" y="528"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1580237546002_s35" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="二酸化炭素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="二酸化炭素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580237546002_s36" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="大気"  class_constraint="窒素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="窒素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580276800989_s42" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="岩石"  class_constraint="玄武岩"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="玄武岩" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580276800989_s43" 
+ type="NW"  label="slot4"  kind="p/o"  num="1"  role="岩石"  class_constraint="安山岩"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="安山岩" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799214_n17" >
+<LABEL>木星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="666" y="576"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1578471473736_s34" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="ガリレオ衛星"  class_constraint="イオ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="イオ" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1578471473736_s35" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="ガリレオ衛星"  class_constraint="エウロペ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="エウロペ" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1578471473736_s36" 
+ type="NW"  label="slot4"  kind="p/o"  num="1"  role="ガリレオ衛星"  class_constraint="ガニメデ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ガニメデ" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1578471473736_s37" 
+ type="NW"  label="slot5"  kind="p/o"  num="1"  role="ガリレオ衛星"  class_constraint="カリスト"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="カリスト" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580237546002_s42" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="水素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="水素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580237546002_s43" 
+ type="NW"  label="slot6"  kind="p/o"  num="1"  role="大気"  class_constraint="ヘリウム"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ヘリウム" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799214_n19" >
+<LABEL>土星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="654" y="625"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1580237546002_s45" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="水素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="水素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580237546002_s46" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="大気"  class_constraint="ヘリウム"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ヘリウム" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799214_n21" >
+<LABEL>海王星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="592" y="707"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1580237546002_s48" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="水素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="水素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580237546002_s49" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="大気"  class_constraint="ヘリウム"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ヘリウム" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n28" >
+<LABEL>天王星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="620" y="667"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1580237546002_s51" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="水素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="水素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580237546002_s52" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="大気"  class_constraint="ヘリウム"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ヘリウム" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n31" >
+<LABEL>イオ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="457" y="721"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1580237546002_s59" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="二酸化硫黄"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="二酸化硫黄" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n33" >
+<LABEL>エウロペ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="450" y="757"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1580237546002_s61" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="酸素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="酸素" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n35" >
+<LABEL>ガニメデ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="450" y="792"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1580237546002_s63" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="酸素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="酸素" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n37" >
+<LABEL>カリスト</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="445" y="824"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1580237546002_s65" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="二酸化炭素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="二酸化炭素" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n39" >
+<LABEL>惑星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="407" y="539"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n40" >
+<LABEL>準惑星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="305" y="677"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n41" >
+<LABEL>小惑星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="240" y="702"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n42" >
+<LABEL>彗星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="185" y="710"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n43" >
+<LABEL>星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="235" y="352"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n44" >
+<LABEL>衛星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="358" y="629"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n45" >
+<LABEL>恒星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="388" y="589"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n46" >
+<LABEL>小惑星帯</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="270" y="800"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576562799225_n48" >
+<LABEL>鉱物</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="94" y="385"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576565347316_n50" >
+<LABEL>銀河</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="345" y="11"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1576652207365_s54" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="role"  class_constraint="天の川銀河"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1580276800989_s79" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1"  role="role"  class_constraint="太陽系"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="太陽系" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="天の川銀河" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576565347316_n51" >
+<LABEL>宇宙空間</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="132" y="50"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576565347316_n52" >
+<LABEL>星間ガス</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="718" y="31"/>
+<SLOTS>
+<SLOT id="1576565347316_s53" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="気体"  class_constraint="水素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="水素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1576565347316_s54" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="気体"  class_constraint="ヘリウム"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ヘリウム" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576565347316_n55" >
+<LABEL>星間物質</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="590" y="77"/>
+<SLOTS>
+<SLOT id="1576565347316_s56" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="物質"  class_constraint="鉄"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="鉄" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1576565347316_s57" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="物質"  class_constraint="炭素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="炭素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1576565347316_s58" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="物質"  class_constraint="マグネシウム"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="マグネシウム" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1576565347316_s59" 
+ type="NW"  label="slot4"  kind="p/o"  num="1"  role="物質"  class_constraint="ケイ素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ケイ素" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576565347316_n60" >
+<LABEL>気体</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="94" y="187"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576565347316_n62" >
+<LABEL>鉄</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="133" y="557"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576565347316_n63" >
+<LABEL>炭素</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="54" y="635"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576565347316_n64" >
+<LABEL>ケイ素</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="625"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576565347316_n65" >
+<LABEL>マグネシウム</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="71" y="599"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1576565347316_n66" >
+<LABEL>宇宙塵</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="319" y="89"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1578470301655_n77" >
+<LABEL>大気</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="144" y="187"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1578473766007_n93" >
+<LABEL>冥王星</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="339" y="782"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1580237546002_s94" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="大気"  class_constraint="窒素"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="窒素" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1580237546002_s95" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="大気"  class_constraint="メタン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="メタン" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580238390883_n100" >
+<LABEL>鉱石</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="30" y="386"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580238390883_n101" >
+<LABEL>岩石</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="9" y="347"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580270394498_n100" >
+<LABEL>物質</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="60" y="242"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580270394498_n101" >
+<LABEL>元素</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="92" y="105"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1576562799214_isa24" parent="Any" child="宇宙" />
+<ISA id="1576562799225_isa68" parent="星" child="惑星" />
+<ISA id="1576562799225_isa69" parent="星" child="準惑星" />
+<ISA id="1576562799225_isa70" parent="星" child="小惑星" />
+<ISA id="1576562799225_isa71" parent="星" child="彗星" />
+<ISA id="1576562799225_isa73" parent="星" child="恒星" />
+<ISA id="1576565347316_isa95" parent="宇宙" child="銀河" />
+<ISA id="1576565347316_isa97" parent="宇宙空間" child="星" />
+<ISA id="1576565347316_isa104" parent="宇宙空間" child="宇宙塵" />
+<ISA id="1576565347316_isa105" parent="宇宙塵" child="星間ガス" />
+<ISA id="1576565347316_isa106" parent="宇宙塵" child="星間物質" />
+<ISA id="1576565347316_isa107" parent="Any" child="宇宙空間" />
+<ISA id="1576652207365_isa108" parent="宇宙空間" child="太陽系" />
+<ISA id="1576825758269_isa95" parent="恒星" child="太陽" />
+<ISA id="1576825758269_isa96" parent="惑星" child="水星" />
+<ISA id="1576825758269_isa97" parent="惑星" child="金星" />
+<ISA id="1576825758269_isa99" parent="惑星" child="火星" />
+<ISA id="1576825758269_isa100" parent="惑星" child="木星" />
+<ISA id="1576825758269_isa101" parent="惑星" child="土星" />
+<ISA id="1576825758269_isa102" parent="惑星" child="天王星" />
+<ISA id="1576825758269_isa103" parent="惑星" child="海王星" />
+<ISA id="1576825758269_isa104" parent="小惑星" child="小惑星帯" />
+<ISA id="1576825758269_isa105" parent="衛星" child="エウロペ" />
+<ISA id="1576562799225_isa72" parent="星" child="衛星" />
+<ISA id="1576825758269_isa107" parent="衛星" child="月" />
+<ISA id="1576825758269_isa108" parent="衛星" child="イオ" />
+<ISA id="1576825758269_isa109" parent="衛星" child="ガニメデ" />
+<ISA id="1576825758269_isa110" parent="衛星" child="カリスト" />
+<ISA id="1576825758269_isa98" parent="惑星" child="地球" />
+<ISA id="1578473766007_isa127" parent="鉱物" child="炭素" />
+<ISA id="1578473766007_isa128" parent="鉱物" child="マグネシウム" />
+<ISA id="1578473766007_isa129" parent="鉱物" child="ケイ素" />
+<ISA id="1578473766007_isa130" parent="鉱物" child="鉄" />
+<ISA id="1578473766007_isa133" parent="準惑星" child="冥王星" />
+<ISA id="1580270394498_isa136" parent="Any" child="物質" />
+<ISA id="1580270394498_isa137" parent="Any" child="元素" />
+<ISA id="1580270394498_isa138" parent="元素" child="気体" />
+<ISA id="1580270394498_isa139" parent="元素" child="大気" />
+<ISA id="1580270394498_isa140" parent="物質" child="岩石" />
+<ISA id="1580270394498_isa141" parent="物質" child="鉱石" />
+<ISA id="1580270394498_isa142" parent="物質" child="鉱物" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="3112" h="4012" />
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.1905511811024" h="841.8047244094488" iw="451.19055118110236" ih="697.8047244094488" ix="72.0" iy="72.0" />
+<PRINTER_SETTINGS orientation="1" printername="Canon MG6700 series Printer WS (1 コピー)" />
+</PRINTER>
+</OE_FILE>

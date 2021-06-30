@@ -1,0 +1,131 @@
+「人工知能」SPARQL演習　　2021/04/16
+
+※ファイル名を，「学籍番号_SPARQL演習2021-0416.txt」に変更して提出する
+
+■学籍番号：GP18a132
+
+■氏名：西村　彩人
+
+=========================================================================
+■クエリ例：
+https://github.com/koujikozaki/SPARQLexamples/blob/master/WikkidataEx1.md
+=========================================================================
+
+■クエリ文の記録方法
+【記入用テンプレート】※コピーをして利用する
+・クエリの説明：
+
+・作成したクエリ文：
+
+・実行用の短縮URL：
+
+
+【記入例】
+・クエリの説明：
+日本にある「大学の一覧」を取得する．
+
+・作成したクエリ文：
+select ?s ?sLabel ?country ?countryLabel
+where {
+   ?s wdt:P31 wd:Q3918 .
+   ?s wdt:P17 ?country .
+   ?s wdt:P17 wd:Q17 .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}
+LIMIT 100
+
+・実行用の短縮URL：
+https://w.wiki/4oo
+
+
+=========================================================================
+■演習課題　※複数のクエリを作成した場合は，
+=========================================================================
+演習１：主語と述語を指定して「目的語」を取得する
+【演習1-a】
+・クエリの説明：大阪電気通信大学の所在地を表示
+
+・作成したクエリ文：
+select ?o ?oLabel
+where {
+ wd:Q7105556 wdt:P131 ?o.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}
+
+
+・実行用の短縮URL：https://w.wiki/3C7r
+【演習1-b】
+・クエリの説明：群馬医療福祉大学の所在地を表示
+
+・作成したクエリ文：
+select ?o ?oLabel
+where {
+ wd:Q5618887 wdt:P131 ?o.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}
+
+・実行用の短縮URL：https://w.wiki/3C7x
+--------------------------------------------------------------------------
+演習２：述語と目的語を指定して「主語」の一覧を取得する
+【演習2-a】
+・クエリの説明：日本の城の一覧
+
+・作成したクエリ文：
+select ?s ?sLabel
+where {
+?s wdt:P31 wd:Q92026 .
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}
+
+
+・実行用の短縮URL：https://w.wiki/3C7z
+
+【演習2-b】
+・クエリの説明：世界中の世界遺産の名前一覧
+
+・作成したクエリ文：
+select ?s ?sLabel
+where {
+ ?s wdt:P1435 wd:Q9259 .
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}
+
+
+・実行用の短縮URL：https://w.wiki/3C85
+--------------------------------------------------------------------------
+演習３：いろんなデータの一覧を取得してみる
+【演習3-a】
+・クエリの説明：世界中の世界遺産の名前と所在国一覧
+
+・作成したクエリ文：
+select ?s ?sLabel ?o1  ?o1Label
+where {
+ ?s wdt:P1435 wd:Q9259 .
+ ?s wdt:P17 ?o1
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}
+
+・実行用の短縮URL：https://w.wiki/3C85
+
+【演習3-b】
+・クエリの説明：世界中の世界遺産の名前と所在国と作られた年の順の一覧
+
+・作成したクエリ文：
+select ?s ?sLabel ?o1  ?o1Label ?o2 ?o2Label
+where {
+ ?s wdt:P1435 wd:Q9259 .
+ ?s wdt:P17 ?o1.
+ ?s wdt:P571 ?o2
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],ja". }
+}ORDER BY ?o2Label
+
+・実行用の短縮URL：https://w.wiki/3C8D
+
+
+=========================================================================
+■演習の感想・質問
+=========================================================================
+
+
+
+

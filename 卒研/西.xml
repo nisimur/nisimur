@@ -1,0 +1,1804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="西.xml" ont_id="1620723444910ont" >
+<FILENAME_ONT>西.xml</FILENAME_ONT>
+<W_CONCEPTS>
+<CANVAS_SIZE w="4203" h="6733" x="1463" y="0" />
+<CONCEPT id="1620723444910_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="0"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n1" >
+<LABEL>SDGs</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="380" y="0"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n2" >
+<LABEL>持続可能な開発目標</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="690" y="3"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1620723804963_s3" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="目的"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="目的" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620723804963_s4" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="対象"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="対象" class_const="対象" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620723804963_s5" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="場所"  class_constraint="場所"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="場所" class_const="場所" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n3" >
+<LABEL>目標10</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1128" y="0"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1620726043894_s7" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="不平等是正"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="不平等是正" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s8" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="各国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="対象" class_const="各国" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n4" >
+<LABEL>目標10.1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1545" y="0"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n5" >
+<LABEL>2030 年までに、各国の所得下位 40%の所得成長率について、国内平均を上回る数値を漸進的に達成し、持続させる。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1706" y="0"/>
+<SLOTS>
+<SLOT id="1620726043894_s11" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="所得成長率を上げる"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="持続可能な開発目標$slot"/>
+<SLOTS>
+<SLOT id="1620726043894_s12" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="割合"  class_constraint="所得下位40%"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="対象" class_const="所得下位40%" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s13" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="割合"  class_constraint="国内平均以上"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="割合" class_const="国内平均以上" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s14" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="漸進的"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="単語" class_const="漸進的" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="所得成長率を上げる" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s15" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="所得成長率を持続"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot"/>
+<SLOTS>
+<SLOT id="1620726043894_s16" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="割合"  class_constraint="所得下位40%"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="対象" class_const="所得下位40%" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s17" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="割合"  class_constraint="国内平均以上"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="割合" class_const="国内平均以上" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s18" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="単語"  class_constraint="漸進的"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="単語" class_const="漸進的" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="目的" class_const="所得成長率を持続" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n6" >
+<LABEL>目標10.2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1562" y="365"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n7" >
+<LABEL>2030 年までに、年齢、性別、障害、人種、民族、出自、宗教、あるいは経済的地位その他の状況に関わりなく、すべての人々のエンパワーメント及び社会的、経済的及び政治的な包含を促進する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1697" y="363"/>
+<SLOTS>
+<SLOT id="1621997796317_s21" 
+ type="R2-1"  label="slot5"  kind="a/o"  num="1"  role="対象"  class_constraint="すべての人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot2"/>
+<SLOTS>
+<SLOT id="1621997796317_s22" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="年齢"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="単語" class_const="年齢" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s23" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="性別"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="単語" class_const="性別" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s24" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="障害"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="単語" class_const="障害" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s25" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="人種"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot4" def="" role_name="単語" class_const="人種" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s26" 
+ type="R2-1"  label="slot5"  kind="a/o"  num="1"  role="対象"  class_constraint="民族"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot5" def="" role_name="単語" class_const="民族" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s27" 
+ type="R2-1"  label="slot6"  kind="a/o"  num="1"  role="対象"  class_constraint="出自"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot6" def="" role_name="単語" class_const="出自" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s28" 
+ type="R2-1"  label="slot7"  kind="a/o"  num="1"  role="対象"  class_constraint="宗教"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot7" def="" role_name="単語" class_const="宗教" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s29" 
+ type="R2-1"  label="slot8"  kind="a/o"  num="1"  role="対象"  class_constraint="経済的地位"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot8" def="" role_name="単語" class_const="経済的地位" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s30" 
+ type="R2-1"  label="slot9"  kind="a/o"  num="1"  role="対象"  class_constraint="その他の状況"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot9" def="" role_name="単語" class_const="その他の状況" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s31" 
+ type="R2-1"  label="slot10"  kind="a/o"  num="1"  role="単語"  class_constraint="関わりなく"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot10" def="" role_name="単語" class_const="関係なく" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="対象" class_const="すべての人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s32" 
+ type="NW"  label="slot6"  kind="a/o"  num="1"  role="目的"  class_constraint="包含を促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot"/>
+<SLOTS>
+<SLOT id="1621997796317_s33" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="エンパワーハラスメントの包含"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="エンパワーハラスメントの包含" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s34" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="社会的な"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="社会的な" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s35" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="経済的な"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="経済的な" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s36" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="政治的な"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="政治的な" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="包含を促進" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n8" >
+<LABEL>目標10.3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1515" y="1065"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n9" >
+<LABEL>差別的な法律、政策及び慣行の撤廃、ならびに適切な関連法規、政策、行動の促進などを通じて、機会均等を確保し、成果の不平等を是正する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1700" y="1067"/>
+<SLOTS>
+<SLOT id="1620726043894_s38" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="手段"  class_constraint="法律などの撤廃"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot"/>
+<SLOTS>
+<SLOT id="1620726043894_s39" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="差別的な法律"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="差別的な法律" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s40" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="差別的な政策"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="差別的な政策" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s41" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="差別的な慣行"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="差別的な慣行" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="法律などの撤廃" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s42" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="手段"  class_constraint="法律などの促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="持続可能な開発目標$slot"/>
+<SLOTS>
+<SLOT id="1620726043894_s43" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="適切な関連法規"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="適切な関連法規" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s44" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="適切な政策"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="適切な政策" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s45" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="適切な行動の促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="適切な行動の促進" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="法律などの促進" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s46" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="目的"  class_constraint="機会均等を確保"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="機会均等を確保" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s47" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="目的"  class_constraint="成果の不平等を是正"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="成果の不平等を是正" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n10" >
+<LABEL>目標10.4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1515" y="1523"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n11" >
+<LABEL>税制、賃金、社会保障政策をはじめとする政策を導入し、平等の拡大を漸進的に達成する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1698" y="1518"/>
+<SLOTS>
+<SLOT id="1620726043894_s50" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="手段"  class_constraint="政策を導入"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot"/>
+<SLOTS>
+<SLOT id="1620726043894_s51" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="税制"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="税制" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s52" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="賃金"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="賃金" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s53" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="社会保障政策"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="社会保障政策" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="政策を導入" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s54" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="平等の拡大を強化"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="持続可能な開発目標$slot"/>
+<SLOTS>
+<SLOT id="1620726043894_s55" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="単語"  class_constraint="漸進的"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="漸進的" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="平等の拡大を強化" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n12" >
+<LABEL>目標10.5</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1507" y="1808"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n13" >
+<LABEL>世界金融市場と金融機関に対する規制とモニタリングを改善し、こうした規制の実施を強化する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1695" y="1805"/>
+<SLOTS>
+<SLOT id="1620726043894_s58" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="手段"  class_constraint="金融の規制"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot"/>
+<SLOTS>
+<SLOT id="1620726043894_s59" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="世界金融市場"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="世界金融市場" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s60" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="金融機関"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="金融機関" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="金融の規制" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s61" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="手段"  class_constraint="モニタリングの改善"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="持続可能な開発目標$slot"/>
+<SLOTS>
+<SLOT id="1620726043894_s62" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="世界金融市場"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="対象" class_const="世界金融市場" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s63" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="金融機関"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="対象" class_const="金融機関" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="モニタリングの改善" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s64" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="目的"  class_constraint="規制の実施の強化"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1620726043894_s65" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="金融の規制"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="金融の規制" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="規制の実施の強化" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n14" >
+<LABEL>目標10.6</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1510" y="2177"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n15" >
+<LABEL>地球規模の国際経済・金融制度の意思決定における開発途上国の参加や発言力を拡大させることにより、より効果的で信用力があり、説明責任のある正当な制度を実現する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1695" y="2175"/>
+<SLOTS>
+<SLOT id="1620726043894_s68" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="手段"  class_constraint="参加を拡大"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot"/>
+<SLOTS>
+<SLOT id="1621997796317_s73" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="開発途上国" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="参加を拡大" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s71" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="手段"  class_constraint="発言力を拡大"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="持続可能な開発目標$slot"/>
+<SLOTS>
+<SLOT id="1621997796317_s78" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="対象" class_const="開発途上国" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="発言力を拡大" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1622603392870_s73" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="意志決定における"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="持続可能な開発目標$slot"/>
+<SLOTS>
+<SLOT id="1622603392870_s74" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="国際経済"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1622603392870_s75" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="割合"  class_constraint="地球規模"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="地球規模" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="単語" class_const="国際経済" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1622603392870_s76" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="金融制度"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1622603392870_s77" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="割合"  class_constraint="地球規模"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="地球規模" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot2" def="" role_name="対象" class_const="金融制度" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot2" def="" role_name="手段" class_const="意志決定における" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1622603392870_s78" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="目的"  class_constraint="制度を実現"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1622603392870_s79" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="より効果的"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="目的" class_const="より効果的" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1622603392870_s80" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="信用力のある"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot4" def="" role_name="目的" class_const="信用力のある" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1622603392870_s81" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="説明責任のある"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="対象" class_const="説明責任のある" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1622603392870_s82" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="正当な"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot3" def="" role_name="対象" class_const="正当な" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot5" def="" role_name="目的" class_const="制度を実現" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n16" >
+<LABEL>目標10.7</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1503" y="2786"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n17" >
+<LABEL>計画に基づき良く管理された移住政策の実施などを通じて、秩序のとれた、安全で規則的かつ責任ある移住や流動性を促進する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1693" y="2785"/>
+<SLOTS>
+<SLOT id="1620726043894_s76" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="手段"  class_constraint="管理された政策の実施"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot"/>
+<SLOTS>
+<SLOT id="1620726043894_s77" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="移住政策"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="移住政策" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1622603392870_s87" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="単語"  class_constraint="計画に基づく"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="計画に基づく" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="管理された政策の実施" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s86" 
+ type="NW"  label="slot6"  kind="a/o"  num="1"  role="目的"  class_constraint="促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1621997796317_s87" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="移住や流動性"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1621997796317_s88" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="秩序のとれた"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="秩序のとれた" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s89" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="安全な"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="安全な" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s90" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="規則的な"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="規則的な" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s91" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="責任ある"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="責任ある" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="移住や流動性" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="促進" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n18" >
+<LABEL>目標10.a</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1500" y="3187"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n19" >
+<LABEL>世界貿易機関（WTO）協定に従い、開発途上国、特に後発開発途上国に対する特別かつ異なる待遇の原則を実施する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1682" y="3183"/>
+<SLOTS>
+<SLOT id="1621997796317_s94" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="手段"  class_constraint="協定に従う"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1621997796317_s95" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="世界貿易機関協定"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="世界貿易機関協定" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="協定に従う" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s96" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="開発途上国" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s97" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="後発開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="持続可能な開発目標$slot2"/>
+<SUB_L label="slot3" def="" role_name="対象" class_const="後発開発途上国" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s98" 
+ type="NW"  label="slot5"  kind="a/o"  num="1"  role="目的"  class_constraint="原則を実施"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot"/>
+<SLOTS>
+<SLOT id="1621997796317_s99" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="特別な原則"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="特別な原則" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s100" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="異なる待遇の原則"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="目的" class_const="異なる待遇の原則" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot3" def="" role_name="目的" class_const="原則を実施" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n20" >
+<LABEL>目標10.b</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1485" y="3512"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n21" >
+<LABEL>各国の国家計画やプログラムに従って、後発開発途上国、アフリカ諸国、小島嶼開発途上国及び内陸開発途上国を始めとする、ニーズが最も大きい国々への、政府開発援助（ODA）及び海外直接投資を含む資金の流入を促進する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1680" y="3510"/>
+<SLOTS>
+<SLOT id="1621997796317_s103" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="手段"  class_constraint="計画に従う"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1621997796317_s104" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="国家計画"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1621997796317_s105" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="各国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="対象" class_const="各国" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="対象" class_const="国家計画" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s106" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="プログラム"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1621997796317_s107" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="各国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="対象" class_const="各国" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot2" def="" role_name="対象" class_const="プログラム" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot" def="" role_name="単語" class_const="計画に従う" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s108" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="ニーズが最も大きい国々"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot2"/>
+<SLOTS>
+<SLOT id="1621997796317_s109" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="後発開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="対象" class_const="後発開発途上国" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s110" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="アフリカ諸国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="対象" class_const="アフリカ諸国" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s111" 
+ type="R2-1"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="小島嶼開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="対象" class_const="小島嶼開発途上国" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s112" 
+ type="R2-1"  label="slot4"  kind="a/o"  num="1"  role="対象"  class_constraint="内陸開発途上国"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="対象" class_const="内陸開発途上国" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="slot6" def="" role_name="対象" class_const="ニーズが最も大きい国々" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s113" 
+ type="NW"  label="slot5"  kind="a/o"  num="1"  role="目的"  class_constraint="流入を促進"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot"/>
+<SLOTS>
+<SLOT id="1621997796317_s114" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="対象"  class_constraint="政府開発援助（ODA）"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="政府開発援助（ODA）" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s115" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="対象"  class_constraint="海外直接投資を含む資金"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot2" def="" role_name="目的" class_const="海外直接投資を含む資金" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="流入を促進" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n22" >
+<LABEL>目標10.c</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1490" y="4081"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n23" >
+<LABEL>2030 年までに、移住労働者による送金コストを 3%未満に引き下げ、コストが 5%を越える送金経路を撤廃する。</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1675" y="4080"/>
+<SLOTS>
+<SLOT id="1620726043894_s107" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="目的"  class_constraint="送金コストを引き下げ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot"/>
+<SLOTS>
+<SLOT id="1621997796317_s119" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="割合"  class_constraint="3%未満に"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="目的" class_const="3%未満に" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="送金コストを引き下げ" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1620726043894_s109" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="目的"  class_constraint="送金経路を撤廃"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="持続可能な開発目標$slot"/>
+<SLOTS>
+<SLOT id="1620726043894_s110" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="割合"  class_constraint="コストが5%を超える"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="slot" def="" role_name="対象" class_const="コストが5%を超える" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="送金経路を撤廃" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1621997796317_s122" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="対象"  class_constraint="移住労働者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="目標10$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="移住労働者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n24" >
+<LABEL>目的</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="1388"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n25" >
+<LABEL>不平等是正</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="120" y="1391"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n26" >
+<LABEL>所得成長率を上げる</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="120" y="1415"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n27" >
+<LABEL>所得成長率を持続</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="118" y="1440"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n28" >
+<LABEL>エンパワーハラスメントの包含を促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="117" y="1465"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n29" >
+<LABEL>社会的な包含を促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="117" y="1490"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n30" >
+<LABEL>経済的な包含を促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="117" y="1515"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n31" >
+<LABEL>法律などの撤廃</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="117" y="1540"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n32" >
+<LABEL>法律などの促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="117" y="1565"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n33" >
+<LABEL>機会均等を確保</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="117" y="1590"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n34" >
+<LABEL>成果の不平等を是正</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="116" y="1616"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n35" >
+<LABEL>政策を導入</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="328" y="1393"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n36" >
+<LABEL>平等の拡大を強化</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="328" y="1417"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1620723444910_n37" >
+<LABEL>金融の規制</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="328" y="1441"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n38" >
+<LABEL>モニタリングの改善</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="328" y="1465"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n39" >
+<LABEL>規制の実施の強化</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="328" y="1490"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n40" >
+<LABEL>開発途上国の参加を拡大</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="328" y="1515"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n41" >
+<LABEL>開発途上国の発言力を拡大</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="328" y="1538"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n42" >
+<LABEL>より効果的で信用力のある制度を実現</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="327" y="1563"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1620723444910_n43" >
+<LABEL>説明責任のある正当な制度を実現</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="327" y="1587"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n44" >
+<LABEL>管理された移住政策の実施</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="327" y="1612"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n45" >
+<LABEL>秩序の取れた移住や流動性を促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="1370"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n46" >
+<LABEL>安全な移住や流動性を促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="1393"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n47" >
+<LABEL>規則的な移住や流動性を促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="1418"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n48" >
+<LABEL>責任ある移住や流動性を促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="1442"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n49" >
+<LABEL>特別な原則を実施</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="1466"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n50" >
+<LABEL>異なる待遇の原則を実施</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="1490"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n51" >
+<LABEL>政府開発援助（ODA）の流入を促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="1515"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n52" >
+<LABEL>海外直接投資を含む資金の流入を促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="1538"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n53" >
+<LABEL>送金コストを3%未満に引き下げ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="1563"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n54" >
+<LABEL>コストが5%を超える送金経路を撤廃</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="1587"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n55" >
+<LABEL>対象</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="1650"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n56" >
+<LABEL>人</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="115" y="1655"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n57" >
+<LABEL>すべての人</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="180" y="1655"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n58" >
+<LABEL>移住労働者</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="180" y="1680"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n59" >
+<LABEL>国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="110" y="1727"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n60" >
+<LABEL>各国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="180" y="1710"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n61" >
+<LABEL>開発途上国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="1733"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n62" >
+<LABEL>後発開発途上国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="1757"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n63" >
+<LABEL>アフリカ諸国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="1781"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n64" >
+<LABEL>小島嶼開発途上国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="1805"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n65" >
+<LABEL>内陸開発途上国</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="1830"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n66" >
+<LABEL>ニーズが最も大きい国々</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="1853"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n67" >
+<LABEL>法律等</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="98" y="1881"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n68" >
+<LABEL>差別的な法律</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="1885"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n69" >
+<LABEL>差別的な政策</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="1910"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1620723444910_n70" >
+<LABEL>差別的な慣行</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="1933"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n71" >
+<LABEL>適切な関連法規</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="1957"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n72" >
+<LABEL>適切な政策</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="1982"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n73" >
+<LABEL>適切な行動の促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="2006"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n74" >
+<LABEL>税制</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="2030"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n75" >
+<LABEL>社会保障政策</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="2055"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n76" >
+<LABEL>その他</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="92" y="2086"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n77" >
+<LABEL>所得下位40%</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="176" y="2086"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n78" >
+<LABEL>賃金</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="176" y="2110"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n79" >
+<LABEL>世界金融市場</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="176" y="2135"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n80" >
+<LABEL>金融機関</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="176" y="2160"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n81" >
+<LABEL>場所</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="2216"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n82" >
+<LABEL>割合</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="2250"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n83" >
+<LABEL>国内平均以上</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="2251"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n84" >
+<LABEL>地球規模</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="2275"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n85" >
+<LABEL>コストが5%を超える</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="2300"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n86" >
+<LABEL>単語</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="2331"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n87" >
+<LABEL>漸進的</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="2336"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n88" >
+<LABEL>年齢</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="2360"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n89" >
+<LABEL>性別</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="2383"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n90" >
+<LABEL>障害</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="2407"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n91" >
+<LABEL>人種</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="78" y="2431"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n92" >
+<LABEL>民族</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="78" y="2455"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n93" >
+<LABEL>出自</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="77" y="2480"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n94" >
+<LABEL>宗教</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="77" y="2503"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n95" >
+<LABEL>経済的地位</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="76" y="2527"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n96" >
+<LABEL>その他の状況</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="76" y="2552"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n97" >
+<LABEL>関わりなく</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="2336"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n98" >
+<LABEL>国際経済の意思決定における</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="2360"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n99" >
+<LABEL>金融制度の意思決定における</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="178" y="2385"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n100" >
+<LABEL>計画</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="177" y="2408"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n101" >
+<LABEL>世界貿易機関協定に従う</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="177" y="2432"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n102" >
+<LABEL>計画に従う</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="177" y="2456"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n103" >
+<LABEL>国家計画</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="177" y="2481"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723444910_n104" >
+<LABEL>各国のプログラム</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="176" y="2505"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1620723963922_n133" >
+<LABEL>政治的な包含を促進</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="1612"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1620723444910_isa105" parent="Any" child="SDGs" />
+<ISA id="1620723444910_isa106" parent="SDGs" child="持続可能な開発目標" />
+<ISA id="1620723444910_isa107" parent="持続可能な開発目標" child="目標10" />
+<ISA id="1620723444910_isa108" parent="目標10" child="目標10.1" />
+<ISA id="1620723444910_isa109" parent="目標10.1" child="2030 年までに、各国の所得下位 40%の所得成長率について、国内平均を上回る数値を漸進的に達成し、持続させる。" />
+<ISA id="1620723444910_isa110" parent="目標10" child="目標10.2" />
+<ISA id="1620723444910_isa111" parent="目標10.2" child="2030 年までに、年齢、性別、障害、人種、民族、出自、宗教、あるいは経済的地位その他の状況に関わりなく、すべての人々のエンパワーメント及び社会的、経済的及び政治的な包含を促進する。" />
+<ISA id="1620723444910_isa112" parent="目標10" child="目標10.3" />
+<ISA id="1620723444910_isa113" parent="目標10.3" child="差別的な法律、政策及び慣行の撤廃、ならびに適切な関連法規、政策、行動の促進などを通じて、機会均等を確保し、成果の不平等を是正する。" />
+<ISA id="1620723444910_isa114" parent="目標10" child="目標10.4" />
+<ISA id="1620723444910_isa115" parent="目標10.4" child="税制、賃金、社会保障政策をはじめとする政策を導入し、平等の拡大を漸進的に達成する。" />
+<ISA id="1620723444910_isa116" parent="目標10" child="目標10.5" />
+<ISA id="1620723444910_isa117" parent="目標10.5" child="世界金融市場と金融機関に対する規制とモニタリングを改善し、こうした規制の実施を強化する。" />
+<ISA id="1620723444910_isa118" parent="目標10" child="目標10.6" />
+<ISA id="1620723444910_isa119" parent="目標10.6" child="地球規模の国際経済・金融制度の意思決定における開発途上国の参加や発言力を拡大させることにより、より効果的で信用力があり、説明責任のある正当な制度を実現する。" />
+<ISA id="1620723444910_isa120" parent="目標10" child="目標10.7" />
+<ISA id="1620723444910_isa121" parent="目標10.7" child="計画に基づき良く管理された移住政策の実施などを通じて、秩序のとれた、安全で規則的かつ責任ある移住や流動性を促進する。" />
+<ISA id="1620723444910_isa122" parent="目標10" child="目標10.a" />
+<ISA id="1620723444910_isa123" parent="目標10.a" child="世界貿易機関（WTO）協定に従い、開発途上国、特に後発開発途上国に対する特別かつ異なる待遇の原則を実施する。" />
+<ISA id="1620723444910_isa124" parent="目標10" child="目標10.b" />
+<ISA id="1620723444910_isa125" parent="目標10.b" child="各国の国家計画やプログラムに従って、後発開発途上国、アフリカ諸国、小島嶼開発途上国及び内陸開発途上国を始めとする、ニーズが最も大きい国々への、政府開発援助（ODA）及び海外直接投資を含む資金の流入を促進する。" />
+<ISA id="1620723444910_isa126" parent="目標10" child="目標10.c" />
+<ISA id="1620723444910_isa127" parent="目標10.c" child="2030 年までに、移住労働者による送金コストを 3%未満に引き下げ、コストが 5%を越える送金経路を撤廃する。" />
+<ISA id="1620723444910_isa128" parent="Any" child="目的" />
+<ISA id="1620723444910_isa129" parent="目的" child="不平等是正" />
+<ISA id="1620723444910_isa130" parent="目的" child="所得成長率を上げる" />
+<ISA id="1620723444910_isa131" parent="目的" child="所得成長率を持続" />
+<ISA id="1620723444910_isa132" parent="目的" child="エンパワーハラスメントの包含を促進" />
+<ISA id="1620723444910_isa133" parent="目的" child="社会的な包含を促進" />
+<ISA id="1620723444910_isa134" parent="目的" child="経済的な包含を促進" />
+<ISA id="1620723444910_isa135" parent="目的" child="法律などの撤廃" />
+<ISA id="1620723444910_isa136" parent="目的" child="法律などの促進" />
+<ISA id="1620723444910_isa137" parent="目的" child="機会均等を確保" />
+<ISA id="1620723444910_isa138" parent="目的" child="成果の不平等を是正" />
+<ISA id="1620723444910_isa139" parent="目的" child="政策を導入" />
+<ISA id="1620723444910_isa140" parent="目的" child="平等の拡大を強化" />
+<ISA id="1620723444910_isa141" parent="目的" child="金融の規制" />
+<ISA id="1620723444910_isa142" parent="目的" child="モニタリングの改善" />
+<ISA id="1620723444910_isa143" parent="目的" child="規制の実施の強化" />
+<ISA id="1620723444910_isa144" parent="目的" child="開発途上国の参加を拡大" />
+<ISA id="1620723444910_isa145" parent="目的" child="開発途上国の発言力を拡大" />
+<ISA id="1620723444910_isa146" parent="目的" child="より効果的で信用力のある制度を実現" />
+<ISA id="1620723444910_isa147" parent="目的" child="説明責任のある正当な制度を実現" />
+<ISA id="1620723444910_isa148" parent="目的" child="管理された移住政策の実施" />
+<ISA id="1620723444910_isa149" parent="目的" child="秩序の取れた移住や流動性を促進" />
+<ISA id="1620723444910_isa150" parent="目的" child="安全な移住や流動性を促進" />
+<ISA id="1620723444910_isa151" parent="目的" child="規則的な移住や流動性を促進" />
+<ISA id="1620723444910_isa152" parent="目的" child="責任ある移住や流動性を促進" />
+<ISA id="1620723444910_isa153" parent="目的" child="特別な原則を実施" />
+<ISA id="1620723444910_isa154" parent="目的" child="異なる待遇の原則を実施" />
+<ISA id="1620723444910_isa155" parent="目的" child="政府開発援助（ODA）の流入を促進" />
+<ISA id="1620723444910_isa156" parent="目的" child="海外直接投資を含む資金の流入を促進" />
+<ISA id="1620723444910_isa157" parent="目的" child="送金コストを3%未満に引き下げ" />
+<ISA id="1620723444910_isa158" parent="目的" child="コストが5%を超える送金経路を撤廃" />
+<ISA id="1620723444910_isa159" parent="Any" child="対象" />
+<ISA id="1620723444910_isa160" parent="対象" child="人" />
+<ISA id="1620723444910_isa161" parent="人" child="すべての人" />
+<ISA id="1620723444910_isa162" parent="人" child="移住労働者" />
+<ISA id="1620723444910_isa163" parent="対象" child="国" />
+<ISA id="1620723444910_isa164" parent="国" child="各国" />
+<ISA id="1620723444910_isa165" parent="国" child="開発途上国" />
+<ISA id="1620723444910_isa166" parent="国" child="後発開発途上国" />
+<ISA id="1620723444910_isa167" parent="国" child="アフリカ諸国" />
+<ISA id="1620723444910_isa168" parent="国" child="小島嶼開発途上国" />
+<ISA id="1620723444910_isa169" parent="国" child="内陸開発途上国" />
+<ISA id="1620723444910_isa170" parent="国" child="ニーズが最も大きい国々" />
+<ISA id="1620723444910_isa171" parent="対象" child="法律等" />
+<ISA id="1620723444910_isa172" parent="法律等" child="差別的な法律" />
+<ISA id="1620723444910_isa173" parent="法律等" child="差別的な政策" />
+<ISA id="1620723444910_isa174" parent="法律等" child="差別的な慣行" />
+<ISA id="1620723444910_isa175" parent="法律等" child="適切な関連法規" />
+<ISA id="1620723444910_isa176" parent="法律等" child="適切な政策" />
+<ISA id="1620723444910_isa177" parent="法律等" child="適切な行動の促進" />
+<ISA id="1620723444910_isa178" parent="法律等" child="税制" />
+<ISA id="1620723444910_isa179" parent="法律等" child="社会保障政策" />
+<ISA id="1620723444910_isa180" parent="対象" child="その他" />
+<ISA id="1620723444910_isa181" parent="その他" child="所得下位40%" />
+<ISA id="1620723444910_isa182" parent="その他" child="賃金" />
+<ISA id="1620723444910_isa183" parent="その他" child="世界金融市場" />
+<ISA id="1620723444910_isa184" parent="その他" child="金融機関" />
+<ISA id="1620723444910_isa185" parent="Any" child="場所" />
+<ISA id="1620723444910_isa186" parent="Any" child="割合" />
+<ISA id="1620723444910_isa187" parent="割合" child="国内平均以上" />
+<ISA id="1620723444910_isa188" parent="割合" child="地球規模" />
+<ISA id="1620723444910_isa189" parent="割合" child="コストが5%を超える" />
+<ISA id="1620723444910_isa190" parent="Any" child="単語" />
+<ISA id="1620723444910_isa191" parent="単語" child="漸進的" />
+<ISA id="1620723444910_isa192" parent="単語" child="年齢" />
+<ISA id="1620723444910_isa193" parent="単語" child="性別" />
+<ISA id="1620723444910_isa194" parent="単語" child="障害" />
+<ISA id="1620723444910_isa195" parent="単語" child="人種" />
+<ISA id="1620723444910_isa196" parent="単語" child="民族" />
+<ISA id="1620723444910_isa197" parent="単語" child="出自" />
+<ISA id="1620723444910_isa198" parent="単語" child="宗教" />
+<ISA id="1620723444910_isa199" parent="単語" child="経済的地位" />
+<ISA id="1620723444910_isa200" parent="単語" child="その他の状況" />
+<ISA id="1620723444910_isa201" parent="単語" child="関わりなく" />
+<ISA id="1620723444910_isa202" parent="単語" child="国際経済の意思決定における" />
+<ISA id="1620723444910_isa203" parent="単語" child="金融制度の意思決定における" />
+<ISA id="1620723444910_isa204" parent="単語" child="計画" />
+<ISA id="1620723444910_isa205" parent="単語" child="世界貿易機関協定に従う" />
+<ISA id="1620723444910_isa206" parent="単語" child="計画に従う" />
+<ISA id="1620723444910_isa207" parent="単語" child="国家計画" />
+<ISA id="1620723444910_isa208" parent="単語" child="各国のプログラム" />
+<ISA id="1620724044998_isa241" parent="目的" child="政治的な包含を促進" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="2022" h="2961" />
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.1905511811024" h="841.8047244094488" iw="451.19055118110236" ih="697.8047244094488" ix="72.0" iy="72.0" />
+<PRINTER_SETTINGS orientation="1" printername="Canon TS8000 series" />
+</PRINTER>
+</OE_FILE>
